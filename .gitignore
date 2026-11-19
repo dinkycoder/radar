@@ -1,0 +1,6 @@
+library/
+keeps.json
+__pycache__/
+*.pyc
+data/*.tmp
+data/archive/*.tmp

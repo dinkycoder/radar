@@ -1,0 +1,151 @@
+# Radar sources. Every source here is reachable without an API key.
+#
+# Contact email: OpenAlex and Crossref give faster service to clients that
+# identify themselves. fetch.py reads it from the CONTACT_EMAIL environment
+# variable, which is unset by default. Never write an address in this file.
+
+window_days: 90
+
+arxiv:
+  enabled: true
+  endpoint: https://export.arxiv.org/api/query
+  categories: [cs.AI, cs.MA, cs.CR, cs.DC, econ.GN, q-fin.GN]
+  terms_per_query: 8      # keyword phrases OR-ed together per request
+  max_results: 100        # per request
+  min_interval: 3.0       # seconds between requests (arXiv's published limit)
+
+openalex:
+  enabled: true
+  endpoint: https://api.openalex.org/works
+  terms_per_query: 12
+  per_page: 50
+  min_interval: 1.0
+
+crossref:
+  enabled: true
+  endpoint: https://api.crossref.org/works
+  rows: 20                # per keyword phrase; Crossref matching is fuzzy
+  min_interval: 1.0
+
+federal_register:
+  enabled: true
+  endpoint: https://www.federalregister.gov/api/v1/documents.json
+  terms_per_query: 10
+  per_page: 50
+  min_interval: 1.0
+
+google_news:
+  enabled: true
+  endpoint: https://news.google.com/rss/search
+  window: 7d              # Google News "when:" operator
+  min_interval: 2.0
+  # One query per topic. Results still have to clear the relevance floor.
+  queries:
+    - '"agentic commerce"'
+    - '"agent payments" OR "agentic payments"'
+    - 'x402 payments'
+    - '"machine payments protocol" OR "agentic commerce protocol"'
+    - '"Agent Payments Protocol" OR "trusted agent protocol"'
+    - '"ERC-8004" OR "know your agent"'
+    - 'stablecoin settlement AI agents'
+    - '"agent wallet" OR "agentic wallet"'
+    - 'tokenized compute'
+
+hacker_news:
+  enabled: true
+  endpoint: https://hn.algolia.com/api/v1/search_by_date
+  hits_per_page: 30
+  min_interval: 0.5
+  # Searched one phrase per request, from the relevance keyword list.
+
+institutional:
+  min_interval: 1.0
+  summary_chars: 500      # feed summaries are trimmed; article bodies are never stored
+  # Filled in by `python fetch.py --verify-feeds`. Only verified: true feeds are
+  # fetched. Do not hand-edit a URL to verified: true without checking it.
+  orgs:
+    - name: BlackRock
+      landing: https://www.blackrock.com/corporate/insights/blackrock-investment-institute
+      feed: null
+      verified: false
+      verified_on: '2026-11-19'
+      reason: 'no working feed: landing page links no feed; /feed, /rss, /feed.xml, /blog/rss.xml and /corporate/rss all 404. BlackRock publishes no public RSS for BII research'
+    - name: Visa
+      landing: https://usa.visa.com/about-visa/newsroom.html
+      feed: null
+      verified: false
+      verified_on: '2026-11-19'
+      reason: 'no working feed: newsroom page (JS-rendered) links no feed; standard paths and /about-visa/newsroom/press-releases.rss 404'
+    - name: Mastercard
+      landing: https://www.mastercard.com/news/
+      feed: null
+      verified: false
+      verified_on: '2026-11-19'
+      reason: 'no working feed: www.mastercard.com/news answers automated clients with HTTP 403 (bot protection), so no feed can be fetched'
+    - name: Stripe
+      landing: https://stripe.com/blog
+      candidates: ['https://stripe.com/blog/feed.rss']
+      feed: https://stripe.com/blog/feed.rss
+      verified: true
+      verified_on: '2026-11-19'
+      reason: 'verified: 10 entries, newest 2026-11-19'
+    - name: Coinbase
+      landing: https://www.coinbase.com/blog
+      feed: null
+      verified: false
+      verified_on: '2026-11-19'
+      reason: 'no working feed: www.coinbase.com/blog answers automated clients with HTTP 403 (bot protection), so no feed can be fetched'
+    - name: Circle
+      landing: https://www.circle.com/blog
+      feed: null
+      verified: false
+      verified_on: '2026-11-19'
+      reason: 'no working feed: blog page links no feed; /feed, /rss, /feed.xml, /rss.xml, /blog/rss.xml and /blog/feed all 404'
+    - name: a16z crypto
+      landing: https://a16zfrontier.com/posts/
+      feed: https://a16zfrontier.com/feed.xml
+      verified: true
+      verified_on: '2026-11-19'
+      reason: 'verified: 30 entries, newest 2026-11-18'
+    - name: Paradigm
+      landing: https://www.paradigm.xyz/writing
+      feed: null
+      verified: false
+      verified_on: '2026-11-19'
+      reason: 'no working feed: writing page links no feed; /feed, /rss, /feed.xml, /rss.xml and /writing/rss.xml all 404'
+    - name: Galaxy Research
+      landing: https://www.galaxy.com/insights/research
+      feed: null
+      verified: false
+      verified_on: '2026-11-19'
+      reason: 'no working feed: research page links no feed; /feed, /rss, /feed.xml, /rss.xml and /insights/rss all 404'
+    - name: Chainalysis
+      landing: https://www.chainalysis.com/blog/
+      feed: https://www.chainalysis.com/feed
+      verified: true
+      verified_on: '2026-11-19'
+      reason: 'verified: 10 entries, newest 2026-11-19'
+    - name: TRM Labs
+      landing: https://www.trmlabs.com/resources/blog
+      feed: https://www.trmlabs.com/resources/blog/rss.xml
+      verified: true
+      verified_on: '2026-11-19'
+      reason: 'verified: 100 entries, newest 2026-11-18'
+    - name: Keyrock
+      landing: https://keyrock.com/research/
+      feed: https://keyrock.com/feed
+      verified: true
+      verified_on: '2026-11-19'
+      reason: 'verified: 10 entries, newest 2026-11-16'
+    - name: Bank for International Settlements
+      landing: https://www.bis.org/
+      feed: https://www.bis.org/rss.xml
+      verified: true
+      verified_on: '2026-11-19'
+      reason: 'verified: 5 entries, newest 2026-11-12'
+    - name: Bitcoin Policy Institute
+      landing: https://www.btcpolicy.org/
+      feed: null
+      verified: false
+      verified_on: '2026-11-19'
+      reason: 'no working feed: Webflow site; home page links no feed and /feed, /rss, /feed.xml, /rss.xml, /articles/rss.xml all 404'

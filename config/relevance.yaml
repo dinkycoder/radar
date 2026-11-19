@@ -1,0 +1,103 @@
+# Radar relevance rule. Tune here; never in code.
+#
+#   score = tier weight + sum of weights of every keyword that matched
+#
+# A keyword matches if its term or any alias appears in the title or abstract.
+# Matching ignores case, treats hyphens as spaces and respects word edges, so
+# "x402" matches "the x402 protocol" but not "x4020". Set case_sensitive: true
+# for acronyms that collide with ordinary words or gene names (AP2, L402).
+#
+# The same list drives the source queries (arXiv, OpenAlex, Crossref, Federal
+# Register, Google News, HN). A keyword is searched unless it says
+# search: false; search_terms overrides which phrases are sent to the sources.
+#
+# Every stored item is rescored on every run, so changes here apply to the
+# whole 90-day window the next time fetch.py runs.
+
+# Items scoring below this are dropped.
+floor: 3.5
+
+# If true, an item needs at least one keyword match whatever its score.
+require_match: true
+
+tiers:
+  peer_reviewed: 2.0
+  regulatory: 2.0
+  preprint: 1.5
+  institutional: 1.5
+  news: 1.0
+
+keywords:
+  # --- core: the seed list ---------------------------------------------------
+  - term: agentic commerce
+    weight: 5
+    aliases: [agent commerce, agentic shopping, agentic checkout]
+  - term: agent payments
+    weight: 4
+    aliases: [agentic payments, agentic payment, agent payment, AI agent payments]
+  - term: machine-to-machine payments
+    weight: 4
+    aliases: [machine-to-machine payment, M2M payments, machine payments]
+  - term: x402
+    weight: 5
+  - term: L402
+    weight: 5
+    case_sensitive: true
+  - term: machine payments protocol
+    weight: 5
+  - term: agentic commerce protocol
+    weight: 5
+  - term: AP2
+    weight: 3
+    case_sensitive: true
+    aliases: [Agent Payments Protocol]
+    search_terms: [Agent Payments Protocol]
+  - term: trusted agent protocol
+    weight: 5
+  - term: ERC-8004
+    weight: 5
+    aliases: [EIP-8004]
+  - term: know your agent
+    weight: 5
+    search_terms: [know your agent]
+  - term: agent identity
+    weight: 2
+    aliases: [agent identities]
+  - term: agent reputation
+    weight: 2
+  - term: stablecoin settlement
+    weight: 3
+  - term: programmable payments
+    weight: 3
+    aliases: [programmable payment, programmable money]
+  - term: micropayments
+    weight: 2
+    aliases: [micropayment, micro-payments, nanopayments]
+  - term: autonomous agents economics
+    weight: 3
+    aliases: [agent economy, agentic economy, autonomous economic agents, machine economy]
+    search_terms: [agent economy, agentic economy, autonomous economic agents]
+  - term: compute markets
+    weight: 1
+    aliases: [compute market, GPU marketplace]
+  - term: tokenized compute
+    weight: 3
+  - term: agent wallet
+    weight: 3
+    aliases: [agent wallets, agentic wallet]
+  - term: delegated authority
+    weight: 1
+    search: false
+
+  # --- broader context: low weights, they lift an item but rarely carry it ---
+  - term: stablecoin
+    weight: 2
+    aliases: [stablecoins, GENIUS Act]
+  - term: AI agent
+    weight: 1
+    aliases: [AI agents, autonomous agent, autonomous agents, LLM agent, LLM agents, agentic AI]
+    search: false
+  - term: payments
+    weight: 0.5
+    aliases: [payment, checkout, settlement]
+    search: false
