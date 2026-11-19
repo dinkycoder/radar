@@ -473,7 +473,8 @@ def src_crossref(cfg, rel: Relevance, window: int) -> list[dict]:
             it = make_item(
                 title=title, url="https://doi.org/" + w["DOI"], tier=tier, source="crossref",
                 venue=venue, published=date, authors=authors,
-                abstract=strip_html(w.get("abstract")) or None, pdf_url=pdf, oa=oa)
+                abstract=re.sub(r"^(abstract|summary)\b[:.\s]*", "", strip_html(w.get("abstract")), flags=re.I) or None,
+                pdf_url=pdf, oa=oa)
             if it:
                 out.append(it)
     return out
