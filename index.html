@@ -1,0 +1,560 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Radar</title>
+<meta name="color-scheme" content="light dark">
+<!-- Inline icon: stops the browser's automatic /favicon.ico request. -->
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Ccircle cx='8' cy='8' r='7' fill='none' stroke='%232f6fdb' stroke-width='2'/%3E%3Ccircle cx='8' cy='8' r='2' fill='%232f6fdb'/%3E%3C/svg%3E">
+<style>
+:root {
+  --bg: #f7f7f5; --panel: #ffffff; --ink: #1b1d21; --muted: #646a73; --faint: #9aa0a8;
+  --line: #e3e4e6; --accent: #2f6fdb; --accent-ink: #ffffff; --chip: #eef2fb; --chip-ink: #2b4a86;
+  --sel: #e9f0fd; --new: #d9480f; --kept: #b7791f;
+  --t-peer: #2b8a3e; --t-pre: #5f3dc4; --t-inst: #0b7285; --t-news: #868e96; --t-reg: #c92a2a;
+  --shadow: 0 1px 2px rgba(0,0,0,.05);
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #131416; --panel: #1b1d20; --ink: #e6e7e9; --muted: #a0a6ae; --faint: #6c727a;
+    --line: #2c2f34; --accent: #6ea0ff; --accent-ink: #0d1117; --chip: #1f2a40; --chip-ink: #a9c3ff;
+    --sel: #1d2a42; --new: #ff8a4c; --kept: #f0b44c;
+    --t-peer: #69db7c; --t-pre: #b197fc; --t-inst: #66d9e8; --t-news: #adb5bd; --t-reg: #ff8787;
+    --shadow: none;
+  }
+}
+* { box-sizing: border-box; }
+html, body { height: 100%; }
+body {
+  margin: 0; background: var(--bg); color: var(--ink);
+  font: 14px/1.45 system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  display: grid; grid-template-rows: auto 1fr; overflow: hidden;
+}
+button, input, select { font: inherit; color: inherit; }
+a { color: var(--accent); }
+
+/* ---------- header ---------- */
+header {
+  display: flex; align-items: center; gap: 12px; padding: 10px 16px;
+  border-bottom: 1px solid var(--line); background: var(--panel); flex-wrap: wrap;
+}
+header h1 { font-size: 17px; margin: 0; letter-spacing: .02em; }
+header .meta { color: var(--muted); font-size: 12.5px; }
+header .meta .err { color: var(--t-reg); cursor: help; text-decoration: underline dotted; }
+#search {
+  flex: 1 1 260px; min-width: 0; max-width: 520px; padding: 7px 10px; border-radius: 8px;
+  border: 1px solid var(--line); background: var(--bg);
+}
+#search:focus { outline: 2px solid var(--accent); outline-offset: -1px; }
+.hbtn {
+  border: 1px solid var(--line); background: var(--panel); border-radius: 8px; padding: 6px 10px;
+  cursor: pointer; white-space: nowrap;
+}
+.hbtn:hover { border-color: var(--accent); }
+#railToggle { display: none; }
+
+/* ---------- layout ---------- */
+#app { display: flex; min-height: 0; }
+#rail {
+  width: 232px; flex: none; overflow-y: auto; padding: 14px 16px 24px;
+  border-right: 1px solid var(--line); background: var(--panel);
+}
+#rail h2 { font-size: 11.5px; text-transform: uppercase; letter-spacing: .07em; color: var(--muted); margin: 16px 0 6px; }
+#rail h2:first-child { margin-top: 0; }
+#rail label.opt { display: flex; align-items: center; gap: 7px; padding: 2px 0; cursor: pointer; }
+#rail label.opt .n { margin-left: auto; color: var(--faint); font-variant-numeric: tabular-nums; font-size: 12px; }
+#rail input[type=date] { width: 100%; padding: 4px 6px; border: 1px solid var(--line); border-radius: 6px; background: var(--bg); margin-bottom: 6px; }
+#rail input[type=range] { width: 100%; }
+.presets { display: flex; gap: 4px; flex-wrap: wrap; }
+.presets button { border: 1px solid var(--line); background: var(--bg); border-radius: 6px; padding: 2px 8px; cursor: pointer; font-size: 12px; }
+.presets button:hover { border-color: var(--accent); }
+.swatch { width: 8px; height: 8px; border-radius: 50%; flex: none; }
+#rail .help { color: var(--faint); font-size: 12px; margin-top: 18px; line-height: 1.6; }
+kbd { font: 11px ui-monospace, SFMono-Regular, Menlo, monospace; border: 1px solid var(--line); border-bottom-width: 2px; border-radius: 4px; padding: 0 4px; background: var(--bg); }
+
+#main { flex: 1; min-width: 0; overflow-y: auto; padding: 4px 20px 60px; }
+#status { color: var(--muted); font-size: 12.5px; padding: 10px 0 0; }
+.day { font-size: 12px; font-weight: 600; color: var(--muted); text-transform: uppercase; letter-spacing: .06em;
+  margin: 18px 0 8px; position: sticky; top: 0; background: var(--bg); padding: 6px 0; z-index: 1; }
+.empty { color: var(--muted); padding: 40px 0; text-align: center; }
+
+/* ---------- cards ---------- */
+.card {
+  background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 12px 14px;
+  margin-bottom: 8px; box-shadow: var(--shadow); border-left: 3px solid transparent;
+}
+.card.sel { background: var(--sel); border-left-color: var(--accent); }
+.card.read .title { color: var(--muted); font-weight: 500; }
+.card .top { display: flex; gap: 8px; align-items: baseline; }
+.card .title { font-size: 15px; font-weight: 600; margin: 0; flex: 1; cursor: pointer; overflow-wrap: anywhere; }
+.card .title:hover { text-decoration: underline; }
+.badge-new { font-size: 10.5px; font-weight: 700; color: var(--new); border: 1px solid currentColor; border-radius: 4px; padding: 0 4px; letter-spacing: .04em; }
+.score { font-variant-numeric: tabular-nums; color: var(--muted); font-size: 12px; white-space: nowrap; }
+.byline { color: var(--muted); font-size: 12.5px; margin-top: 3px; display: flex; flex-wrap: wrap; gap: 4px 10px; align-items: center; }
+.tier { font-size: 11px; font-weight: 600; border-radius: 4px; padding: 0 5px; color: #fff; }
+.tier.peer_reviewed { background: var(--t-peer); } .tier.preprint { background: var(--t-pre); }
+.tier.institutional { background: var(--t-inst); } .tier.news { background: var(--t-news); }
+.tier.regulatory { background: var(--t-reg); }
+@media (prefers-color-scheme: dark) { .tier { color: #111; } }
+.chips { display: flex; flex-wrap: wrap; gap: 4px; margin-top: 7px; }
+.chip { font-size: 11.5px; background: var(--chip); color: var(--chip-ink); border-radius: 999px; padding: 1px 8px; }
+.abstract { margin: 8px 0 0; color: var(--ink); opacity: .88; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+.card.open .abstract { display: block; -webkit-line-clamp: unset; }
+.actions { display: flex; gap: 6px; margin-top: 9px; flex-wrap: wrap; align-items: center; }
+.actions button, .actions a {
+  font-size: 12.5px; border: 1px solid var(--line); background: transparent; border-radius: 6px;
+  padding: 3px 9px; cursor: pointer; color: var(--ink); text-decoration: none; line-height: 1.4;
+}
+.actions button:hover, .actions a:hover { border-color: var(--accent); }
+.actions .primary { background: var(--accent); color: var(--accent-ink); border-color: var(--accent); }
+.actions .kept { color: var(--kept); border-color: var(--kept); }
+.actions .disabled { opacity: .4; pointer-events: none; }
+.actions .more { margin-left: auto; color: var(--muted); border: none; padding: 3px 2px; }
+.actions .ext { color: var(--faint); font-size: 11.5px; }
+
+/* ---------- reader ---------- */
+#reader { display: none; flex: none; width: var(--reader-w, 46vw); min-width: 320px; max-width: 80vw;
+  border-left: 1px solid var(--line); background: var(--panel); position: relative; flex-direction: column; }
+#reader.show { display: flex; }
+#grip { position: absolute; left: -4px; top: 0; bottom: 0; width: 8px; cursor: col-resize; z-index: 3; }
+#grip:hover, #grip.drag { background: var(--accent); opacity: .35; }
+#rbar { display: flex; align-items: center; gap: 8px; padding: 8px 12px; border-bottom: 1px solid var(--line); }
+#rtitle { flex: 1; font-weight: 600; font-size: 13px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+#rnote { padding: 10px 14px; font-size: 13px; color: var(--muted); border-bottom: 1px solid var(--line); display: none; }
+#rnote.show { display: block; }
+#rframe { flex: 1; border: 0; width: 100%; background: #fff; }
+#rframe.hide { display: none; }
+body.dragging iframe { pointer-events: none; }
+body.dragging { cursor: col-resize; user-select: none; }
+
+#toast { position: fixed; bottom: 18px; left: 50%; transform: translateX(-50%); background: var(--ink); color: var(--bg);
+  padding: 7px 14px; border-radius: 8px; font-size: 13px; opacity: 0; transition: opacity .2s; pointer-events: none; z-index: 10; }
+#toast.show { opacity: .95; }
+
+@media (max-width: 860px) {
+  #railToggle { display: inline-block; }
+  #rail { position: fixed; top: 0; bottom: 0; left: 0; z-index: 5; transform: translateX(-100%); transition: transform .15s; box-shadow: 0 0 30px rgba(0,0,0,.3); }
+  #rail.show { transform: none; }
+  #reader { position: fixed; inset: 0; width: auto !important; max-width: none; min-width: 0; z-index: 6; }
+  #grip { display: none; }
+  #main { padding: 4px 12px 60px; }
+}
+</style>
+</head>
+<body>
+<header>
+  <button class="hbtn" id="railToggle" aria-label="Filters">Filters</button>
+  <h1>Radar</h1>
+  <input id="search" type="search" placeholder="Search title, authors, abstract  ( / )" autocomplete="off" spellcheck="false">
+  <span class="meta" id="meta">Loading…</span>
+  <span style="flex:1"></span>
+  <button class="hbtn" id="markAll" title="Mark every item read">Mark all read</button>
+  <button class="hbtn" id="exportKeeps" title="Download keeps.json for pull_library.py">Export keeps</button>
+</header>
+
+<div id="app">
+  <aside id="rail" aria-label="Filters">
+    <h2>Tier</h2><div id="fTier"></div>
+    <h2>Source</h2><div id="fSource"></div>
+    <h2>Published</h2>
+    <input type="date" id="fFrom" aria-label="From date">
+    <input type="date" id="fTo" aria-label="To date">
+    <div class="presets">
+      <button data-days="7">7d</button><button data-days="30">30d</button><button data-days="90">90d</button><button data-days="0">All</button>
+    </div>
+    <h2>Minimum score <span id="scoreVal"></span></h2>
+    <input type="range" id="fScore" min="0" max="20" step="0.5" value="0">
+    <h2>Show</h2>
+    <label class="opt"><input type="checkbox" id="fKeeps"> Keeps only</label>
+    <label class="opt"><input type="checkbox" id="fUnread"> Unread only</label>
+    <div class="help">
+      <kbd>j</kbd>/<kbd>k</kbd> move · <kbd>Enter</kbd> read<br>
+      <kbd>s</kbd> keep · <kbd>/</kbd> search · <kbd>Esc</kbd> close reader
+    </div>
+  </aside>
+
+  <main id="main">
+    <div id="status"></div>
+    <div id="list"></div>
+  </main>
+
+  <section id="reader" aria-label="Reader">
+    <div id="grip" title="Drag to resize"></div>
+    <div id="rbar">
+      <span id="rtitle"></span>
+      <a class="hbtn" id="rext" href="#" target="_blank" rel="noopener">Open in tab</a>
+      <button class="hbtn" id="rclose" title="Close (Esc)">Close</button>
+    </div>
+    <div id="rnote"></div>
+    <iframe id="rframe" title="Reader" referrerpolicy="no-referrer"></iframe>
+  </section>
+</div>
+<div id="toast"></div>
+
+<script>
+"use strict";
+(() => {
+const DATA_URL = "data/latest.json";
+const FRAME_TIMEOUT_MS = 8000;
+const TIERS = [
+  ["peer_reviewed", "Peer-reviewed"], ["preprint", "Preprint"], ["institutional", "Institutional"],
+  ["regulatory", "Regulatory"], ["news", "News"],
+];
+const TIER_LABEL = Object.fromEntries(TIERS);
+const SOURCE_LABEL = {
+  arxiv: "arXiv", openalex: "OpenAlex", crossref: "Crossref", federal_register: "Federal Register",
+  google_news: "Google News", hacker_news: "Hacker News", institutional: "Institutional feeds",
+};
+const $ = (id) => document.getElementById(id);
+
+// ---------- storage (every access guarded: private windows can throw) ----------
+const store = {
+  get(key, fallback) {
+    try { const v = localStorage.getItem("radar." + key); return v == null ? fallback : JSON.parse(v); }
+    catch { return fallback; }
+  },
+  set(key, value) { try { localStorage.setItem("radar." + key, JSON.stringify(value)); } catch {} },
+};
+const keeps = store.get("keeps", {});            // id -> full item record
+const readSet = new Set(store.get("read", []));
+const seenBefore = new Set(store.get("seen", []));
+const prefs = Object.assign({
+  tiers: null, sources: null, from: "", to: "", minScore: 0, keepsOnly: false, unreadOnly: false, q: "",
+}, store.get("prefs", {}));
+const saveKeeps = () => store.set("keeps", keeps);
+const saveRead = () => store.set("read", [...readSet]);
+const savePrefs = () => store.set("prefs", prefs);
+
+// ---------- state ----------
+let data = null, items = [], view = [], sel = -1, newCount = 0;
+
+// ---------- helpers ----------
+const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+const fmtDay = (iso) => {
+  const d = new Date(iso + "T00:00:00Z");
+  if (isNaN(d)) return iso;
+  return d.toLocaleDateString(undefined, { weekday: "short", year: "numeric", month: "short", day: "numeric", timeZone: "UTC" });
+};
+const isoDaysAgo = (n) => new Date(Date.now() - n * 864e5).toISOString().slice(0, 10);
+const authorsShort = (a) => !a || !a.length ? "" : a.length <= 3 ? a.join(", ") : a.slice(0, 3).join(", ") + " et al.";
+let toastTimer;
+function toast(msg) {
+  const t = $("toast"); t.textContent = msg; t.classList.add("show");
+  clearTimeout(toastTimer); toastTimer = setTimeout(() => t.classList.remove("show"), 1800);
+}
+
+// ---------- load ----------
+fetch(DATA_URL, { cache: "no-cache" })
+  .then((r) => { if (!r.ok) throw new Error("HTTP " + r.status); return r.json(); })
+  .then(init)
+  .catch((e) => { $("meta").textContent = "Could not load " + DATA_URL + " (" + e.message + ")"; });
+
+function init(d) {
+  data = d;
+  items = d.items || [];
+  // Kept records that have aged out of the 90-day window still show under "Keeps only".
+  const present = new Set(items.map((i) => i.id));
+  for (const k of Object.values(keeps)) if (!present.has(k.id)) items.push(Object.assign({ _archived: true }, k));
+  for (const it of items) {
+    it._hay = (it.title + " \u0001 " + (it.authors || []).join(" ") + " \u0001 " + (it.abstract || "")).toLowerCase();
+    it._new = !it._archived && seenBefore.size > 0 && !seenBefore.has(it.id);
+    if (it._new) newCount++;
+  }
+  // Everything loaded now counts as seen at the next visit.
+  store.set("seen", items.filter((i) => !i._archived).map((i) => i.id));
+
+  const gen = d.generated_at ? new Date(d.generated_at) : null;
+  const errs = d.errors || [];
+  $("meta").innerHTML =
+    (gen ? "Updated " + esc(gen.toLocaleString(undefined, { dateStyle: "medium", timeStyle: "short" })) : "") +
+    (newCount ? `<span id="newc"> · <b style="color:var(--new)">${newCount} new</b></span>` : "") +
+    (errs.length ? ` · <span class="err" title="${esc(errs.map((e) => e.source + ": " + e.error).join("\n"))}">${errs.length} source${errs.length > 1 ? "s" : ""} failed</span>` : "");
+
+  buildRail();
+  $("search").value = prefs.q || "";
+  render();
+}
+
+// ---------- rail ----------
+function buildRail() {
+  const tierCounts = {}, srcCounts = {};
+  let maxScore = 0;
+  for (const it of items) {
+    if (it._archived) continue;
+    tierCounts[it.tier] = (tierCounts[it.tier] || 0) + 1;
+    srcCounts[it.source] = (srcCounts[it.source] || 0) + 1;
+    maxScore = Math.max(maxScore, it.score || 0);
+  }
+  const sources = Object.keys(srcCounts).sort((a, b) => srcCounts[b] - srcCounts[a]);
+  if (!prefs.tiers) prefs.tiers = TIERS.map((t) => t[0]);
+  if (!prefs.sources) prefs.sources = Object.keys(SOURCE_LABEL);
+  $("fTier").innerHTML = TIERS.map(([k, label]) =>
+    `<label class="opt"><input type="checkbox" data-tier="${k}" ${prefs.tiers.includes(k) ? "checked" : ""}>
+     <span class="swatch" style="background:var(--t-${{ peer_reviewed: "peer", preprint: "pre", institutional: "inst", news: "news", regulatory: "reg" }[k]})"></span>
+     ${label}<span class="n">${tierCounts[k] || 0}</span></label>`).join("");
+  $("fSource").innerHTML = sources.map((s) =>
+    `<label class="opt"><input type="checkbox" data-source="${esc(s)}" ${prefs.sources.includes(s) ? "checked" : ""}>
+     ${esc(SOURCE_LABEL[s] || s)}<span class="n">${srcCounts[s]}</span></label>`).join("");
+  const r = $("fScore");
+  r.max = Math.max(10, Math.ceil(maxScore));
+  r.value = prefs.minScore; $("scoreVal").textContent = "≥ " + prefs.minScore;
+  $("fFrom").value = prefs.from; $("fTo").value = prefs.to;
+  $("fKeeps").checked = prefs.keepsOnly; $("fUnread").checked = prefs.unreadOnly;
+}
+
+$("rail").addEventListener("change", (e) => {
+  const t = e.target;
+  if (t.dataset.tier) prefs.tiers = [...document.querySelectorAll("[data-tier]:checked")].map((x) => x.dataset.tier);
+  else if (t.dataset.source) prefs.sources = [...document.querySelectorAll("[data-source]:checked")].map((x) => x.dataset.source);
+  else if (t.id === "fFrom") prefs.from = t.value;
+  else if (t.id === "fTo") prefs.to = t.value;
+  else if (t.id === "fKeeps") prefs.keepsOnly = t.checked;
+  else if (t.id === "fUnread") prefs.unreadOnly = t.checked;
+  savePrefs(); render();
+});
+$("fScore").addEventListener("input", (e) => {
+  prefs.minScore = +e.target.value; $("scoreVal").textContent = "≥ " + prefs.minScore; savePrefs(); render();
+});
+document.querySelector(".presets").addEventListener("click", (e) => {
+  const b = e.target.closest("button"); if (!b) return;
+  const n = +b.dataset.days;
+  prefs.from = n ? isoDaysAgo(n) : ""; prefs.to = "";
+  $("fFrom").value = prefs.from; $("fTo").value = "";
+  savePrefs(); render();
+});
+$("search").addEventListener("input", (e) => { prefs.q = e.target.value; savePrefs(); render(); });
+$("railToggle").addEventListener("click", () => $("rail").classList.toggle("show"));
+
+// ---------- filter + render ----------
+function matches(it, terms, tiers, sources) {
+  if (prefs.keepsOnly) { if (!keeps[it.id]) return false; }
+  else if (it._archived) return false;
+  if (!tiers.has(it.tier) || !sources.has(it.source)) return false;
+  if ((it.score || 0) < prefs.minScore) return false;
+  if (prefs.from && it.published < prefs.from) return false;
+  if (prefs.to && it.published > prefs.to) return false;
+  if (prefs.unreadOnly && readSet.has(it.id)) return false;
+  for (const t of terms) if (!it._hay.includes(t)) return false;
+  return true;
+}
+
+function cardHTML(it, idx) {
+  const kept = !!keeps[it.id], read = readSet.has(it.id);
+  const chips = (it.matched || []).map((m) => `<span class="chip">${esc(m)}</span>`).join("");
+  const long = it.abstract && it.abstract.length > 230;
+  const dl = it.pdf_url
+    ? `<a href="${esc(it.pdf_url)}" download target="_blank" rel="noopener" data-act="download">Download</a>`
+    : `<a class="disabled" aria-disabled="true" title="No PDF for this item">Download</a>`;
+  return `<article class="card${read ? " read" : ""}${idx === sel ? " sel" : ""}" data-idx="${idx}" data-id="${it.id}">
+  <div class="top">
+    <h3 class="title" data-act="read">${esc(it.title)}</h3>
+    ${it._new ? '<span class="badge-new">NEW</span>' : ""}
+    <span class="score" title="Score: tier weight + matched keyword weights">${(+it.score || 0).toFixed(1)}</span>
+  </div>
+  <div class="byline">
+    <span class="tier ${it.tier}">${TIER_LABEL[it.tier] || it.tier}</span>
+    <span>${esc(it.venue || "")}</span>
+    <span>${esc(it.published || "")}</span>
+    ${it.authors && it.authors.length ? `<span>${esc(authorsShort(it.authors))}</span>` : ""}
+  </div>
+  ${chips ? `<div class="chips">${chips}</div>` : ""}
+  ${it.abstract ? `<p class="abstract">${esc(it.abstract)}</p>` : ""}
+  <div class="actions">
+    <button class="primary" data-act="read">Read${it.embeddable ? "" : " ↗"}</button>
+    <button data-act="keep" class="${kept ? "kept" : ""}">${kept ? "★ Kept" : "☆ Keep"}</button>
+    ${dl}
+    <button data-act="cite">Copy citation</button>
+    <a class="ext" href="${esc(it.url)}" target="_blank" rel="noopener">source</a>
+    ${long ? `<button class="more" data-act="expand">More ▾</button>` : ""}
+  </div>
+</article>`;
+}
+
+function render() {
+  const terms = (prefs.q || "").toLowerCase().split(/\s+/).filter(Boolean);
+  const tiers = new Set(prefs.tiers), sources = new Set(prefs.sources);
+  const selId = view[sel] && view[sel].id;
+  view = items.filter((it) => matches(it, terms, tiers, sources));
+  view.sort((a, b) => (a.published < b.published ? 1 : a.published > b.published ? -1 : (b.score || 0) - (a.score || 0)));
+  sel = selId ? view.findIndex((i) => i.id === selId) : -1;
+
+  const parts = [];
+  let day = null;
+  view.forEach((it, i) => {
+    if (it.published !== day) { day = it.published; parts.push(`<div class="day">${esc(fmtDay(day))}</div>`); }
+    parts.push(cardHTML(it, i));
+  });
+  $("list").innerHTML = parts.length ? parts.join("") : `<div class="empty">Nothing matches these filters.</div>`;
+  updateStatus();
+}
+function updateStatus() {
+  const total = items.filter((i) => !i._archived).length;
+  const unread = view.filter((i) => !readSet.has(i.id)).length;
+  $("status").textContent = `${view.length} of ${total} items · ${unread} unread in view · ${Object.keys(keeps).length} kept`;
+}
+
+function cardEl(idx) { return $("list").querySelector(`.card[data-idx="${idx}"]`); }
+function refreshCard(idx) {
+  const el = cardEl(idx); if (!el) return;
+  const open = el.classList.contains("open");
+  el.outerHTML = cardHTML(view[idx], idx);
+  if (open) cardEl(idx).classList.add("open");
+}
+function select(idx, scroll = true) {
+  if (!view.length) return;
+  idx = Math.max(0, Math.min(view.length - 1, idx));
+  const prev = cardEl(sel); if (prev) prev.classList.remove("sel");
+  sel = idx;
+  const el = cardEl(sel);
+  if (el) { el.classList.add("sel"); if (scroll) el.scrollIntoView({ block: "nearest" }); }
+}
+
+// ---------- actions ----------
+function markRead(it) {
+  if (readSet.has(it.id)) return;
+  readSet.add(it.id); saveRead();
+}
+function toggleKeep(idx) {
+  const it = view[idx]; if (!it) return;
+  if (keeps[it.id]) { delete keeps[it.id]; toast("Removed from keeps"); }
+  else {
+    const rec = {}; for (const [k, v] of Object.entries(it)) if (!k.startsWith("_")) rec[k] = v;
+    rec.kept_at = new Date().toISOString(); keeps[it.id] = rec; toast("Kept");
+  }
+  saveKeeps();
+  if (prefs.keepsOnly) render(); else { refreshCard(idx); updateStatus(); }
+}
+function citation(it) {
+  const year = (it.published || "").slice(0, 4);
+  const a = it.authors || [];
+  const who = a.length === 0 ? (it.venue || "") : a.length > 6 ? a.slice(0, 6).join(", ") + ", et al." : a.join(", ");
+  return `${who} (${year}). ${it.title}. ${it.venue || ""}. ${it.url}`.replace(/\s+\./g, ".").replace(/\.\./g, ".");
+}
+async function copyText(text) {
+  try { await navigator.clipboard.writeText(text); return true; }
+  catch {
+    const ta = document.createElement("textarea"); ta.value = text; ta.style.position = "fixed"; ta.style.opacity = "0";
+    document.body.appendChild(ta); ta.select();
+    let ok = false; try { ok = document.execCommand("copy"); } catch {}
+    ta.remove(); return ok;
+  }
+}
+
+$("list").addEventListener("click", (e) => {
+  const actEl = e.target.closest("[data-act]");
+  const card = e.target.closest(".card"); if (!card) return;
+  const idx = +card.dataset.idx, it = view[idx];
+  if (idx !== sel) select(idx, false);
+  if (!actEl) return;
+  const act = actEl.dataset.act;
+  if (act === "read") { openReader(it); refreshCard(idx); }
+  else if (act === "keep") toggleKeep(idx);
+  else if (act === "cite") copyText(citation(it)).then((ok) => toast(ok ? "Citation copied" : "Copy failed"));
+  else if (act === "expand") { card.classList.toggle("open"); actEl.textContent = card.classList.contains("open") ? "Less ▴" : "More ▾"; }
+  else if (act === "download") markRead(it);
+});
+
+$("markAll").addEventListener("click", () => {
+  for (const it of items) readSet.add(it.id);
+  for (const it of items) it._new = false;
+  saveRead(); render(); toast("All marked read");
+  if ($("newc")) $("newc").remove();
+});
+
+$("exportKeeps").addEventListener("click", () => {
+  const list = Object.values(keeps);
+  if (!list.length) { toast("Nothing kept yet"); return; }
+  const blob = new Blob([JSON.stringify({ exported_at: new Date().toISOString(), items: list }, null, 1)], { type: "application/json" });
+  const a = document.createElement("a");
+  a.href = URL.createObjectURL(blob); a.download = "keeps.json";
+  document.body.appendChild(a); a.click(); a.remove();
+  setTimeout(() => URL.revokeObjectURL(a.href), 1000);
+  toast(`Exported ${list.length} kept item${list.length > 1 ? "s" : ""}`);
+});
+
+// ---------- reader ----------
+let frameTimer = null, frameLoaded = false;
+function note(html) { const n = $("rnote"); n.innerHTML = html; n.classList.toggle("show", !!html); }
+function showReader() { $("reader").classList.add("show"); }
+function closeReader() {
+  clearTimeout(frameTimer);
+  $("reader").classList.remove("show");
+  $("rframe").removeAttribute("src");
+  note("");
+}
+function linkOut(it, target, why) {
+  $("rframe").classList.add("hide");
+  $("rframe").removeAttribute("src");
+  note(`${why} <a href="${esc(target)}" target="_blank" rel="noopener">Open it in a new tab ↗</a>`);
+}
+function openReader(it) {
+  markRead(it);
+  clearTimeout(frameTimer);
+  const target = it.html_url || it.pdf_url;
+  $("rtitle").textContent = it.title;
+  $("rext").href = target || it.url;
+  showReader();
+  if (!it.embeddable || !target) {
+    // Tier two: the source refuses embedding. The new tab opens inside the click, so no popup blocker.
+    window.open(it.url, "_blank", "noopener");
+    linkOut(it, it.url, `${esc(it.venue || "This source")} refuses embedding, so it opened in a new tab.`);
+    return;
+  }
+  // Tier one: frame it, and fall back if it never loads.
+  const f = $("rframe");
+  f.classList.remove("hide"); note(""); frameLoaded = false;
+  f.onload = () => { if (f.getAttribute("src")) { frameLoaded = true; clearTimeout(frameTimer); } };
+  f.src = target;
+  frameTimer = setTimeout(() => {
+    if (frameLoaded) return;
+    const w = window.open(target, "_blank", "noopener");
+    linkOut(it, target, `${esc(it.venue || "This source")} did not load in the reader within ${FRAME_TIMEOUT_MS / 1000}s (it may refuse embedding)${w ? ", so it opened in a new tab." : "."}`);
+  }, FRAME_TIMEOUT_MS);
+}
+$("rclose").addEventListener("click", closeReader);
+
+// Resizable pane.
+(() => {
+  const grip = $("grip"), reader = $("reader");
+  const w = store.get("readerWidth", null);
+  if (w) reader.style.setProperty("--reader-w", w + "px");
+  grip.addEventListener("pointerdown", (e) => {
+    e.preventDefault(); grip.setPointerCapture(e.pointerId);
+    grip.classList.add("drag"); document.body.classList.add("dragging");
+    const move = (ev) => {
+      const width = Math.max(320, Math.min(window.innerWidth * 0.8, window.innerWidth - ev.clientX));
+      reader.style.setProperty("--reader-w", width + "px");
+    };
+    const up = () => {
+      grip.removeEventListener("pointermove", move); grip.removeEventListener("pointerup", up);
+      grip.classList.remove("drag"); document.body.classList.remove("dragging");
+      store.set("readerWidth", Math.round(reader.getBoundingClientRect().width));
+    };
+    grip.addEventListener("pointermove", move); grip.addEventListener("pointerup", up);
+  });
+})();
+
+// ---------- keyboard ----------
+document.addEventListener("keydown", (e) => {
+  const typing = /^(INPUT|TEXTAREA|SELECT)$/.test(document.activeElement && document.activeElement.tagName);
+  if (e.key === "Escape") {
+    if ($("reader").classList.contains("show")) { closeReader(); e.preventDefault(); }
+    else if (typing) document.activeElement.blur();
+    $("rail").classList.remove("show");
+    return;
+  }
+  if (typing || e.metaKey || e.ctrlKey || e.altKey) return;
+  if (e.key === "j") { select(sel < 0 ? 0 : sel + 1); e.preventDefault(); }
+  else if (e.key === "k") { select(sel < 0 ? 0 : sel - 1); e.preventDefault(); }
+  else if (e.key === "Enter" && sel >= 0) { openReader(view[sel]); refreshCard(sel); e.preventDefault(); }
+  else if (e.key === "s" && sel >= 0) { toggleKeep(sel); e.preventDefault(); }
+  else if (e.key === "/") { $("search").focus(); $("search").select(); e.preventDefault(); }
+});
+
+// Test hook: lets the acceptance script read state without touching internals.
+window.__radar = { get view() { return view; }, get sel() { return sel; }, keeps, readSet };
+})();
+</script>
+</body>
+</html>
