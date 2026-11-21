@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-11-20T19:01:43Z",
+ "generated_at": "2026-11-21T17:55:47Z",
  "errors": [],
  "counts": {
-  "peer_reviewed": 56,
-  "preprint": 103,
+  "peer_reviewed": 59,
+  "preprint": 106,
   "institutional": 6,
-  "news": 137,
+  "news": 152,
   "regulatory": 8
  },
  "items": [
@@ -18,7 +18,7 @@
    ],
    "venue": "Journal of Business Sectors",
    "tier": "peer_reviewed",
-   "published": "2026-11-20",
+   "published": "2026-11-21",
    "retrieved": "2026-11-20",
    "url": "https://doi.org/10.62222/krva3141",
    "pdf_url": "https://www.jobsjournal.eu/_files/ugd/a7cf91_df3f9250b1544c17b28297665d9182b0.pdf",
@@ -41,7 +41,7 @@
    ],
    "venue": "Journal of Electrical and Electronics Research",
    "tier": "peer_reviewed",
-   "published": "2026-11-20",
+   "published": "2026-11-21",
    "retrieved": "2026-11-19",
    "url": "https://doi.org/10.64820/aepjeer.32.21.26.122026",
    "pdf_url": null,
@@ -55,6 +55,183 @@
     "payments"
    ],
    "source": "openalex"
+  },
+  {
+   "id": "ef516c146519c53d8089494b5568a910f1a75164",
+   "title": "Measuring Brand Visibility in Agentic Commerce Through Citation Share, Basket Capture, and Paid-Presence Transfer in Consumer Packaged Goods",
+   "authors": [
+    "Tarun Gupta",
+    "Supriya Bansal"
+   ],
+   "venue": "Journal of Marketing & Supply Chain Management",
+   "tier": "peer_reviewed",
+   "published": "2026-11-21",
+   "retrieved": "2026-11-21",
+   "url": "https://doi.org/10.47363/jmscm/2026(5)194",
+   "pdf_url": null,
+   "html_url": null,
+   "embeddable": false,
+   "oa": false,
+   "abstract": "Generative assistants and shopping agents increasingly choose which consumer packaged goods (CPG) brands shoppers see, yet no published study has measured brand visibility in these habitual, repeat-purchase categories. This paper introduces a reproducible measurement framework built on five constructs: Citation Share (with a rank-weighted variant), the probability that a brand is named for a brand-free query; Basket Capture Rate, the share of agent-assembled basket items won by one manufacturer; Portfolio Halo, the gain in a manufacturer’s chance of winning a basket slot after winning the previous one; Source Provenance Ratio, the mix of cited domain classes; and the Paid-Presence Index, a count of visible sponsored placements that does not measure advertising spend. All data are simulated. The framework is demonstrated on 12,000 simulated responses (six US CPG categories, 60 anonymized brands, 300 queries, four anonymized engines, two waves eight weeks apart) calibrated to published studies; results show what the framework can detect, not the behavior of any real engine, brand or manufacturer. Visibility was more concentrated than published Figure for technology and services (mean Gini 0.445 against 0.30), the four engines agreed on the top brand in 17.6 percent of items, and the leading manufacturer won 40.4 percent of basket slots against a share-proportional expectation of 25.1 percent. Paid presence was not significantly associated with Citation Share after controls, but equivalence to zero could not be established. For one in four brand-engine pairs, Citation Share shifted by at least 10 percentage points between waves. Workbooks, scripts and protocol are released.",
+   "score": 7.0,
+   "matched": [
+    "agentic commerce"
+   ],
+   "source": "crossref"
+  },
+  {
+   "id": "add39915433c7dccf5128be421c16764658fcb62",
+   "title": "Mastercard Opens AI Agent Payments to Developers After Coinbase, Base Pilots",
+   "authors": [],
+   "venue": "CoinMarketCap",
+   "tier": "news",
+   "published": "2026-11-21",
+   "retrieved": "2026-11-21",
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPM05HTkV3QnVSNFdGWDcxSmpQN0E1QVh2QlpSNDNfeGNqb29HbHhEdnMzZ25HdlY3dHVHVnJBYVBtRWh6T25pbFcxQUdROWpRSTBoMXRSSHZiMG81ZHltTXc0ekxJR1pwQUFfYjlCQ2NRSWVkNDYza3Q2dVVyZUh5YmRtTnpKRnNqSkJfUQ?oc=5",
+   "pdf_url": null,
+   "html_url": null,
+   "embeddable": false,
+   "oa": false,
+   "abstract": null,
+   "score": 6.5,
+   "matched": [
+    "agent payments",
+    "AI agent",
+    "payments"
+   ],
+   "source": "google_news"
+  },
+  {
+   "id": "ac81796ee08b4644ddf1ffa7f7af316cb16bfe87",
+   "title": "Adyen Opens Agentic Checkout to Klarna in First Non-Card Deal",
+   "authors": [],
+   "venue": "FinanceX Magazine",
+   "tier": "news",
+   "published": "2026-11-21",
+   "retrieved": "2026-11-21",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQcVhQRkxtVDdxS29hQkhkd25FRnd6YnVONlVCMG8zMF9pYmFuaDZSeXpYaFVBLVpCNjhHOER3OWVadkFVMEdhaWxVQVBaNGRyMkVWWG1ZYmNvMDFPeElEUXdJdVhrSk5kWDBGZGt1QU94LWU4SzZrVDZId3VIcnFzNmxmV0E3dGdub1lBUEdIYXVmWGNrT2NIeVh1QkZxd0R1?oc=5",
+   "pdf_url": null,
+   "html_url": null,
+   "embeddable": false,
+   "oa": false,
+   "abstract": null,
+   "score": 6.5,
+   "matched": [
+    "agentic commerce",
+    "payments"
+   ],
+   "source": "google_news"
+  },
+  {
+   "id": "15cb326db2412bb584d17c7c13bf9043a22d3141",
+   "title": "PoCA-Mithril: A Blockchain-enabled Framework for Identity- and Context-verifiable Communication among Distributed AI Agents",
+   "authors": [
+    "Kranthi Kumar Gunda",
+    "Geetha Arjunan"
+   ],
+   "venue": "International journal of intelligent engineering and systems",
+   "tier": "peer_reviewed",
+   "published": "2026-11-21",
+   "retrieved": "2026-11-19",
+   "url": "https://doi.org/10.22266/ijies2026.1231.65",
+   "pdf_url": "https://doi.org/10.22266/ijies2026.1231.65",
+   "html_url": null,
+   "embeddable": true,
+   "oa": true,
+   "abstract": "Distributed Artificial Intelligence (AI) systems face challenges in agent identity verification, context integrity, traceability, and scalable blockchain anchoring without a continuously trusted central authority.This paper proposes PoCA-Mithril, a blockchain framework for verifiable agent communication.Proof-of-Context Attestation (PoCA) signs agent identity, context, timestamp, and safety metadata.A Mithril-Inspired Relay (MR) batches proofs via Merkle trees and a SHA-256 signature digest before Solidity smart-contract anchoring.Prototype (Python, Web3.py, decentralized identifiers, Ganache, web interface) averaged 1.2555, 1.9402, and 3.5815 ms for Elliptic Curve Digital Signature Algorithm (ECDSA) keypair generation, PoCA generation, and verification.Relay aggregation stays below 0.04 ms; five-proof batching cuts transactions 80%.It authenticates identity and context metadata, not complete response-content integrity.Persistent request-ID storage with database-enforced uniqueness rejects duplicates; restart and shared-database tests confirmed persistence.Five-process concurrency yielded one accepted claim, four duplicate rejections; multi-server verification remains unevaluated.An AgentDID-inspired baseline and 10,000-operation workloads characterize the local prototype, not distributed-blockchain performance.Response-content binding, model artifact, and runtime-execution verification remain future work.",
+   "score": 5.0,
+   "matched": [
+    "agent identity",
+    "AI agent"
+   ],
+   "source": "openalex"
+  },
+  {
+   "id": "1034771b91805d98728234e45976c96052c3771d",
+   "title": "Singapore wants to test stablecoin payments by AI agents",
+   "authors": [],
+   "venue": "CryptoSlate",
+   "tier": "news",
+   "published": "2026-11-21",
+   "retrieved": "2026-11-21",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNSm91N2dCRDVmU245WG9tcWZzQWJLM29YWllnTmxBZk1mOHJGbVlhY3ZmbzJCVExnSmdPZ0lxSnZrZjVLbWRLVFZ5V19kRFNRNmJtN2wxYUUzRXVqWG1Dd2lfM1Z0a2ZXeEhkd3ZzSzhqU1l1TmVsMnJiZnZZbm4tQVNYNFdQd3lo?oc=5",
+   "pdf_url": null,
+   "html_url": null,
+   "embeddable": false,
+   "oa": false,
+   "abstract": null,
+   "score": 4.5,
+   "matched": [
+    "stablecoin",
+    "AI agent",
+    "payments"
+   ],
+   "source": "google_news"
+  },
+  {
+   "id": "d0637fb2a5fc7e64ce477067cfe82c8deceea4d2",
+   "title": "THE LEGAL NATURE OF ASSET-BACKED STABLECOINS IN THE CONTEXT OF THE NEW REGULATION OF DIGITAL CURRENCIES AND DIGITAL RIGHTS",
+   "authors": [
+    "Sergey V. Potapenko",
+    "Murad Sh. Magomednabiev"
+   ],
+   "venue": "Хозяйство и право",
+   "tier": "peer_reviewed",
+   "published": "2026-11-21",
+   "retrieved": "2026-11-20",
+   "url": "https://doi.org/10.18572/0134-2398-2026-12-9-18",
+   "pdf_url": null,
+   "html_url": null,
+   "embeddable": false,
+   "oa": false,
+   "abstract": "The article examines the legal nature of asset-backed stablecoins within the system of objects of civil rights in the context of the entry into force of Federal Law No. 282-FZ of August 4, 2026, On Digital Currencies and Digital Rights.",
+   "score": 4.0,
+   "matched": [
+    "stablecoin"
+   ],
+   "source": "openalex"
+  },
+  {
+   "id": "9e39ae79e1393058c12f1e25e7e99cee91effd79",
+   "title": "Stripe Agent Wallet Daily Spending Rises Nearly 80-Fold Since Early September",
+   "authors": [],
+   "venue": "TradingView",
+   "tier": "news",
+   "published": "2026-11-21",
+   "retrieved": "2026-11-21",
+   "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOSm1zTDNTOTVYMUVuUzJpdm13b2o3ZnlmeU85QnMtbFpXbGU2WUN2UEYzdGp2SWFJb2ZHRW9Kd255MjczVUVWX0hsaldKeG5oOXZXTGJ1ZlRaenFQYnVMbnZGWmV4bUJPY2o2eW1iWDE0SnZ5UjRFMklmZnl2cFlpMThoMm94VkFfbllkLTljOTRxTEN4alJta2FDREJUb0ZRb0ptTk0zNllaRm9UOGdnTVVCVjVlV1lfR3VHWEdLdXJHUGdMVVVrSi1zNEtCUGxNbGlCRXRIZw?oc=5",
+   "pdf_url": null,
+   "html_url": null,
+   "embeddable": false,
+   "oa": false,
+   "abstract": null,
+   "score": 4.0,
+   "matched": [
+    "agent wallet"
+   ],
+   "source": "google_news"
+  },
+  {
+   "id": "90710434adf7f44d5d199bef3cee0340bfecf025",
+   "title": "Know-Your-Agent Testing Targets Agentic Payment Fraud",
+   "authors": [],
+   "venue": "Global Finance Magazine",
+   "tier": "news",
+   "published": "2026-11-20",
+   "retrieved": "2026-11-21",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPVFhEYlpFZm1XcFlqUmhWamFEMnNHRG45ZmtyZ29aLVJpeFRTa1BhQkRhVlVSN2pET3hwUHNvYXJMXzgtcUVHbF8tVWw1MDVyZkZJNE5qdE5KZ0puUHZ4ZnBQX2tyTlhCeE9FZGVUeWtmRHltbm5TLUg4LTJDVkpESTZOQnFrLWlu?oc=5",
+   "pdf_url": null,
+   "html_url": null,
+   "embeddable": false,
+   "oa": false,
+   "abstract": null,
+   "score": 10.5,
+   "matched": [
+    "agent payments",
+    "know your agent",
+    "payments"
+   ],
+   "source": "google_news"
   },
   {
    "id": "8a36a6ecc242c4219b3693faa1c93fb8e3ee390a",
@@ -101,17 +278,59 @@
    "source": "hacker_news"
   },
   {
+   "id": "f670c27cc1630a470cc81561f57201eaccdd5f03",
+   "title": "New Agentic Commerce Guide Arrives as 22% of AI Agent Users Report Blocked Purchases",
+   "authors": [],
+   "venue": "Yahoo Finance",
+   "tier": "news",
+   "published": "2026-11-20",
+   "retrieved": "2026-11-21",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQNnFTcVNBeHhVZHNFalNwUW91UTJ1TFA4QTVFS2NueExwUDBtaC1WSnJIcHhqLXNaV0pNQVlpdDlTSkdqZ2hHdzMwNWsyUlJ0dG1Va3lRSnlVTTNUMzNYUjFrSzVFLXlrTWRDYjJRS1kweDlPcm9fNHA3RXZlSFliQ0dmUUIwSlp0M2Z6VGVHbV9wYk02dzQ4OW44U2hldw?oc=5",
+   "pdf_url": null,
+   "html_url": null,
+   "embeddable": false,
+   "oa": false,
+   "abstract": null,
+   "score": 7.0,
+   "matched": [
+    "agentic commerce",
+    "AI agent"
+   ],
+   "source": "google_news"
+  },
+  {
+   "id": "7e4317511563a31f78919af3f22840a69b912649",
+   "title": "Incode Know Your Agent: Trust for AI agents",
+   "authors": [],
+   "venue": "SourceSecurity.com",
+   "tier": "news",
+   "published": "2026-11-20",
+   "retrieved": "2026-11-21",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOenk0TG02cWRtdnhXTFZIT1AzV0t2d053NWIyREpjM1J6ZDAwY2VTTDgyYUxweFJMNGZrdjJBaTZNS3hGSUctY0p4UENocFRJc3N5Zkp3NHcyaTg4eTh2S2VZUDBzQUpBV0hFRllLYXU3aE8xTlFpMU02SHROZ1NXdHZxWG1WLUhnVTBOX0RWNFRLeS1PSEJQUjAySlNvdw?oc=5",
+   "pdf_url": null,
+   "html_url": null,
+   "embeddable": false,
+   "oa": false,
+   "abstract": null,
+   "score": 7.0,
+   "matched": [
+    "know your agent",
+    "AI agent"
+   ],
+   "source": "google_news"
+  },
+  {
    "id": "550f0e0642b470ecfc50b0e1c164fce40640709c",
    "title": "GCP: A Safety-Aware, Payment-Agnostic Commerce Protocol for Automotive and Mobility Agents",
    "authors": [
     "Jipu Su"
    ],
-   "venue": "In Review",
+   "venue": "Research Square",
    "tier": "preprint",
    "published": "2026-11-20",
    "retrieved": "2026-11-20",
    "url": "https://doi.org/10.21203/rs.3.rs-11787193/v1",
-   "pdf_url": null,
+   "pdf_url": "https://www.researchsquare.com/article/rs-11787193/latest.pdf",
    "html_url": null,
    "embeddable": false,
    "oa": true,
@@ -121,7 +340,7 @@
     "agentic commerce",
     "payments"
    ],
-   "source": "crossref"
+   "source": "openalex"
   },
   {
    "id": "d77ef7410616fd732580d4e3b397b5ee736242f0",
@@ -233,6 +452,27 @@
     "payments"
    ],
    "source": "hacker_news"
+  },
+  {
+   "id": "b5fc60dfce18fe5b60dda3c836f1cbe85d99e7e0",
+   "title": "Adyen Taps Klarna to Enable Agentic Commerce Payment Options Beyond Cards",
+   "authors": [],
+   "venue": "PYMNTS.com",
+   "tier": "news",
+   "published": "2026-11-20",
+   "retrieved": "2026-11-21",
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPZnhpRG9tenBKM2JvbFpNbEs5M1kzRVdfeVFkdndzV0liNzVWcmh3N0J3eGxhVWZVUjVqUFhUbUNMZjItMXp5dzNEVWRpdVpNNzB4LTJyczJGazdIUWxvT0ZWMnRkcktBcXZUdHJkQjJidlBMcTFSN0V5VTdqVjhoVlY4c1M3djZaV3F5OWVubHNlRmoxWXluT3BnTExfM0N4YzVxajZzQlpDSHFBcG1qTmtaV1EzdU9GeVhZUktn?oc=5",
+   "pdf_url": null,
+   "html_url": null,
+   "embeddable": false,
+   "oa": false,
+   "abstract": null,
+   "score": 6.5,
+   "matched": [
+    "agentic commerce",
+    "payments"
+   ],
+   "source": "google_news"
   },
   {
    "id": "713ea0351e996f2b4777d76cb34846b1f8156490",
@@ -395,6 +635,26 @@
    "source": "google_news"
   },
   {
+   "id": "d99a3bc61413a3b3e2c72709d563806fcafae40e",
+   "title": "HarnessBuy signs MoU with Mastercard on agentic commerce in APAC",
+   "authors": [],
+   "venue": "The Paypers",
+   "tier": "news",
+   "published": "2026-11-20",
+   "retrieved": "2026-11-21",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQQzdTeG4zMW1IN0d4MFhzd0lrMzV6b3FyckxmOWhJdXZ4emN1aUpMdlZidGotNkVTdG5WdEY3NWZEQnRqVlVTMXBNLTZ5S0dIQ0NzaTB3YU1PQks1aThfOXlQLUZfWUNqR2Z3UGtFZ2c2c2lTd0IwU0JpdUNHX3owZU1PLUQxZ1RRT1ZxN2dlTmFzcTZKX3I4MnR1SHRvaDc3MlBR?oc=5",
+   "pdf_url": null,
+   "html_url": null,
+   "embeddable": false,
+   "oa": false,
+   "abstract": null,
+   "score": 6.0,
+   "matched": [
+    "agentic commerce"
+   ],
+   "source": "google_news"
+  },
+  {
    "id": "dad0675cbb0ad1942ff729df58d42fa07961e4cd",
    "title": "Agentic Commerce: A New Era for Consumer Sectors",
    "authors": [],
@@ -457,23 +717,22 @@
    "source": "google_news"
   },
   {
-   "id": "15cb326db2412bb584d17c7c13bf9043a22d3141",
-   "title": "PoCA-Mithril: A Blockchain-enabled Framework for Identity- and Context-verifiable Communication among Distributed AI Agents",
+   "id": "0b53660e2bbd3c56bc456e3938e7ac6e1fe02ec8",
+   "title": "Required as a capability, not as a record: accountability evidence for AI agent actions in NIST SP 800-53, OpenTelemetry GenAI telemetry and a multi-agent platform's public records",
    "authors": [
-    "Kranthi Kumar Gunda",
-    "Geetha Arjunan"
+    "Anutsetsen Enkhzorigt"
    ],
-   "venue": "International journal of intelligent engineering and systems",
-   "tier": "peer_reviewed",
+   "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+   "tier": "preprint",
    "published": "2026-11-20",
-   "retrieved": "2026-11-19",
-   "url": "https://doi.org/10.22266/ijies2026.1231.65",
-   "pdf_url": "https://doi.org/10.22266/ijies2026.1231.65",
+   "retrieved": "2026-11-21",
+   "url": "https://doi.org/10.5281/zenodo.24405378",
+   "pdf_url": null,
    "html_url": null,
-   "embeddable": true,
+   "embeddable": false,
    "oa": true,
-   "abstract": "Distributed Artificial Intelligence (AI) systems face challenges in agent identity verification, context integrity, traceability, and scalable blockchain anchoring without a continuously trusted central authority.This paper proposes PoCA-Mithril, a blockchain framework for verifiable agent communication.Proof-of-Context Attestation (PoCA) signs agent identity, context, timestamp, and safety metadata.A Mithril-Inspired Relay (MR) batches proofs via Merkle trees and a SHA-256 signature digest before Solidity smart-contract anchoring.Prototype (Python, Web3.py, decentralized identifiers, Ganache, web interface) averaged 1.2555, 1.9402, and 3.5815 ms for Elliptic Curve Digital Signature Algorithm (ECDSA) keypair generation, PoCA generation, and verification.Relay aggregation stays below 0.04 ms; five-proof batching cuts transactions 80%.It authenticates identity and context metadata, not complete response-content integrity.Persistent request-ID storage with database-enforced uniqueness rejects duplicates; restart and shared-database tests confirmed persistence.Five-process concurrency yielded one accepted claim, four duplicate rejections; multi-server verification remains unevaluated.An AgentDID-inspired baseline and 10,000-operation workloads characterize the local prototype, not distributed-blockchain performance.Response-content binding, model artifact, and runtime-execution verification remain future work.",
-   "score": 5.0,
+   "abstract": "Auditors who examine an action taken by an AI agent need to establish which agent acted, whether its identity was verified, on whose behalf it acted, with which credential, whether the action was authorised and under which policy, which tool and tool version it used, what it did and with what outcome, whether the records can be linked, whether they are tamper-evident, and whether they were written independently of the agent. Regulators and emerging standards now recommend recording most of these facts. This preprint asks a narrower question: do the incumbent control catalogue and telemetry specification that organisations actually adopt require these facts to be recorded for each action? This study examines the same evidence facts at three levels:1. Control catalogue. A crosswalk of the ten questions to NIST SP 800-53 Rev. 5 (Release 5.2.0) shows that the acting subject, action and outcome, time order, integrity and separate storage are required directly. Identity verification, the principal, the credential, the authorisation decision, the tool version and independent generation are required only as capabilities. No control statement explicitly requires every audit record to name both the acting process and the principal on whose behalf it acted.2. Telemetry specification. A previously published dataset finds that the OpenTelemetry GenAI semantic conventions (commit e6658f1) fully evidence 8 of 78 monitoring requirements from the OWASP Agentic and MCP Top 10 lists (10%; 10–20% across coding variants). They define no attribute for verified agent identity, application-level credential use or tool-definition version or hash.3. A platform's public records. A protocol-first case study of the public release of one multi-agent research platform (AgentAlphaXiv: 916 studies, 9,052 messages, 82,805 artifacts) shows that actions and their linkage are recorded, but verification, credential and authorisation decisions are absent. Principals appear only as lab pseudonyms, and no field separates human from agent actions. The gap is therefore not that standards ignore agent identity and authority: they require the capability but not the record. Being able to check an AI agent's action does not mean that enough is recorded to prove that action later. Because the sources change within weeks, every finding is pinned to a revision and the sources are followed in a public, revision-aware tracker.",
+   "score": 4.5,
    "matched": [
     "agent identity",
     "AI agent"
@@ -503,6 +762,29 @@
    "source": "google_news"
   },
   {
+   "id": "4467cba4f4abcb9a11bda04f7aa86598a810ba6a",
+   "title": "GUARDAID Annex 9 — Aeronautical Profile: Agent Identity and Mandates on Board",
+   "authors": [
+    "Fabiana Andrea Gómez Martínez"
+   ],
+   "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+   "tier": "preprint",
+   "published": "2026-11-20",
+   "retrieved": "2026-11-21",
+   "url": "https://doi.org/10.5281/zenodo.24398057",
+   "pdf_url": null,
+   "html_url": null,
+   "embeddable": false,
+   "oa": true,
+   "abstract": "How does an aircraft verify which AI agent may request what — and prove every interaction afterwards? GUARDAID Annex 9 adapts the GUARDAID open standard for aviation systems. Instead of hardcoding mission rules, the standard defines cryptographically signed configuration slots: the aircraft operator and the manufacturer each fill their own slots to declare who holds command authority, which action verbs a principal's agent may issue, how the aircraft behaves during a data-link loss, and which alert policies govern operations. The specification supplies the structure and verification tools; the aircraft owner supplies the policy values. By design, the protocol never drives flight actuators—actuator requests are blocked structurally, while every telemetry reading is logged and sealed in a tamper-evident trail.The deposit includes the complete reference reader and reproducible verification suite: a deterministic generator producing 209 test cases and 224 presentations with byte-identical outputs on every run, plus 159 adversarial mutations, all detected. Validated across nine rounds of independent hostile audit and cross-checked by a separate verifier.Scope notice: This technical note is not an airworthiness certification; physical test-bench qualification and safety assessments remain the responsibility of the applicant.本附件将GUARDAID开放标准应用于航空领域:运营方与制造方各自填写签名的配置槽,标准只提供结构与工具,不直接控制任何执行机构。附带可完全复现的参考读取器:209个测试用例、159项变异测试全部检出,并经九轮独立审计。本文件不构成适航认证;物理测试台与安全评估由申请方负责。",
+   "score": 4.5,
+   "matched": [
+    "agent identity",
+    "AI agent"
+   ],
+   "source": "openalex"
+  },
+  {
    "id": "e501019edcbc5f1a904dcd3c5054bd69a5bdeb04",
    "title": "Armstrong’s $3T-$5T Agent Economy Forecast Hinges On Machine Settlement, Not Human Checkout",
    "authors": [],
@@ -524,23 +806,22 @@
    "source": "google_news"
   },
   {
-   "id": "d0637fb2a5fc7e64ce477067cfe82c8deceea4d2",
-   "title": "THE LEGAL NATURE OF ASSET-BACKED STABLECOINS IN THE CONTEXT OF THE NEW REGULATION OF DIGITAL CURRENCIES AND DIGITAL RIGHTS",
+   "id": "318529019d1830bd67cb224786c309a93791f6ed",
+   "title": "NOOR: The Commercial Private Dollar — Private Cash for a Loud World",
    "authors": [
-    "Sergey V. Potapenko",
-    "Murad Sh. Magomednabiev"
+    "Mohamed Khaled"
    ],
-   "venue": "Хозяйство и право",
-   "tier": "peer_reviewed",
+   "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+   "tier": "preprint",
    "published": "2026-11-20",
-   "retrieved": "2026-11-20",
-   "url": "https://doi.org/10.18572/0134-2398-2026-12-9-18",
+   "retrieved": "2026-11-21",
+   "url": "https://doi.org/10.5281/zenodo.24394616",
    "pdf_url": null,
    "html_url": null,
    "embeddable": false,
-   "oa": false,
-   "abstract": "The article examines the legal nature of asset-backed stablecoins within the system of objects of civil rights in the context of the entry into force of Federal Law No. 282-FZ of August 4, 2026, On Digital Currencies and Digital Rights.",
-   "score": 4.0,
+   "oa": true,
+   "abstract": "Noor is a commercial private stablecoin backed 1:1 by USDT (1 USDT in = 1 NOOR out). It solves commercial privacy where public USDT exposes revenue and payroll. Framework of 6 systems: MintLock (receipt-bound minting), Lighthouse (light count every second + ZK proof every 10 min, verified zkSync 90s A100 / 48s H100, Groth16 192 bytes 3.1ms), Pentakey (5 keys 5 jurisdictions Dubai/NY/Singapore/Spain/El Salvador 3-of-5), Freeze Mint (mint-only pause), Half Percent Rule (0.5% fee $0.01 min), Self-Limit (user-set limit). Backed by verified data Nov 2026: USDT $175.1B 61.37% of $285.3B market, Tron $91.7B 52.4%, remittance avg 6.36% World Bank, Nigeria $59B inflows IMF Jun 2026, Turkey 4.3% GDP stablecoins. Concept whitepaper v3.2 for audit.",
+   "score": 3.5,
    "matched": [
     "stablecoin"
    ],
@@ -705,14 +986,14 @@
    "source": "google_news"
   },
   {
-   "id": "a5613cbaf4b51d7656c711a78a374b9e1c0dee34",
+   "id": "1155b39baccc49c3e3389091ab6113fcca9b27b1",
    "title": "Siteimprove.ai Accessibility Agent Now Available for AI Agents Through Agentic Commerce on AWS Marketplace",
    "authors": [],
-   "venue": "The Times and Democrat",
+   "venue": "StreetInsider",
    "tier": "news",
    "published": "2026-11-19",
    "retrieved": "2026-11-19",
-   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNRDlNZ2V4blBNVUhTWlRMbjhMdkNlX0VxWFBVUWhsNWtpeUxFSTBfX19od21wTE1DSVFyOTN3T21UaVZKMXctUU53TXBzd1dsZzI1T0VBS3ZwRnl2dkdEZ1pnSW9LM3p6eU95N2NqdDV3TTdnSkg5ekxVNEtFTk0wUWlOd2ltZldJS2NkWGhXa1JNQWVmMHFmT0RfeWt0SjFSUldn?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNSWJjM2M2Mkw3YmVVTDI5eW5lR09ncElCWV82NEpoWkxBLU5oc0g3V05TWkM3WWxEUVV0WDNTTVlMSW95eTFVX1hiVlB6WkJUQzFUalplOHA0SFllbmhBTDNyQk50cV9vM0RSZ2NZZDRkWGE5S2JXWEpGOHgtX3hnSnpPYzVrNEduYjJxVDFJTzJ6MkZLYmI2TmFCWHRHSjRUS3UwOTNjUE9VSnpLYi1UeEpYc2xVZkZ5T2FpbTNVT0o2Z1lzZlFVZFVDcVp2cGhySE5ZR3l1QllnNUtBaFg1M2hzNkwyYm1NUTItUFZ5OE83ZklqWVhOMQ?oc=5",
    "pdf_url": null,
    "html_url": null,
    "embeddable": false,
@@ -776,6 +1057,27 @@
     "agentic commerce"
    ],
    "source": "crossref"
+  },
+  {
+   "id": "d2dede0e34250124003178f8e96a1325f1a40d01",
+   "title": "Visa accelerates 'agentic commerce' push with AI payment network",
+   "authors": [],
+   "venue": "헤럴드경제",
+   "tier": "news",
+   "published": "2026-11-19",
+   "retrieved": "2026-11-21",
+   "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1hTHIwYzVEQzh3MEI1VVlfMWRKUThEOGx0UDNZZ3FJQ0V6TzI0TFQ1cUhydFJLVGNiM2RxbndKaG9td2RJUDBrdHk5a2ZUWEVMd0JtVnJONA?oc=5",
+   "pdf_url": null,
+   "html_url": null,
+   "embeddable": false,
+   "oa": false,
+   "abstract": null,
+   "score": 6.5,
+   "matched": [
+    "agentic commerce",
+    "payments"
+   ],
+   "source": "google_news"
   },
   {
    "id": "75bc9a8a89f446b1e5a137f50a1878c5fff8713c",
@@ -954,6 +1256,27 @@
    "source": "google_news"
   },
   {
+   "id": "7cbe56fdabee5600d4c28bb1c3e87c9129247ab3",
+   "title": "AWS Marketplace x402: AgentCore Payments Lets Agents Buy Tools in USD on Your AWS Bill",
+   "authors": [],
+   "venue": "explainx.ai",
+   "tier": "news",
+   "published": "2026-11-19",
+   "retrieved": "2026-11-20",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPNEJsNGE0Rzk2TmhHdUVOWWE3VkNRaG44TlpabUJ0MGtuNXlzY0Z1SzhmcGJQejlqTkppdzROcHQ1UW1xNGtVV0dXX193SG9YSXJwUGZQZEU3aXQ5cTVleEVpVWtxZG1uS3poUmc1RzI1QlpZdjVNSDlYRUt5cHd0M0VUa2VqTFB5Nm1Ka3Q0aE1lWUpaMjcxaUlyNktCc0xHb3Fwb2ZR?oc=5",
+   "pdf_url": null,
+   "html_url": null,
+   "embeddable": false,
+   "oa": false,
+   "abstract": null,
+   "score": 6.5,
+   "matched": [
+    "x402",
+    "payments"
+   ],
+   "source": "google_news"
+  },
+  {
    "id": "a6f1b912d19529a51230ff2afe67013ce8fea87f",
    "title": "Walmart CEO Furner Touts Omnichannel Impact of Agentic Commerce in Q3 Report",
    "authors": [],
@@ -1056,14 +1379,54 @@
    "source": "google_news"
   },
   {
-   "id": "b8336a8ca7fcbb444d7781c7188c9de1ff3c98f3",
+   "id": "ebb3e081e120b71c869bffc46314abc8d46c52fe",
+   "title": "New Visa UK Research Finds Consumer Trust Is Accelerating the Path to Agentic Commerce",
+   "authors": [],
+   "venue": "Financial IT",
+   "tier": "news",
+   "published": "2026-11-19",
+   "retrieved": "2026-11-21",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOR2lKYVdPblBfRzljVUZYWTlzN25jNXZzRzJ1MHVfT1VTX0hLMEg5bHcxTUZaT3MwQTN2dFVCN2VYeUgxMDF3WnNoZGdLdFljbG1BNTI5eWw0VzNTRkZfSHZ4MC13Y2NHOGRqOEtWS3ZDZ0NxcE11VE9iM2gtZUt1ZmdzRFNabEVEWFlFalVXb0x5dFNNblhBLXFUZDNqcnNEUjU0SG12b2ttZUdqek9jV1lGaGozMXBKM0M5Nw?oc=5",
+   "pdf_url": null,
+   "html_url": null,
+   "embeddable": false,
+   "oa": false,
+   "abstract": null,
+   "score": 6.0,
+   "matched": [
+    "agentic commerce"
+   ],
+   "source": "google_news"
+  },
+  {
+   "id": "1f5ffd89249387077fbb12c89d8a420af5c89d13",
    "title": "NETS and Ant International Deepen Partnership to Empower Singapore’s Businesses for a Future in Agentic Commerce with Agentic Mobile Protocol",
    "authors": [],
-   "venue": "Eagle-Tribune",
+   "venue": "NTB Kommunikasjon",
    "tier": "news",
    "published": "2026-11-19",
    "retrieved": "2026-11-19",
-   "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxQSHNlV1UwS2xPaFVyTVRZcjg2dXRmcl81QzYtVjdEdHBZRmlNR21rSHNZdUtaV3FaaHhlMnh2LWNkTnZ2VkNpNU1vTC1OeXpjSnNzV2ZBRGczRFVXYkRaR21EZVlKSWZRQWREeUdDUWdlZWlNNzB1QUFxS0tpTWNMV1oza3JmeXBndEZBdlpLOHVBVHB5RGdTYkpLX1hvNk1VWDV1bkRLTzAxbVpzczZ6dXoxR0ZzS2FNZ09oc3U5bnZSRGpDZ2U3NjRkaHhUUTlZcV9Kc3ZwNFZpcmQwMnUzMGtKRWZoamZzenpIRFpNeUg2WnBIaVMwa000cFdMU1ZfNWZMYUY5SXV4dnVTTnc?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMivwJBVV95cUxQV3RFNWdiNE02TE45djZNaEp2NEcxR3ZETVJQODREVFRTWW5pSXBBX1NHaUJIbDZaejhCVHlrRXE2RUZINnJ2cDJHN3dmalktRVV0Q0JiNzZjX0NyOXYtc0tXZ1dqOHRYMjdPb3dCV3NNaW1uWElOYmdMQ0tWbTZmTm5uLWNRRXE0X2lkUGtFN3dlWEttNjZIN2lxcFJrZjZENEl3ZGU2R2pMWTZxeF9xN3Y1OXhhUnVXMWprcS1jb1lnRXlrNGtZc2gxWF9ZSWJ2YlkxTFBlM2pYX3NTWTNnbG56aDdReEZUc0ZMRW93TUVqOWpJaW1oRU5Ga1EweTBDN0ItRmpUNWpUaGZwekx5dHk3dWROQVF3YTJOQ0FVLTR3OWZWWGZSY1dkZHNMYmVRZGJGVlV4S21vNnBXUE1B?oc=5",
+   "pdf_url": null,
+   "html_url": null,
+   "embeddable": false,
+   "oa": false,
+   "abstract": null,
+   "score": 6.0,
+   "matched": [
+    "agentic commerce"
+   ],
+   "source": "google_news"
+  },
+  {
+   "id": "81af6800bdb580937c042023fd8c69126d698617",
+   "title": "NETS and Ant International Deepen Partnership to Empower Singapore's Businesses for a Future in Agentic Commerce with Agentic Mobile Protocol",
+   "authors": [],
+   "venue": "TMCnet",
+   "tier": "news",
+   "published": "2026-11-19",
+   "retrieved": "2026-11-21",
+   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNeG51Rk03MmFPbVNSZTBKTkNzRk5NVXVwNTlmdmRTRTJua2dEWG1xZm16VDlqaWQyNHJTTXB5VHhhOWV6aFZYZ2lRc1VsM1g0M0RRQUJ5SUpVT2ZFaW00QTRhZnVpRGhjb1lTTVl1ODZWT0tmMkJPRldKamdNazV1THhHcHRsSWV3TDJCWTB4T0c2ci0zdkFLNDFGLVN3OXZWX1FuZjdiSVE2S19GTXBYM0lQXzc1SXVFNWpCUG5vRGhIVW90RF84?oc=5",
    "pdf_url": null,
    "html_url": null,
    "embeddable": false,
@@ -1276,26 +1639,6 @@
    "source": "google_news"
   },
   {
-   "id": "7cbe56fdabee5600d4c28bb1c3e87c9129247ab3",
-   "title": "AWS Marketplace x402: Agents Pay in USD on AWS Bill",
-   "authors": [],
-   "venue": "explainx.ai",
-   "tier": "news",
-   "published": "2026-11-19",
-   "retrieved": "2026-11-20",
-   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPNEJsNGE0Rzk2TmhHdUVOWWE3VkNRaG44TlpabUJ0MGtuNXlzY0Z1SzhmcGJQejlqTkppdzROcHQ1UW1xNGtVV0dXX193SG9YSXJwUGZQZEU3aXQ5cTVleEVpVWtxZG1uS3poUmc1RzI1QlpZdjVNSDlYRUt5cHd0M0VUa2VqTFB5Nm1Ka3Q0aE1lWUpaMjcxaUlyNktCc0xHb3Fwb2ZR?oc=5",
-   "pdf_url": null,
-   "html_url": null,
-   "embeddable": false,
-   "oa": false,
-   "abstract": null,
-   "score": 6.0,
-   "matched": [
-    "x402"
-   ],
-   "source": "google_news"
-  },
-  {
    "id": "b5e08bb447691ced92a6a5f44adac3bfb6074dba",
    "title": "AWS Marketplace adds bevy of agentic commerce agents, removes approval friction for purchases",
    "authors": [],
@@ -1400,6 +1743,29 @@
    "source": "google_news"
   },
   {
+   "id": "9f77e493028b570478cdd4bb1aff72e5d23e8023",
+   "title": "Post-Quantum Cryptography Migration for Agentic Identity Systems: A Practitioner Architecture for Regulated Multi-Cloud Enterprises",
+   "authors": [
+    "Parijat Sharma"
+   ],
+   "venue": "International Journal of Cyber Threat Intelligence and Secure Networking",
+   "tier": "peer_reviewed",
+   "published": "2026-11-19",
+   "retrieved": "2026-11-21",
+   "url": "https://doi.org/10.55640//ijctisn-v03i11-01",
+   "pdf_url": null,
+   "html_url": null,
+   "embeddable": false,
+   "oa": true,
+   "abstract": "AI agents and other non-human identities depend on public-key cryptography for authentication, token signing, certificates, key exchange, software provenance, and secure service-to-service communication. Future quantum computers could undermine the RSA and elliptic-curve mechanisms these depend on, while data with a long confidentiality life is already exposed to harvest-now-decrypt-later collection. This paper proposes a crypto-agile migration architecture that takes the agent identity lifecycle, rather than the application or the network protocol, as the unit of migration. It inventories cryptographic dependencies and links each to agent ownership, privilege, data sensitivity, autonomy, recovery requirement, and revocation path; classifies and prioritizes them by confidentiality lifetime and exposure; establishes crypto-agile control points that externalize algorithm choice from application code; validates post-quantum capability against certificate, token, and message size limits before any cohort moves; runs hybrid or dual-trust operation through a bounded compatibility window; migrates by risk-ordered cohort with defined stop conditions; and retires classical-only trust only once rollback, audit, and recovery criteria are satisfied. The architecture is designed and has not been validated as a completed enterprise migration. Algorithm parameter sizes used in the analysis are taken from the published standards; migration percentages, downtime, and performance impact are not claimed and are identified as pilot outputs.",
+   "score": 5.0,
+   "matched": [
+    "agent identity",
+    "AI agent"
+   ],
+   "source": "openalex"
+  },
+  {
    "id": "93cdd64e26bfb3cf8d787a705885464c1be74d9c",
    "title": "KRIPTOVALYUTANI TARTIBGA SOLISH: XALQARO TAJRIBA VA HUQUQIY PROGNOZ",
    "authors": [
@@ -1452,11 +1818,11 @@
    "published": "2026-11-19",
    "retrieved": "2026-11-20",
    "url": "https://doi.org/10.1371/journal.pone.0348646",
-   "pdf_url": null,
+   "pdf_url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0348646&type=printable",
    "html_url": null,
    "embeddable": false,
    "oa": true,
-   "abstract": "Stablecoins share a one-dollar target but rely on different mechanisms to maintain it. This study compares the peg behavior of USDT, USDC, and DAI on the same severe Bitcoin stress dates. Using daily Kraken USD prices from January 8, 2020 through August 15, 2026, the baseline design identifies 19 Bitcoin downside events from the lower 1% tail of the BTC/USD return distribution. Mean event-day absolute peg deviations are 0.0960% for USDT, 0.0132% for USDC, and 0.4251% for DAI. The Friedman test shows a significant difference across the three stablecoins. Holm-adjusted pairwise tests show smaller absolute deviations for USDC than for USDT and DAI, while USDT and DAI do not differ significantly. In the baseline design, event-day absolute deviations are not significantly higher than their preceding seven-day averages for any of the three coins. Changes from the preceding-week averages also show no significant cross-stablecoin difference, and this result remains unchanged when the Bitcoin tail threshold and event-spacing rule are varied. Signed deviations show no significant overall difference in the baseline omnibus test. Across the matched stress dates, USDC remains closest to par, while DAI’s mean deviation is strongly influenced by a small number of large events.",
+   "abstract": "Stablecoins share a one-dollar target but rely on different mechanisms to maintain it. This study compares the peg behavior of USDT, USDC, and DAI on the same severe Bitcoin stress dates. Using daily Kraken USD prices from January 8, 2020 through August 15, 2026, the baseline design identifies 19 Bitcoin downside events from the lower 1% tail of the BTC/USD return distribution. Mean event-day absolute peg deviations are 0.0960% for USDT, 0.0132% for USDC, and 0.4251% for DAI. The Friedman test shows a significant difference across the three stablecoins. Holm-adjusted pairwise tests show smaller absolute deviations for USDC than for USDT and DAI, while USDT and DAI do not differ significantly. In the baseline design, event-day absolute deviations are not significantly higher than their preceding seven-day averages for any of the three coins. Changes from the preceding-week averages also show no significant cross-stablecoin difference, and this result remains unchanged when the Bitcoin tail threshold and event-spacing rule are varied. Signed deviations show no significant overall difference in the baseline omnibus test. Across the matched stress dates, USDC remains closest to par, while DAI's mean deviation is strongly influenced by a small number of large events.",
    "score": 4.0,
    "matched": [
     "stablecoin"
@@ -1855,6 +2221,28 @@
    "source": "google_news"
   },
   {
+   "id": "9a4d7a6c656bc84483e6f9fc335638f0704bcba5",
+   "title": "LianLian DigiTech partners with Visa to complete 1st live AI agent payment in Asia Pacific",
+   "authors": [],
+   "venue": "Tech Critter",
+   "tier": "news",
+   "published": "2026-11-18",
+   "retrieved": "2026-11-21",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOOUxMTTVLNVl5dHR5bTQzTDg4RzllcDJjYVdnTzRHbGdtSWxBd3Zqamd1R0VFMHVrOExKNUxmYTB2TmVZOGplYWtiRk9WZ2I2U2FaVzQtcFctT2kwbmJwRTZaVzRscC1CemlMbjZzZnpvQkFGZWJLWllCN2lMLVBhc2JTVk1kT3dEeURkZk9iWlBSZnc1c1JZaHF3?oc=5",
+   "pdf_url": null,
+   "html_url": null,
+   "embeddable": false,
+   "oa": false,
+   "abstract": null,
+   "score": 6.5,
+   "matched": [
+    "agent payments",
+    "AI agent",
+    "payments"
+   ],
+   "source": "google_news"
+  },
+  {
    "id": "a18d32dcf9d2360d02fb29d5280abc049ed9f5ff",
    "title": "JPMorgan, Hyundai Card simulate AI agent payments without human approval",
    "authors": [],
@@ -1877,14 +2265,14 @@
    "source": "google_news"
   },
   {
-   "id": "af638f09dda98452fe10900fe18307818c19a940",
+   "id": "2cea5c46eb2da3bfcf14c7aac6ca30eb6fe97047",
    "title": "Hyundai Card Runs AI Agent Payments On Kinexys Without Publishing Performance Data",
    "authors": [],
    "venue": "OneBullEx",
    "tier": "news",
    "published": "2026-11-18",
    "retrieved": "2026-11-19",
-   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOV2VIQ20tN0tZZlBiaXBMMnBwckI2TE9JaTl1R2UxMHdwR3ZNWFBwLVpzNGJwYWREZmFrb3V5WUFyQkprdW5UcWxpbVlGY1g1dHNFcmF3SWVKNHV3NzdoTUFXZlAtZDdoaVdIUXFmNEdNbEJWTGJIZEdxMXdMbThacmpLZy0xamdlRkJFano0aVQyWjJlS1VRLXk5dVlkcGF2TlZvaUNzZzEwNzd2aVM3aEhOSmdmeXdGRVR5VlpDVi1SZw?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPN2ZjU2hoTnlmQzRKOE9hRVpVcEVHUmFNZHVJUDVmZ1BrYlphbHpxMHdJUVdPTDh5aXdxYjRSVmE5T0pzWUwwNDU1a2VsX0pkX21RSk00TGdiSktFb3VYejNvazZid01sNG5tTDA4M1ltd0tCczVHTEFUWUhqMGRnT3ZVY2NFNjFEblRiMXR2WmFLNVFBREFpbEJrVHBObVZmamVrMUtsa0JhMDJBNG9fMUxBbU1DOGx0YkRaWjJPZGswdw?oc=5",
    "pdf_url": null,
    "html_url": null,
    "embeddable": false,
@@ -1959,14 +2347,14 @@
    "source": "google_news"
   },
   {
-   "id": "b6de7f9ed85f45840571c3fe616f91188c5303a6",
+   "id": "9fa18449c37e1b2ad9574609d45e412c9c9b43c2",
    "title": "Lianlian DigiTech and Visa Advance Trusted B2B Agentic Commerce for Small and Medium-Sized Businesses",
    "authors": [],
-   "venue": "Yahoo Finance Australia",
+   "venue": "ANI News",
    "tier": "news",
    "published": "2026-11-18",
    "retrieved": "2026-11-19",
-   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQa0dxc3pUbjBBejN4WmtSN09tUUVNMEFDMDNmM2xrUVVlcEpWMXlETkVwNm15Zmp0NE11NExxd1dOWnk3WlBMdndWNXFhc210VGJxRGVjWE1hV2IyTDV4akNydWR5TzlMM3VCVmZJX1FtWTNkNWxPdC1rUHUteWpROTFDMlpUaGRsTG9vSXpvUVQ?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQQjlHOWlpYVZiRld5SjRyNnE2MTdNVHVicVRqN2RJaU5kRnE0bzhuUmUycGFFdFptb29xeU94YmRVYWFaaFpHVmVqS0ozMThfVzdBRF8wYkdibUtfdW5SUVBpWUZoaHdOa1dFT2lTdnZLdkd5cXduS3liczJJbUJfUkdlREc3VFNVZy0wNENMRnhqTXVTLUozeGstcFllbDYyeHZPemV4VEtXRmlOU0xwak4yamR4bmQxOEhYTzZHMmk5QVFOZzc1N19CVU5Qa21MUXpFRXhEcWt6LWJyR2FDTllzaDkzNlk?oc=5",
    "pdf_url": null,
    "html_url": null,
    "embeddable": false,
@@ -2196,21 +2584,21 @@
    "source": "openalex"
   },
   {
-   "id": "0681539bee272ec0d8f7808c36a5e6e019ef84bc",
+   "id": "81f05b85a84fe29f5ee1d4614c749a168e05d3b9",
    "title": "ChainIT Transaction Truth: Stablecoins, Web3 Wallets, and Multi-Rail Commerce. A Zero-Trust Control Plane for Verified Identity, Organizational Authority, Runtime Compliance, Secure Wallet Execution, and Immutable Settlement Evidence",
    "authors": [
     "Eric Tacl",
     "Matthew Koepp",
     "Tim Hines",
     "Russell Lessard",
-    "Jason Patrick",
+    "Patrick Jason",
     "Jeremy Blackburn"
    ],
-   "venue": "arXiv cs.CR",
+   "venue": "arXiv (Cornell University)",
    "tier": "preprint",
    "published": "2026-11-18",
    "retrieved": "2026-11-19",
-   "url": "https://arxiv.org/abs/2611.24659",
+   "url": "https://doi.org/10.48550/arxiv.2611.24659",
    "pdf_url": "https://arxiv.org/pdf/2611.24659",
    "html_url": null,
    "embeddable": true,
@@ -2221,7 +2609,7 @@
     "stablecoin",
     "payments"
    ],
-   "source": "arxiv"
+   "source": "openalex"
   },
   {
    "id": "4e9ea0151b44cf01e88883eb05ac0b61333fa667",
@@ -2329,14 +2717,14 @@
    "source": "google_news"
   },
   {
-   "id": "53f2f765ca2dfa0820d4703cc7e3a3c3c8dbcf60",
+   "id": "5327ed2b15cd0dbb0b13271c414e3d6fbe24c156",
    "title": "Incode Launches Incode Know Your Agent to Anchor AI Agent Trust in Verified Human Identity",
    "authors": [],
-   "venue": "Yahoo Finance",
+   "venue": "Business Wire",
    "tier": "news",
    "published": "2026-11-17",
    "retrieved": "2026-11-19",
-   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNZ0paWGVYNFJ2UjJ1NURPM1NHanliVFF6Z3UxeVVyLTRMVjl6dGRBR3F5TG9sdmdYOEpXMThnTlJ5aDViVklzajc3MnZmU3pKbi1FRmV3US1fN0hPeGg5TGN6VXVaRW9Fby1aVmdtazVBa21Nc1Z5cnJiYzRMRWxQb3B1UUh5elJodUJtb29mMEM0bkxIbWd5cGhnS0RhUQ?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOLVE3dHFmNHBrN1J3UDgxXzZiaGVjY3VwSkx4RUdIRlg4Uk15aUU3b1h0TmNCNU1NSTlEZ2s1bG5hdUVRZ0N1aklRRVVEUVFoZm1zSnYwZWJsOW83SnI5SktnRGdCMjRSRzdseTJ1SEhXMWxWN1BrN3VNb0JKLUxRc1Jha2ZGTzRraHNpQ19TcHVSNzRuN1dheU9EbUZ3czMxR2RuYVVwc0ZHR3EzcnpQOTBleFNGMTJDdUh6QU9xSGhTWG9BQVpaX3QzMVdsZVRpZnB5NjhuYk4tMm5hOEJJbA?oc=5",
    "pdf_url": null,
    "html_url": null,
    "embeddable": false,
@@ -2367,6 +2755,28 @@
    "matched": [
     "know your agent",
     "AI agent"
+   ],
+   "source": "google_news"
+  },
+  {
+   "id": "dec7a2eb0ed90a511aa738549db6b48eddebade0",
+   "title": "ChatGPT Wallet Skips Crypto: What It Means for AI Agent Payments",
+   "authors": [],
+   "venue": "WEEX",
+   "tier": "news",
+   "published": "2026-11-17",
+   "retrieved": "2026-11-21",
+   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOaGphNmhIbnQ1NkIzYWs0dVZDN1dBRWVsb01Pd2lReGg1MXNaT3ljNGVpVkRIOGxXUU9MUFh0U0h4Y0NBdUg5dUpQUUNSUktvT05lSG1QMEU3cGt0S1FfcEFHa3pnU08zU3NzekExdURZOWpieVpQdk5DLS1ocUpkSDFVVVlMLUxZQkZGTmRnTHo2bkNIcW9sSU5MRzFtYmUxQ1RpT0piTElLZUQySHVTQ0d1ME5XOXkweDZINkdlTzhyQQ?oc=5",
+   "pdf_url": null,
+   "html_url": null,
+   "embeddable": false,
+   "oa": false,
+   "abstract": null,
+   "score": 6.5,
+   "matched": [
+    "agent payments",
+    "AI agent",
+    "payments"
    ],
    "source": "google_news"
   },
@@ -2576,6 +2986,28 @@
     "AI agent"
    ],
    "source": "openalex"
+  },
+  {
+   "id": "c5cc42a4f998cbe44b396050a3a23d6b44620d98",
+   "title": "Zecto Signs MOU With Ripple-Backed t54 Labs on AI Agent Stablecoin Payments",
+   "authors": [],
+   "venue": "bloomingbit",
+   "tier": "news",
+   "published": "2026-11-17",
+   "retrieved": "2026-11-21",
+   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE83U3ZheTJNMUttRURrTlhZeDUzeGlkYlAyMkhQQ0oyVGI5QXlFOGRzd0h4cGNFWFJDQlBCTmJuR0pSdEl2SHZWVF9LNldtRGZCLWJJRQ?oc=5",
+   "pdf_url": null,
+   "html_url": null,
+   "embeddable": false,
+   "oa": false,
+   "abstract": null,
+   "score": 4.5,
+   "matched": [
+    "stablecoin",
+    "AI agent",
+    "payments"
+   ],
+   "source": "google_news"
   },
   {
    "id": "14700de7e242ad06ad732dea6e7c63eb315a50e7",
@@ -2871,6 +3303,30 @@
    "matched": [
     "stablecoin settlement",
     "stablecoin",
+    "payments"
+   ],
+   "source": "openalex"
+  },
+  {
+   "id": "861a9d83764813ad8e7f2388ede208826a166ce8",
+   "title": "Europe's Next AI Security Challenge: Who Controls The Final Action — From EU AI Act and NIS2 to 6G, the Digital Euro, Industrial AI and Critical Infrastructure",
+   "authors": [
+    "Sangam Das"
+   ],
+   "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+   "tier": "preprint",
+   "published": "2026-11-16",
+   "retrieved": "2026-11-21",
+   "url": "https://doi.org/10.5281/zenodo.24274258",
+   "pdf_url": null,
+   "html_url": null,
+   "embeddable": false,
+   "oa": true,
+   "abstract": "Autonomous AI agents, automated pipelines, and distributed microservices no longer merely generate recommendations—they execute irreversible mutations across live production environments: financial settlements clear, radio-frequency parameters shift, cloud infrastructure scales, database records commit, external communications dispatch, and cyber-physical states change. Existing security controls overwhelmingly govern admission (authentication, OAuth 2.0 scopes,RBAC, ABAC, row-level security), inspect intent prior to execution (guardrails, LLM prompt filters, policy engines), or record forensic telemetry after the fact (SIEM logs, observability, immutable audit trails). The structural security gap is a systemic Time-of-Check to Time-of-Use (TOCTOU) and confused-deputy vulnerability across execution pipelines: an initially authorized request routinely mutates into a fundamentally different operation before reaching its target—transformed by relational joins, identity remapping, LLM context compaction,summarization, cross-protocol hops, retries, configuration drift, SmartNIC/DPU hardware offload, or workload migration.By the time the operation reaches the execution layer, the downstream system holding the live credentials cannot verify whether the original cryptographic authority, compliance posture, and evidentiary basis still govern the actual transformed mutation. Authority to compute, plan, propose, or schedule an action is structurally distinct from authority to commit its real-world effect. Core Architecture: Protected Execution Finality The architecture establishes a zero-trust execution-finality control plane built around a strict separation between proposal and commitment: Pending Quarantine: Every proposed state-changing action is intercepted and held as an inert, non-effective intent prior to execution. Independent Pre-Effect Reconstruction: An isolated, independent validator reconstructs the exact concrete operation that will occur at the moment of execution—resolving downstream target entities, expanded parameters,live system state, and transitive dependencies—and verifies that the original user/system authority and supporting evidence still hold for that specific reconstructed payload and its cumulative impact. Single-Use Finality Authorization: Only upon successful validation does the validator mint a narrowly scoped,single-use execution permit—implemented as a cryptographic capability token, protected non-cryptographic state,or hardware/firmware register enablement. Credential-Holding Finality Sink (PEP): A Policy Enforcement Point positioned directly at the finality sink—the sole component possessing the live mutation credential, API key, or hardware write privilege—admits the mutation only upon presenting a valid permit, atomically consumes the single-use authorization, and commits verifiable outcome evidence prior to or synchronously with release. Deterministic Recovery & Fail-Closed Defaults: Ambiguous or interrupted executions are quarantined and resolved via authoritative state inspection before any retry is permitted. Staged canary rollouts, immediate capability revocation, and strict fail-closed defaults ensure that network partitions or validator failures halt mutation rather than bypassing governance. While capability tokens, Trusted Execution Environments (TEEs), immutable logs, canary deployments, and fencing tokens are established primitives individually, the core architectural innovation lies in their mandatory dependency: no real-world state mutation can occur without a reconstructed, independently validated, single-use authorization verified and consumed at the exact point of effect. European Regulatory & Critical Infrastructure Context Within the European Union’s digital sovereignty and regulatory framework, execution finality provides the missing technical enforcement layer between high-level legal mandates and autonomous machine execution: EU AI Act (Regulation (EU) 2024/1689) — High-Risk AI & Human Oversight (Articles 9, 14, & 15): For high-risk AI systems operating in critical infrastructure, creditworthiness, employment, and essential public services, static pre-deployment conformity assessments and model-level guardrails cannot prevent runtime semantic drift or multi-step agent escalation. Execution finality enforces Article 14 human-oversight boundaries and Article 15 robustness deterministically at the actuator boundary—ensuring an AI agent cannot exceed its mandated operational envelope after context compaction or tool chaining. NIS2 Directive (Directive (EU) 2022/2555) & Cyber Resilience Act (CRA): Essential and important entities across energy grids, transport, water, healthcare, and digital infrastructure face strict obligations for supply-chain risk management and incident containment. By isolating live mutation credentials inside fail-closed finality sinks and requiring cryptographic validation per state change, operators prevent compromised orchestration layers or poisoned third-party automation pipelines from propagating unauthorized lateral effects. Digital Operational Resilience Act (DORA — Regulation (EU) 2022/2554): European financial institutions deploying autonomous trading, treasury, or automated IT-remediation agents must demonstrate strict ICT change management and operational resilience. Commit-certified release, uncertain-effect quarantine, and pre-execution exposure reservation prevent runaway retry loops, duplicate settlements, and unverified configuration rollbacks during systemic ICT disruptions. GDPR (Article 22 & Data Governance) & European Data Spaces (Gaia-X): Automated decision-making and cross-organizational data sharing frequently suffer from post-join identity leakage and purpose-limitation drift.Analytical-cohort identity continuity and cross-engine policy enforcement re-verify legal basis, consent, and suppression lists after complex SQL joins or federated queries resolve—right before data export or customer contact occurs. European 6G (SNS JU / Hexa-X-II) & Sovereign Telecom Infrastructure: As European operators transition toward open, disaggregated O-RAN and AI-native 6G networks, third-party rApps and xApps introduce dynamic radio control risks. Connectivity-trajectory budgets, radio-impairment escrow, and provably reclaimable 6G slice capacity lending allow European telcos to safely expose network programmability without risking SLA breaches or spectrum instability. The Digital Euro (ECB) & Instant Payments Regulation (SEPA / ISO 20022): Offline peer-to-peer digital euro transactions and instant agent-initiated euro transfers require deterministic double-spend prevention and verifiable settlement integrity. Pre-transaction exposure reservation, beneficiary-outcome verification, and cryptographic offline fork evidence secure retail and programmable CBDC flows across both online and offline Eurosystem environments. Technical Scope of Embodiments Across 39 technical embodiments, the architecture addresses concrete failure modes in modern compute and operational stacks: AI Agents & Orchestration: Agent authority continuity across LLM context compaction and summarization; cross-protocol Model Context Protocol (MCP) instruction-origin binding; multi-agent delegation attenuation; and spoken-intent biometric/contextual tool finality. Telecom, RAN & 6G: AI-native RAN parameter gating; connectivity-trajectory budgets; radio-impairment escrow prior to rApp/xApp actuation; and 6G network-slice capacity lending backed by cryptographic reclamation proofs. Silicon, Edge & Hardware Offload: Software-to-hardware offload equivalence for SmartNICs/DPUs; epoch-based execution ownership cutover; low-power AI hub intent escrow across sleep/wake cycles; numerical-precision validity across quantization; and edge-origin egress enforcement. Cloud, DevOps & Key Governance: Cryptographic key-lifecycle gating; declarative GitOps reconciliation that prevents the resurrection of revoked configurations; event-driven causal closure; trust-domain boundary transitions; and remediation/attestation continuity. Enterprise Data & Transactional Systems: Analytical-cohort identity continuity; cross-engine policy semantics and transitive database trigger/view effects; commit-certified external API/webhook release; uncertain-effect quarantine with idempotent state verification; ERP and customer-commitment gating; agentic payment exposure reservation; cross-border ISO 20022 beneficiary validation; and offline digital-cash fork evidence. Industry Architecture Mapping (Illustrative Gate Placements) Note: The following mapping illustrates technical integration points across industry architectures and does not represent claims regarding any vendor's proprietary roadmap or products. AI Agent Platforms & Protocols: Google (Gemini function calling, Vertex AI agent gateways), Microsoft (Copilot Studio, Power Automate), Anthropic (Claude tool use, Model Context Protocol), OpenAI (Responses API, Agents SDK), Amazon (Bedrock Agents), Meta. — The finality gate sits inside the MCP proxy or tool-execution runtimeholding downstream OAuth/API credentials, comparing resolved tool arguments against original task authority,blocking expanded or remapped targets, and consuming a single-use execution permit. Telecom, Open RAN & 6G: Nokia, Ericsson, Samsung, Huawei, Qualcomm, Arm, NVIDIA (AI-RAN), Orange, O-RAN rApps/xApps across A1, E2, and O1 interfaces. — The gate sits at the RAN configuration manager or real-time scheduler, reserving a quantified degradation budget before an AI-proposed RF change commits and permitting dynamic slice lending only with verified reclamation guarantees. Silicon, Accelerators & SmartNICs: NVIDIA BlueField DPU, Intel IPU, AMD Pensando, Arm, Qualcomm. — Offloaded data-plane rules are cryptographically verified against approved control-plane semantics, execution authority tran",
+   "score": 7.0,
+   "matched": [
+    "agent payments",
+    "AI agent",
     "payments"
    ],
    "source": "openalex"
@@ -5427,6 +5883,30 @@
    "source": "arxiv"
   },
   {
+   "id": "7b79082ded4405bf85791fb9d0a624c12736369c",
+   "title": "Banking hours and stablecoin peg repair: evidence from the SVB-USDC episode",
+   "authors": [
+    "Donghyun Kim",
+    "Tong-Yob Nam",
+    "Hyunjin Oh"
+   ],
+   "venue": "Applied Economics Letters",
+   "tier": "peer_reviewed",
+   "published": "2026-10-19",
+   "retrieved": "2026-11-21",
+   "url": "https://doi.org/10.1080/13504851.2026.2750249",
+   "pdf_url": null,
+   "html_url": null,
+   "embeddable": false,
+   "oa": false,
+   "abstract": null,
+   "score": 4.0,
+   "matched": [
+    "stablecoin"
+   ],
+   "source": "crossref"
+  },
+  {
    "id": "bf85c050a9e1a9480aacd1a24e8e9a6a1ac220a9",
    "title": "Provable Authority: A Protocol for Verifiable Authority Resolution and Control Across Human, Organizational, and Agentic Transactions",
    "authors": [
@@ -7092,31 +7572,6 @@
     "agent payments",
     "AP2",
     "payments"
-   ],
-   "source": "arxiv"
-  },
-  {
-   "id": "ef1bc3785e67600fa410f98be51c7a8de39be012",
-   "title": "TessIndex: Capability Verified Identity System for the Agent Economy",
-   "authors": [
-    "Mehul Goenka",
-    "Tejas Pathak",
-    "Siddharth Asthana"
-   ],
-   "venue": "arXiv cs.AI",
-   "tier": "preprint",
-   "published": "2026-08-22",
-   "retrieved": "2026-11-19",
-   "url": "https://arxiv.org/abs/2608.21942",
-   "pdf_url": "https://arxiv.org/pdf/2608.21942",
-   "html_url": null,
-   "embeddable": true,
-   "oa": true,
-   "abstract": "Software systems have traditionally been organized around applications where human users act as principal decision-makers. Recent developments in agentic capabilities alter this paradigm: software agents now autonomously translate high-level goals into structured tasks, orchestrating tools, services and sub-agents to execute complex workflows. This evolution gives rise to an agent economy where these autonomous agents capture real economic value. However, the infrastructure required to support the agent economy fails across three critical dimensions: the absence of persistent identity infrastructure prevents systemic accountability in agentic workflows; capability claims remain self-declared not backed by verifiable execution evidence; and the disconnect between creator identities, agent performance, and project value hinders the economic valuation of agents as assets. While existing registries provide naming and discovery, unifying these features around a persistent identity anchor remains largely unaddressed. TessIndex is a capability-verified identity system for agent primitives that utilizes a dual-plane architecture: the blockchain records compact commitments for identity, ownership, and verification, while centralized servers maintain dynamic metadata for discovery, commerce, and reputation. It establishes: persistent identities across agent primitives to enforce systemic accountability in autonomous workflows; a predicate-based verification process replacing self-declared claims with cryptographic capability proof; an identity infrastructure that links agent performance to both project and creator identities while capturing value through tokenization. Ultimately, TessIndex serves as an integrated infrastructure that binds an agent's existence across capabilities, execution, and reputation into a single persistent identity.",
-   "score": 5.5,
-   "matched": [
-    "autonomous agents economics",
-    "AI agent"
    ],
    "source": "arxiv"
   }
