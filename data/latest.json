@@ -1,14 +1,36 @@
 {
- "generated_at": "2026-11-21T17:55:47Z",
+ "generated_at": "2026-11-22T18:23:19Z",
  "errors": [],
  "counts": {
-  "peer_reviewed": 59,
-  "preprint": 106,
+  "peer_reviewed": 62,
+  "preprint": 107,
   "institutional": 6,
-  "news": 152,
+  "news": 161,
   "regulatory": 8
  },
  "items": [
+  {
+   "id": "f28d1acf378cd1e8d119a803b903d82286ab9faf",
+   "title": "Singapore's MAS Proposes 'Know-Your-Agent' Rules, Sandbox for AI-Driven Stablecoin Payments",
+   "authors": [],
+   "venue": "BigGo Finance",
+   "tier": "news",
+   "published": "2026-11-22",
+   "retrieved": "2026-11-22",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5FOENaU2JYbGM0MWZxM1UyZnpfY29ZYjlVMFhTWUQ5cDlrbU9OUDBaSkVIQkJRaERTUUFFQVFXel9UZHZCQ0E3dndsNDFIdmNYTmNsU0dSOHlQOERWelBQemVfd2JGWEgtVUtOZWx2bVBUX1RncWc?oc=5",
+   "pdf_url": null,
+   "html_url": null,
+   "embeddable": false,
+   "oa": false,
+   "abstract": null,
+   "score": 8.5,
+   "matched": [
+    "know your agent",
+    "stablecoin",
+    "payments"
+   ],
+   "source": "google_news"
+  },
   {
    "id": "7c0bd34f7e5dd54eba7bd34994f48b7453970fe1",
    "title": "Agentic Commerce and SME Competitiveness: An Integrative Review and Theory-Informed Research Framework",
@@ -18,7 +40,7 @@
    ],
    "venue": "Journal of Business Sectors",
    "tier": "peer_reviewed",
-   "published": "2026-11-21",
+   "published": "2026-11-22",
    "retrieved": "2026-11-20",
    "url": "https://doi.org/10.62222/krva3141",
    "pdf_url": "https://www.jobsjournal.eu/_files/ugd/a7cf91_df3f9250b1544c17b28297665d9182b0.pdf",
@@ -41,7 +63,7 @@
    ],
    "venue": "Journal of Electrical and Electronics Research",
    "tier": "peer_reviewed",
-   "published": "2026-11-21",
+   "published": "2026-11-22",
    "retrieved": "2026-11-19",
    "url": "https://doi.org/10.64820/aepjeer.32.21.26.122026",
    "pdf_url": null,
@@ -55,6 +77,198 @@
     "payments"
    ],
    "source": "openalex"
+  },
+  {
+   "id": "df987d864a0cf85d229a77b7f2b2869e2d8a971a",
+   "title": "Coinbase x402 Launches AI Agent App Store",
+   "authors": [],
+   "venue": "CoinMarketCap",
+   "tier": "news",
+   "published": "2026-11-22",
+   "retrieved": "2026-11-22",
+   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQbkpRZVhhVzdvc1dZWWlwaV9LbE94MjVzbTJTWlBDMGxGV1FtX0dfSm96b3M5eWN0cFAwN09WQ3ZOVFEyUEVINkdseVgxQWpmcEJFY2E0aU5rNFM0c2s5TGZnWmtuSUFTb3ljSTRIYmx6MWliS2dMdUoyUzV2M0xaZ21ZeW02bFpDMkNF?oc=5",
+   "pdf_url": null,
+   "html_url": null,
+   "embeddable": false,
+   "oa": false,
+   "abstract": null,
+   "score": 7.0,
+   "matched": [
+    "x402",
+    "AI agent"
+   ],
+   "source": "google_news"
+  },
+  {
+   "id": "24d276eb25f5c67d1910abb642ba763dab6483a8",
+   "title": "mEinstein Outlines Framework for Evaluating Consumer Intent in Agentic Commerce",
+   "authors": [],
+   "venue": "Erie Times-News",
+   "tier": "news",
+   "published": "2026-11-22",
+   "retrieved": "2026-11-22",
+   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNYWp6TkhSZ0ZCNUFXRXlsN1ZjUl9vN1l4TXpGRmNwZjN2aExtWHVvNnBfNlFxSVlkRVRnZzVTUnZkODZRVkNjbFFBNWNZR1k5amQxaDhSUHVSaXpiWG1TaldHRzVlMWxpWG8wclVYQW1KUVZncjBESUU4Ri1XTGtTUmlpb1VIUnZ3VGZQaU9RMU56WHVNVWJscjZqZ200SVlpUDdPLVJvMmtqUVJtQ1J6dERyT2VDMjBSaUtJRHhKeVBPVjlZLW0tMUl3?oc=5",
+   "pdf_url": null,
+   "html_url": null,
+   "embeddable": false,
+   "oa": false,
+   "abstract": null,
+   "score": 6.0,
+   "matched": [
+    "agentic commerce"
+   ],
+   "source": "google_news"
+  },
+  {
+   "id": "15cb326db2412bb584d17c7c13bf9043a22d3141",
+   "title": "PoCA-Mithril: A Blockchain-enabled Framework for Identity- and Context-verifiable Communication among Distributed AI Agents",
+   "authors": [
+    "Kranthi Kumar Gunda",
+    "Geetha Arjunan"
+   ],
+   "venue": "International journal of intelligent engineering and systems",
+   "tier": "peer_reviewed",
+   "published": "2026-11-22",
+   "retrieved": "2026-11-19",
+   "url": "https://doi.org/10.22266/ijies2026.1231.65",
+   "pdf_url": "https://doi.org/10.22266/ijies2026.1231.65",
+   "html_url": null,
+   "embeddable": true,
+   "oa": true,
+   "abstract": "Distributed Artificial Intelligence (AI) systems face challenges in agent identity verification, context integrity, traceability, and scalable blockchain anchoring without a continuously trusted central authority.This paper proposes PoCA-Mithril, a blockchain framework for verifiable agent communication.Proof-of-Context Attestation (PoCA) signs agent identity, context, timestamp, and safety metadata.A Mithril-Inspired Relay (MR) batches proofs via Merkle trees and a SHA-256 signature digest before Solidity smart-contract anchoring.Prototype (Python, Web3.py, decentralized identifiers, Ganache, web interface) averaged 1.2555, 1.9402, and 3.5815 ms for Elliptic Curve Digital Signature Algorithm (ECDSA) keypair generation, PoCA generation, and verification.Relay aggregation stays below 0.04 ms; five-proof batching cuts transactions 80%.It authenticates identity and context metadata, not complete response-content integrity.Persistent request-ID storage with database-enforced uniqueness rejects duplicates; restart and shared-database tests confirmed persistence.Five-process concurrency yielded one accepted claim, four duplicate rejections; multi-server verification remains unevaluated.An AgentDID-inspired baseline and 10,000-operation workloads characterize the local prototype, not distributed-blockchain performance.Response-content binding, model artifact, and runtime-execution verification remain future work.",
+   "score": 5.0,
+   "matched": [
+    "agent identity",
+    "AI agent"
+   ],
+   "source": "openalex"
+  },
+  {
+   "id": "d0637fb2a5fc7e64ce477067cfe82c8deceea4d2",
+   "title": "THE LEGAL NATURE OF ASSET-BACKED STABLECOINS IN THE CONTEXT OF THE NEW REGULATION OF DIGITAL CURRENCIES AND DIGITAL RIGHTS",
+   "authors": [
+    "Sergey V. Potapenko",
+    "Murad Sh. Magomednabiev"
+   ],
+   "venue": "Хозяйство и право",
+   "tier": "peer_reviewed",
+   "published": "2026-11-22",
+   "retrieved": "2026-11-20",
+   "url": "https://doi.org/10.18572/0134-2398-2026-12-9-18",
+   "pdf_url": null,
+   "html_url": null,
+   "embeddable": false,
+   "oa": false,
+   "abstract": "The article examines the legal nature of asset-backed stablecoins within the system of objects of civil rights in the context of the entry into force of Federal Law No. 282-FZ of August 4, 2026, On Digital Currencies and Digital Rights.",
+   "score": 4.0,
+   "matched": [
+    "stablecoin"
+   ],
+   "source": "openalex"
+  },
+  {
+   "id": "7f1aa6bf3c649f66396c770b49c6703406f57963",
+   "title": "Cuy Sheffield: Visa Crypto Labs launches new version of agent wallet Visa CLI",
+   "authors": [],
+   "venue": "Traders Union",
+   "tier": "news",
+   "published": "2026-11-22",
+   "retrieved": "2026-11-22",
+   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPSzI5aFJ3SkxmVmFHMmpxakZVNHZ0LUd4N2d6NUUxMGxpVXZDZXZyTDQzaWlKYnVIVXd4ZXVXRWN2dGlpaUpKcHVja0cxVHlPQWliNTRTanZ3a0lFR2Y3Uk1xdk1xUU51YjNtWVdNSEo1VGRJSFQ5TlFmMTJESXJiWjYzU3JKT0ZtQkUyOTFnMA?oc=5",
+   "pdf_url": null,
+   "html_url": null,
+   "embeddable": false,
+   "oa": false,
+   "abstract": null,
+   "score": 4.0,
+   "matched": [
+    "agent wallet"
+   ],
+   "source": "google_news"
+  },
+  {
+   "id": "f7cc18c757cd72e770b661f36589e0f8ee1d58c0",
+   "title": "AI Agents and Stablecoins Rewrite Crypto Treasury Management",
+   "authors": [],
+   "venue": "OneSafe",
+   "tier": "news",
+   "published": "2026-11-22",
+   "retrieved": "2026-11-22",
+   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5aTFRSUHpHUEo3NWM2TTFpMEQ5VnVzSE8wYlJ0NjA5VVVTWngtY2Y2VTRlS1l4ai1fZDdqR0xaWFJCVUlmdU5ONUloVFpEM0trRXMyVlNiQmU2REFOZ2JXV3AxdGdrZlRhX3kza3FvdVlOMFhiSWhNTA?oc=5",
+   "pdf_url": null,
+   "html_url": null,
+   "embeddable": false,
+   "oa": false,
+   "abstract": null,
+   "score": 4.0,
+   "matched": [
+    "stablecoin",
+    "AI agent"
+   ],
+   "source": "google_news"
+  },
+  {
+   "id": "671f5421c112b8b9e4513e9e77dfd5779873a780",
+   "title": "Stablecoin Payments Now Require Agent Authority: MAS Sandbox",
+   "authors": [],
+   "venue": "OneSafe",
+   "tier": "news",
+   "published": "2026-11-22",
+   "retrieved": "2026-11-22",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE00MU5LMUVpajNCMnQ5aDNXNndzcnA4Vk43RXFmSFhabklmU2o5NUFOSHlyaTZyRE1OYlhnSHUyUWRQUnlJUGxsTko1Ylg3ZVpOUFp2anFuaEhUT2lkX3lEeWxYRkU3dUlCVGtJMmZsblo?oc=5",
+   "pdf_url": null,
+   "html_url": null,
+   "embeddable": false,
+   "oa": false,
+   "abstract": null,
+   "score": 3.5,
+   "matched": [
+    "stablecoin",
+    "payments"
+   ],
+   "source": "google_news"
+  },
+  {
+   "id": "c866cc9735de3d75a588543b2958384399f53e7b",
+   "title": "How AI Stablecoin Payments Could Reshape Crypto Banking",
+   "authors": [],
+   "venue": "OneSafe",
+   "tier": "news",
+   "published": "2026-11-22",
+   "retrieved": "2026-11-22",
+   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE12NEF4U1F5azFhQ1hLeVR2WE1mazJIdzVTQlphdU9rbG9Vc0FqLU5Pc255Y0FuMXZVQzMydjdGUElJajE1a29rRktxUGRGdC1STmJVQXg0cnBPMTNPQ0wxWFlveWU4TTljN1Zvb3pMVUI2WjBCWFd6cHNn?oc=5",
+   "pdf_url": null,
+   "html_url": null,
+   "embeddable": false,
+   "oa": false,
+   "abstract": null,
+   "score": 3.5,
+   "matched": [
+    "stablecoin",
+    "payments"
+   ],
+   "source": "google_news"
+  },
+  {
+   "id": "50693b92b9fc67256575c84f386e7cb45955e407",
+   "title": "Chainalysis Finds 55% Jump in China-Linked Stablecoin Payments Tied to AI Proxy Access",
+   "authors": [],
+   "venue": "BigGo Finance",
+   "tier": "news",
+   "published": "2026-11-22",
+   "retrieved": "2026-11-22",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBOOENJelFNUTVyYjZqWU5VbEFYM084SnlHMUhEdWFwSTVLR3QzRVZMOGNTLVhlMlhKY1BRS3N5S2h0bTdPd0lxQW1yanY0UkhGd3NoU2VXekgtMzFsazZZNWNObFp6RFNsdEpFTGdkVXB0eEtNbEE?oc=5",
+   "pdf_url": null,
+   "html_url": null,
+   "embeddable": false,
+   "oa": false,
+   "abstract": null,
+   "score": 3.5,
+   "matched": [
+    "stablecoin",
+    "payments"
+   ],
+   "source": "google_news"
   },
   {
    "id": "ef516c146519c53d8089494b5568a910f1a75164",
@@ -123,30 +337,6 @@
    "source": "google_news"
   },
   {
-   "id": "15cb326db2412bb584d17c7c13bf9043a22d3141",
-   "title": "PoCA-Mithril: A Blockchain-enabled Framework for Identity- and Context-verifiable Communication among Distributed AI Agents",
-   "authors": [
-    "Kranthi Kumar Gunda",
-    "Geetha Arjunan"
-   ],
-   "venue": "International journal of intelligent engineering and systems",
-   "tier": "peer_reviewed",
-   "published": "2026-11-21",
-   "retrieved": "2026-11-19",
-   "url": "https://doi.org/10.22266/ijies2026.1231.65",
-   "pdf_url": "https://doi.org/10.22266/ijies2026.1231.65",
-   "html_url": null,
-   "embeddable": true,
-   "oa": true,
-   "abstract": "Distributed Artificial Intelligence (AI) systems face challenges in agent identity verification, context integrity, traceability, and scalable blockchain anchoring without a continuously trusted central authority.This paper proposes PoCA-Mithril, a blockchain framework for verifiable agent communication.Proof-of-Context Attestation (PoCA) signs agent identity, context, timestamp, and safety metadata.A Mithril-Inspired Relay (MR) batches proofs via Merkle trees and a SHA-256 signature digest before Solidity smart-contract anchoring.Prototype (Python, Web3.py, decentralized identifiers, Ganache, web interface) averaged 1.2555, 1.9402, and 3.5815 ms for Elliptic Curve Digital Signature Algorithm (ECDSA) keypair generation, PoCA generation, and verification.Relay aggregation stays below 0.04 ms; five-proof batching cuts transactions 80%.It authenticates identity and context metadata, not complete response-content integrity.Persistent request-ID storage with database-enforced uniqueness rejects duplicates; restart and shared-database tests confirmed persistence.Five-process concurrency yielded one accepted claim, four duplicate rejections; multi-server verification remains unevaluated.An AgentDID-inspired baseline and 10,000-operation workloads characterize the local prototype, not distributed-blockchain performance.Response-content binding, model artifact, and runtime-execution verification remain future work.",
-   "score": 5.0,
-   "matched": [
-    "agent identity",
-    "AI agent"
-   ],
-   "source": "openalex"
-  },
-  {
    "id": "1034771b91805d98728234e45976c96052c3771d",
    "title": "Singapore wants to test stablecoin payments by AI agents",
    "authors": [],
@@ -169,29 +359,6 @@
    "source": "google_news"
   },
   {
-   "id": "d0637fb2a5fc7e64ce477067cfe82c8deceea4d2",
-   "title": "THE LEGAL NATURE OF ASSET-BACKED STABLECOINS IN THE CONTEXT OF THE NEW REGULATION OF DIGITAL CURRENCIES AND DIGITAL RIGHTS",
-   "authors": [
-    "Sergey V. Potapenko",
-    "Murad Sh. Magomednabiev"
-   ],
-   "venue": "Хозяйство и право",
-   "tier": "peer_reviewed",
-   "published": "2026-11-21",
-   "retrieved": "2026-11-20",
-   "url": "https://doi.org/10.18572/0134-2398-2026-12-9-18",
-   "pdf_url": null,
-   "html_url": null,
-   "embeddable": false,
-   "oa": false,
-   "abstract": "The article examines the legal nature of asset-backed stablecoins within the system of objects of civil rights in the context of the entry into force of Federal Law No. 282-FZ of August 4, 2026, On Digital Currencies and Digital Rights.",
-   "score": 4.0,
-   "matched": [
-    "stablecoin"
-   ],
-   "source": "openalex"
-  },
-  {
    "id": "9e39ae79e1393058c12f1e25e7e99cee91effd79",
    "title": "Stripe Agent Wallet Daily Spending Rises Nearly 80-Fold Since Early September",
    "authors": [],
@@ -210,6 +377,28 @@
     "agent wallet"
    ],
    "source": "google_news"
+  },
+  {
+   "id": "eda7332bda655fc1e0ade9d107f86c2ebfe4aa47",
+   "title": "Decentralised Finance: Architectural Promises, Structural Contradictions, and the Regulatory Imperative",
+   "authors": [
+    "Ashok Jahagirdar"
+   ],
+   "venue": "International Journal of Science and Research (IJSR)",
+   "tier": "peer_reviewed",
+   "published": "2026-11-21",
+   "retrieved": "2026-11-22",
+   "url": "https://doi.org/10.21275/mr261119010215",
+   "pdf_url": "https://www.ijsr.net/archive/v15i11/MR261119010215.pdf",
+   "html_url": null,
+   "embeddable": true,
+   "oa": true,
+   "abstract": "Decentralised finance (DeFi) represents an attempt to reconstruct financial intermediation through blockchain-based smart contracts, ostensibly eliminating the need for banks, brokers, and custodians. This paper synthesises academic, regulatory, and industry evidence to assess whether DeFi delivers on its core promises of disintermediation, transparency, and financial inclusion. The analysis reveals a persistent gap between DeFi's architectural rhetoric and its operational reality. While smart contracts enable permissionless access and composable financial services, empirical evidence shows that governance power concentrates among token holders and core development teams, that ?decentralised? applications retain centralised control vectors, and that the sector remains dependent on fiat-backed stablecoins whose stability is ultimately underwritten by traditional financial institutions. Furthermore, illicit finance risks have prompted the Financial Action Task Force to conclude that the majority of jurisdictions have not implemented adequate regulatory frameworks for DeFi arrangements. The paper argues that DeFi's future trajectory depends not on the realisation of pure decentralization- an outcome that structural evidence suggests is neither achievable nor necessarily desirable- but on the construction of regulatory frameworks that accommodate programmable finance while addressing the accountability deficits that decentralisation creates.",
+   "score": 4.0,
+   "matched": [
+    "stablecoin"
+   ],
+   "source": "openalex"
   },
   {
    "id": "90710434adf7f44d5d199bef3cee0340bfecf025",
@@ -232,6 +421,30 @@
     "payments"
    ],
    "source": "google_news"
+  },
+  {
+   "id": "ed34c2b64939c41ed56e4e1a4152a9e81faaba85",
+   "title": "Delegated Loyalty: Fiduciary Duties and Commercial Conflicts in Personal AI Agents",
+   "authors": [
+    "Josie Jefferson",
+    "Felix Velasco"
+   ],
+   "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+   "tier": "preprint",
+   "published": "2026-11-20",
+   "retrieved": "2026-11-22",
+   "url": "https://doi.org/10.5281/zenodo.24410238",
+   "pdf_url": null,
+   "html_url": null,
+   "embeddable": false,
+   "oa": true,
+   "abstract": "Delegation transfers a decision without transferring loyalty. Commercial AI providers now market personal agents that search, compare, negotiate, and buy on a user's behalf. The same providers collect merchant fees on completed purchases, sell conversation-matched advertising, and run retail stores whose goods the agent can recommend. In the early 1980s, airline reservation systems presented the same conflict, ranking the owning carrier's flights first. Federal regulators answered with rules against display bias. Common-law agency forbids undisclosed third-party benefits and adverse-party dealing, yet treats software as a tool incapable of owing duties. Any duty attaches to the provider. Seven duties follow from agency doctrine and from broker, search, and online marketplace rules. Those duties require loyalty to declared interests, conflict disclosure, a bar on undisclosed commissions, transparent ranking separated from advertising, audit trails, and portability. Without these duties, a commercial personal agent operates as the provider's representative inside the user's decisions. Keywords: Personal AI Agents, Agentic Commerce, Fiduciary Duty, Duty of Loyalty, Conflict-of-Interest Disclosure, Common Law of Agency, Information Fiduciaries, Display Bias, Airline Computer Reservation Systems, Self-Preferencing, Ranking Transparency, Undisclosed Commissions, AI Advertising Separation, Algorithmic Audit Trails, Data Portability, Authenticated Agent Protocols, Digital Markets Act, Regulation Best Interest, Consumer Protection Law, AI Governance",
+   "score": 7.5,
+   "matched": [
+    "agentic commerce",
+    "AI agent"
+   ],
+   "source": "openalex"
   },
   {
    "id": "8a36a6ecc242c4219b3693faa1c93fb8e3ee390a",
@@ -351,28 +564,6 @@
    "published": "2026-11-20",
    "retrieved": "2026-11-20",
    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOMF9LMWJMcHl1SzE3dGZXNlJGQ3lBZTh1X25jSE9VTmlRdGxYd29qeDJUV1BobWI4WDJkS2U5RnA0LTRUNjZsNDlHSnF3TWZnTUFLUXJVSDN1ZUZBUjBnVEFqZnFvX0Yzbm80YnJ0ODFvSXZndFdNbjRzbjNwZ1k2eVpvVV9lLXJZUW92UXlmcERPdjlFTHZHdFJkSU0?oc=5",
-   "pdf_url": null,
-   "html_url": null,
-   "embeddable": false,
-   "oa": false,
-   "abstract": null,
-   "score": 6.5,
-   "matched": [
-    "agent payments",
-    "AI agent",
-    "payments"
-   ],
-   "source": "google_news"
-  },
-  {
-   "id": "41e8813b00fc1fab6ea08821fc1517b0142a4853",
-   "title": "Visa Targets Secure AI Agent Payments Through Expanded Industry Partnership",
-   "authors": [],
-   "venue": "Yahoo Finance",
-   "tier": "news",
-   "published": "2026-11-20",
-   "retrieved": "2026-11-19",
-   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQbmY3Y2p4aktXU2dzOS1VUG9DSEpxUUhTWVpvNjJPQ1AzNmlfOXFyT2c1Tl9BMnJvcmhqcjhPM3MtNXhTV252XzBIZG9sblM4cWJDQTVLUG4tbzBIUmptS3AxM3M3djlLcElxeFdjWS1odHBKRDhCa3M2YUxlX2ZHVDdNLXBnbXZqcUxpNFdzZlAzQ3lxZVJN?oc=5",
    "pdf_url": null,
    "html_url": null,
    "embeddable": false,
@@ -740,6 +931,29 @@
    "source": "openalex"
   },
   {
+   "id": "2acb8c8bb41ca6d629fdecc038e385eaf0f851a4",
+   "title": "Regulatory Responses to Private Stablecoins: A Comparative Literature Review of the United States, the European Union, and China's Mainland",
+   "authors": [
+    "Peiran Hu"
+   ],
+   "venue": "Frontiers in Economics and Management",
+   "tier": "peer_reviewed",
+   "published": "2026-11-20",
+   "retrieved": "2026-11-22",
+   "url": "https://doi.org/10.6981/fem.202611_7(11).0022",
+   "pdf_url": null,
+   "html_url": null,
+   "embeddable": false,
+   "oa": true,
+   "abstract": "Private stablecoins have been more and more adopted as a medium of payment, for on-chain settlement, and for cross-border transfers. As a result, the genuineness of reserves, the safeguarding of redemption and consumer protection, and anti-money laundering and cross-border transmission of risk are top regulatory issues. In this article, we will be discussing only those payment stablecoins which are backed by fiat currency. Adopting a structured narrative review alongside a functional comparative approach, it considers the relevant regulatory frameworks and the scholarship of the United States, China (including its license in Hong Kong) and the European Union. Some key takeaways from the findings are that the United States implements compliant issuance through a licensed system and a dual federal-state regulatory framework, that the European Union (EU) regulates compliant issuance using a classification framework under MiCA and that China's mainland employs a prohibition-based regulatory framework on the issuance of compliant products, supported by risk monitoring and interagency coordination. The banking sector, the digital-asset industry, coordination among EU Member States as well as the issue of monetary sovereignty also have an impact on the formation and assessment of these regimes. The Travel Rule is still being implemented unevenly, and anti-money laundering information needs and cross-border data transfer restrictions are still conflicting, while the authority and accountability of regulators remain a challenge. Competition with payment stablecoins serves as further evidence of the complex link between payment innovation, bank credit, and financial stability, in that it is dependent on particular institutional conditions. As the regimes have been in operation for too brief a period to achieve a long-term ranking, evidence from these regimes remains limited and intermittent. The clarification of the conceptual and legal line between the digital renminbi, tokenized deposits and private stablecoins could still be in the queue for the China's mainland, as well as improving the tools of risk classification and monitoring, stress scenarios, cross-border information exchange and allocation of responsibilities.",
+   "score": 4.5,
+   "matched": [
+    "stablecoin",
+    "payments"
+   ],
+   "source": "openalex"
+  },
+  {
    "id": "9a693aa0ccd6a679f15e72314e2c783a434f81fa",
    "title": "How AI Agents Manage Payments with Wallets and Stablecoins",
    "authors": [],
@@ -804,6 +1018,30 @@
     "payments"
    ],
    "source": "google_news"
+  },
+  {
+   "id": "5d46187251c5d33863a7f2a4458eb766c3d9d545",
+   "title": "Policy-as-Code and Compliance Automation for Secrets Governance in Agentic AI Workloads in Regulated Industries",
+   "authors": [
+    "Suhas Madupuri",
+    "Rajesh Thondamanati"
+   ],
+   "venue": "Journal of Technology and Systems",
+   "tier": "peer_reviewed",
+   "published": "2026-11-20",
+   "retrieved": "2026-11-22",
+   "url": "https://doi.org/10.47941/jts.4121",
+   "pdf_url": "https://carijournals.org/journals/JTS/article/download/4121/4715",
+   "html_url": null,
+   "embeddable": false,
+   "oa": true,
+   "abstract": "Purpose: This study examined the governance gap that opens when autonomous agents acquire, use, and propagate credentials dynamically, and proposed a reference framework, the Agentic Secrets Governance Framework (ASGF), to narrow it. Methodology: The framework couples a SPIFFE and SPIRE based attestation layer with an Open Policy Agent decision point, a dynamic secrets broker that issues short lived, task scoped credentials, and a compliance control library that expresses obligations drawn from the HIPAA Security Rule, PCI DSS 4.0.1, the EU Digital Operational Resilience Act, the NIST AI Risk Management Framework, and ISO/IEC 42001 as machine evaluable Rego policies. A reference implementation was built and evaluated in a controlled three node Kubernetes testbed. Two workflows, healthcare eligibility determination and card payment fraud triage, were selected by purposive sampling, and ten thousand simulated requests were replayed per configuration. Findings: Policy enforced, ephemeral credential issuance reduced the configured credential exposure window from months to minutes while adding a combined median of 34.3 milliseconds to the request path. In conformance testing, the policy layer denied the out of scope identity abuse and credential replay cases it was designed to deny, but, as expected, it did not stop goal hijack attacks that stayed within an agent's nominal scope. Unique Contribution to Theory, Practice and Policy: The study frames secrets governance for agents as a joint security and compliance decision made at the moment of credential issuance. It gives practitioners a reusable control library pattern and issuance protocol, and it suggests that regulators could reduce interpretive risk by publishing machine evaluable reference controls alongside regulatory text. Residual risks from semantic intent verification and cross agent delegation are discussed.",
+   "score": 3.5,
+   "matched": [
+    "AI agent",
+    "payments"
+   ],
+   "source": "openalex"
   },
   {
    "id": "318529019d1830bd67cb224786c309a93791f6ed",
@@ -874,7 +1112,7 @@
    "source": "openalex"
   },
   {
-   "id": "6eb774c68c86c32037fbef021e9838a8bd54e272",
+   "id": "23f21afc41522c4dc5d34793e1180baa3c6838c1",
    "title": "Signed but Unbound: The Authority Gap Between Agent Commerce Mandates and Crypto Wallet Signatures",
    "authors": [
     "Shengwei You",
@@ -882,11 +1120,11 @@
     "Andrey Kuehlkamp",
     "Jarek Nabrzyski"
    ],
-   "venue": "arXiv cs.CR",
+   "venue": "arXiv (Cornell University)",
    "tier": "preprint",
    "published": "2026-11-19",
    "retrieved": "2026-11-20",
-   "url": "https://arxiv.org/abs/2611.25821",
+   "url": "https://doi.org/10.48550/arxiv.2611.25821",
    "pdf_url": "https://arxiv.org/pdf/2611.25821",
    "html_url": null,
    "embeddable": true,
@@ -898,13 +1136,13 @@
     "stablecoin",
     "payments"
    ],
-   "source": "arxiv"
+   "source": "openalex"
   },
   {
    "id": "03ca1b410b1b919676d60a31797cb8ab3cef4029",
    "title": "Enable AI agents to pay for AWS Marketplace x402 products with Amazon Bedrock AgentCore payments",
    "authors": [],
-   "venue": "Amazon Web Services (AWS)",
+   "venue": "Amazon Web Services",
    "tier": "news",
    "published": "2026-11-19",
    "retrieved": "2026-11-20",
@@ -1057,6 +1295,28 @@
     "agentic commerce"
    ],
    "source": "crossref"
+  },
+  {
+   "id": "498181aad0f74781fa7a92635236daa6717e287f",
+   "title": "Visa, BILL, and Billtrust Test AI Agent Payments",
+   "authors": [],
+   "venue": "Brief IA",
+   "tier": "news",
+   "published": "2026-11-19",
+   "retrieved": "2026-11-22",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPMHUyaEtHb3d4Z1h3ZE1sUl84QUlIc1VTamE0UkJnQ3F3S3UwMWxtUkZoZE5yX2Vnc1UwN3d3Z0NvRmhGclFvM3BmZDhZZ2taYXJEekdFZ1hfU1pQbUxVb2hWOWVMX196MWFEMjhCdDg5NG5CdVNmakNzd1RnQUFrWXp1MmU3LUE?oc=5",
+   "pdf_url": null,
+   "html_url": null,
+   "embeddable": false,
+   "oa": false,
+   "abstract": null,
+   "score": 6.5,
+   "matched": [
+    "agent payments",
+    "AI agent",
+    "payments"
+   ],
+   "source": "google_news"
   },
   {
    "id": "d2dede0e34250124003178f8e96a1325f1a40d01",
@@ -1439,14 +1699,14 @@
    "source": "google_news"
   },
   {
-   "id": "96ff84a86b4adf4037ef8b5a3f94c702868db5a3",
+   "id": "e8513b548f07fb5ee8a0a31d09d4a03a16b07025",
    "title": "Mastercard and Ant International Advance Trusted Agentic Commerce in Asia Pacific",
    "authors": [],
-   "venue": "ThePrint",
+   "venue": "KIPOST",
    "tier": "news",
    "published": "2026-11-19",
    "retrieved": "2026-11-19",
-   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNdHJoeW1Ubno4STZPTXdTUHFXSm5zNEp3UXhjZU5CdlFQNkZpUkk3WDR5WVh6enAxZXZpTFZXLUdaRUxsMnRGdUtnUW1lcERmRjcwSHVmM2Q5eUpKYXhLamw5U1c3Z3JVY2lGY0FFdFJDS2Zvd3VLdVhVSm0xRXhoM0JuQndlU0FFbG5pZl9pLXBmMjVHSmEzdzU4Nkdzby05TnlJVFpDZmduQW4yRi0zS1A2WGtWNWs1cmd5MnJiYi1TSlBzUlZqN9IBzgFBVV95cUxOUWgzbzQxLXJHUG5yRWpkZXA5YVRDeFBXM3JPM21DMlprT18wRE92QVBOcWpYUnRUYXFSVFFpcWxGM2JOdkZOVUptVXdXQkxWSHVjMzEtOTRaWXNEUkN1X3ZVRzZMN21kTFJoTE05MXJPVElLMVhzcWwxRTV6YkhWTjJZTm0zZjI5VG5KdU9CNXRaUURJajM2dUFaUElxMThGOVRUa3ViSzg4dDdRNGVULUtBeXloR29sUDVQRkRSMFl5Zmh6a3l0ZGdrTDhsUQ?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1lMWxmc2lWSTdiT1FKSERHUVdjQkpWcGc1T19rR050VGVVNTJJLUJKbTdKMW5CSEJpOEQ3Y0lSaVhHM0xVSnhXOTlaZmhFdE9STU1LX3NCTkpHNkdGdVR4blBJOXM3YUI4S2NMa9IBbEFVX3lxTE1lMWxmc2lWSTdiT1FKSERHUVdjQkpWcGc1T19rR050VGVVNTJJLUJKbTdKMW5CSEJpOEQ3Y0lSaVhHM0xVSnhXOTlaZmhFdE9STU1LX3NCTkpHNkdGdVR4blBJOXM3YUI4S2NMaw?oc=5",
    "pdf_url": null,
    "html_url": null,
    "embeddable": false,
@@ -1753,7 +2013,7 @@
    "published": "2026-11-19",
    "retrieved": "2026-11-21",
    "url": "https://doi.org/10.55640//ijctisn-v03i11-01",
-   "pdf_url": null,
+   "pdf_url": "https://aimjournals.com/index.php/ijctisn/article/download/1098/979/2255",
    "html_url": null,
    "embeddable": false,
    "oa": true,
@@ -1872,18 +2132,18 @@
    "source": "google_news"
   },
   {
-   "id": "1e54ade98508ecc80b81e478d054255222da33db",
+   "id": "760695155c938d622c8a4187bc7888707faef36c",
    "title": "Stablecoin Runs as Safe-Asset Stress Signals: Episode-Level Evidence for Central Bank Surveillance",
    "authors": [
     "Ahmad Qadi",
     "Hui Gong",
     "Francesca Medda"
    ],
-   "venue": "arXiv q-fin.GN",
+   "venue": "arXiv (Cornell University)",
    "tier": "preprint",
    "published": "2026-11-19",
    "retrieved": "2026-11-20",
-   "url": "https://arxiv.org/abs/2611.26180",
+   "url": "https://doi.org/10.48550/arxiv.2611.26180",
    "pdf_url": "https://arxiv.org/pdf/2611.26180",
    "html_url": null,
    "embeddable": true,
@@ -1893,7 +2153,7 @@
    "matched": [
     "stablecoin"
    ],
-   "source": "arxiv"
+   "source": "openalex"
   },
   {
    "id": "c513162c5d9e30792dbfa5148860f2836061fe69",
@@ -1942,7 +2202,7 @@
    "source": "google_news"
   },
   {
-   "id": "70127455e8b4aefd2c4605fa92cf26a5bfa687e7",
+   "id": "0ae15b94ef21e10460efdfbe926b1d2add197b97",
    "title": "Signed, Valid, and Unauthorized: Authority Closure at the Trust Boundary Between Agent Commerce Protocols and Crypto Wallets",
    "authors": [
     "Shengwei You",
@@ -1950,11 +2210,11 @@
     "Andrey Kuehlkamp",
     "Jarek Nabrzyski"
    ],
-   "venue": "arXiv cs.CR",
+   "venue": "arXiv (Cornell University)",
    "tier": "preprint",
    "published": "2026-11-18",
    "retrieved": "2026-11-20",
-   "url": "https://arxiv.org/abs/2611.24989",
+   "url": "https://doi.org/10.48550/arxiv.2611.24989",
    "pdf_url": "https://arxiv.org/pdf/2611.24989",
    "html_url": null,
    "embeddable": true,
@@ -1967,7 +2227,7 @@
     "stablecoin",
     "payments"
    ],
-   "source": "arxiv"
+   "source": "openalex"
   },
   {
    "id": "ba6634d8d8e56f1aec0d5caea1d0ccb26ae8d64f",
@@ -2086,6 +2346,28 @@
     "x402"
    ],
    "source": "openalex"
+  },
+  {
+   "id": "7ab0c057d8613f4800f6a2e2e9da0babd4ecf210",
+   "title": "Visa Targets Secure AI Agent Payments Through Expanded Industry Partnership",
+   "authors": [],
+   "venue": "AOL.co.uk",
+   "tier": "news",
+   "published": "2026-11-18",
+   "retrieved": "2026-11-19",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9wS3NUTDJ0T19Pci1mTVFjTWpaLWYtaXlBdDhjb1V3SDFqVmFJNlV4ZG5feVVrajY2Z1Z5VDFmNWRzUmUzamJ3U2E1RVBHSnR0TFNNQW05LWVxQmlPeS03NkQ3cmh4ZE1VWkNUdEJSRnNHT2NOWF9tSFE3RGhPWVU?oc=5",
+   "pdf_url": null,
+   "html_url": null,
+   "embeddable": false,
+   "oa": false,
+   "abstract": null,
+   "score": 6.5,
+   "matched": [
+    "agent payments",
+    "AI agent",
+    "payments"
+   ],
+   "source": "google_news"
   },
   {
    "id": "1212048b0d13c7a694942c54e150cd4667a7d86d",
@@ -2347,14 +2629,14 @@
    "source": "google_news"
   },
   {
-   "id": "9fa18449c37e1b2ad9574609d45e412c9c9b43c2",
+   "id": "7bf4e5e00779c0725f2a90370ac49aed3b31bcf5",
    "title": "Lianlian DigiTech and Visa Advance Trusted B2B Agentic Commerce for Small and Medium-Sized Businesses",
    "authors": [],
-   "venue": "ANI News",
+   "venue": "PR Newswire Asia",
    "tier": "news",
    "published": "2026-11-18",
    "retrieved": "2026-11-19",
-   "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQQjlHOWlpYVZiRld5SjRyNnE2MTdNVHVicVRqN2RJaU5kRnE0bzhuUmUycGFFdFptb29xeU94YmRVYWFaaFpHVmVqS0ozMThfVzdBRF8wYkdibUtfdW5SUVBpWUZoaHdOa1dFT2lTdnZLdkd5cXduS3liczJJbUJfUkdlREc3VFNVZy0wNENMRnhqTXVTLUozeGstcFllbDYyeHZPemV4VEtXRmlOU0xwak4yamR4bmQxOEhYTzZHMmk5QVFOZzc1N19CVU5Qa21MUXpFRXhEcWt6LWJyR2FDTllzaDkzNlk?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQNHRVek45N050ejFWazF1ajk1RkowRUQyRnRfWDZ5MnVrc29sTEt5TnhldTFxUHFsQklLQ0ZUajNzWlhNZjk1MEJ3RkprQXY0eGdtNlZUZHQ4cUdtcExKaFNhZXFoSTR5UXhZbmRCMmwzdW1HR0FaM08tcTZBMjR1d2Z2WFVQY2E3Z2xUb1p4cnh2N1EwbzZfM18xYkpVZHlRWl9Pa0k2TlBMa3lGRTVicnI2Znh2SVI1QTVlcjhpOF95NlhiWVQzTjRURFlLV1NqZ1ZIMHFLcWZZcU1uNl9uTU9EVVJWdw?oc=5",
    "pdf_url": null,
    "html_url": null,
    "embeddable": false,
@@ -3195,7 +3477,7 @@
    "authors": [
     "Fabian Rose"
    ],
-   "venue": "Deutsche Bundesbank – Research Centre",
+   "venue": "Econstor (Econstor)",
    "tier": "preprint",
    "published": "2026-11-17",
    "retrieved": "2026-11-19",
@@ -3204,7 +3486,7 @@
    "html_url": null,
    "embeddable": false,
    "oa": true,
-   "abstract": null,
+   "abstract": "Stablecoin adoption can weaken banks' regulatory liquidity positions even if issuers reinvest the proceeds within the domestic banking system. This paper uses bank-level supervisory data to simulate how substantial stablecoin adoption would affect German banks' Liquidity Coverage Ratios (LCRs). The analysis considers euro-denominated e-money tokens issued by non-bank electronic money institutions. It compares retail and wholesale deposit substitution at a common system-wide issuance amount under three reserve-allocation scenarios. In the simulations, retail-funded adoption produces larger bank-level LCR declines than wholesale-funded adoption. Domestic reserve investment can also produce greater aggregate LCR decline than funds leaving the German banking system, because returning issuer deposits receive higher regulatory outflow weights (100%) than the displaced customer deposits. At an assumed issuance volume equivalent to 5% of the combined deposit base, funded entirely by retail deposits, the aggregate LCR remains above 100% in every scenario, while numerous institutions fall below the threshold. Liquidity surpluses within the cooperative and savings-bank networks would be sufficient to cover all modelled member-bank shortfalls under the assumption of frictionless transfers and unchanged bank-level net liquidity outflows. This represents an upper bound on support through redistribution of existing HQLA within those networks, assuming frictionless transfers and unchanged bank-level net liquidity outflows. The results highlight the importance of stablecoin reserve allocation and funding composition for banks' regulatory liquidity positions.",
    "score": 3.5,
    "matched": [
     "stablecoin"
@@ -4885,7 +5167,7 @@
    "html_url": null,
    "embeddable": false,
    "oa": true,
-   "abstract": "Abstract This document gives a technical and functional description of Algorithmic Logic Fingerprints (ALF): a way to verify that an AI model or algorithm in production still makes the decisions that were reviewed and approved, and to stop its output from taking effect if it does not. The problem. Current AI trust mechanisms prove identity and origin, not behaviour: Model signing (OpenSSF Model Signing, led by Google, NVIDIA and HiddenLayer; NVIDIA NGC signed models) proves which file a model is. Attestation and transparency logs (for example Apple Private Cloud Compute) prove which software a server runs. Neither shows what the model actually decides. A model can be fine-tuned, quantised, wrapped in a prompt or proxy layer, or replaced behind the same name or signature, and an AI agent can act on its output before anyone notices. How it works. Fingerprint generation. A compact cryptographic fingerprint of decision behaviour is created without access to source code, model weights or training data. For machine-learning models it is built by sampling decision boundaries. For rule-based or traditional code it is built from normalised control-flow and decision structure. Sealed-probe verification. In the highest-assurance mode, the model is tested with a sealed set of inputs that the computing system cannot see in advance. Four views must match together: decision boundaries, monotonicity and consistency, constraint activation, and constraint topology. A different model wrapped to imitate the approved one cannot pass all four. Approved-fingerprint registry. Each approved model or algorithm version has a reference fingerprint that can be checked at any time. Run-time check at the point of effect. Inside a trusted execution environment (for example a confidential VM or a confidential GPU), the live fingerprint is compared with the approved one after computation finishes and before the output is used. Fail-closed enforcement. If the fingerprint does not match, approval is automatically invalidated and the output is withheld. The capability needed to act (send, pay, move, transmit) is not released. Validation receipts. Each decision produces a tamper-evident receipt anchored in a ledger, for audit and incident analysis. Where it applies. The same mechanism applies to AI agents and model-serving platforms, payment and digital-currency systems (including offline wallets), vehicles and robots, and satellites. It complements existing technology rather than replacing it: model signing and model registries (NVIDIA NGC, Google Kaggle); verifiable and confidential AI clouds (Apple Private Cloud Compute, Google Cloud, Microsoft Azure, AWS, and NVIDIA, Intel and AMD confidential hardware); agent platforms (Google, Microsoft, Amazon Web Services); payment flows (Visa, Mastercard, PayPal, Ant Group); vehicle software governance under UN Regulation 156; Chinese AI platforms (Alibaba, Baidu, ByteDance, Tencent, Huawei, Zhipu AI). It also gives a technical signal for the EU AI Act's substantial-modification rule and for China's generative AI filing regime, both of which depend on knowing whether the deployed system is the one that was assessed. Source disclosure. This architecture is described in International Application PCT/IB2026/053385 (filed 07.04.2026, published 04.06.2026 as WO/2026/115520; https://patentscope.wipo.int/search/en/detail.jsf?docId=WO2026115520). That application claims priority from Indian applications 202531130168, 202631007467 and 202631018571. The related application PCT/IB2026/055615 (filed 4 June 2026, publicly disclosed 16 July 2026) claims priority from it. Author: Sangam Das. Disclaimer: Company and product names, including in the title, indicate technical relevance only. This document is an AI-generated technical summary based on the original applications and public sources, and describes potential benefits only. It is not an endorsement, partnership, sponsorship, validation or evaluation by any company named, and it makes no allegation that any company uses, needs or infringes this technology. All company and product names are trademarks of their respective owners. Readers must read the original applications on WIPO PATENTSCOPE before drawing any conclusion. The author is open to strategic collaboration or acquihire discussions. Keywords AI governance, AI model integrity, model identity, behavioural fingerprinting, algorithmic logic fingerprint, model signing, OpenSSF Model Signing, Sigstore, verifiable transparency, confidential computing, trusted execution environment, decision-boundary sampling, sealed-probe verification, wrapper resistance, model registry, approval invalidation, fail-closed enforcement, run-time verification, validation receipt, AI agents, agentic payments, EU AI Act, UN R156, Google, NVIDIA, Apple Private Cloud Compute",
+   "abstract": "This document gives a technical and functional description of Algorithmic Logic Fingerprints (ALF): a way to verify that an AI model or algorithm in production still makes the decisions that were reviewed and approved, and to stop its output from taking effect if it does not. The problem. Current AI trust mechanisms prove identity and origin, not behaviour: Model signing (OpenSSF Model Signing, led by Google, NVIDIA and HiddenLayer; NVIDIA NGC signed models) proves which file a model is. Attestation and transparency logs (for example Apple Private Cloud Compute) prove which software a server runs. Neither shows what the model actually decides. A model can be fine-tuned, quantised, wrapped in a prompt or proxy layer, or replaced behind the same name or signature, and an AI agent can act on its output before anyone notices. How it works. Fingerprint generation. A compact cryptographic fingerprint of decision behaviour is created without access to source code, model weights or training data. For machine-learning models it is built by sampling decision boundaries. For rule-based or traditional code it is built from normalised control-flow and decision structure. Sealed-probe verification. In the highest-assurance mode, the model is tested with a sealed set of inputs that the computing system cannot see in advance. Four views must match together: decision boundaries, monotonicity and consistency, constraint activation, and constraint topology. A different model wrapped to imitate the approved one cannot pass all four. Approved-fingerprint registry. Each approved model or algorithm version has a reference fingerprint that can be checked at any time. Run-time check at the point of effect. Inside a trusted execution environment (for example a confidential VM or a confidential GPU), the live fingerprint is compared with the approved one after computation finishes and before the output is used. Fail-closed enforcement. If the fingerprint does not match, approval is automatically invalidated and the output is withheld. The capability needed to act (send, pay, move, transmit) is not released. Validation receipts. Each decision produces a tamper-evident receipt anchored in a ledger, for audit and incident analysis. Where it applies. The same mechanism applies to AI agents and model-serving platforms, payment and digital-currency systems (including offline wallets), vehicles and robots, and satellites. It complements existing technology rather than replacing it: model signing and model registries (NVIDIA NGC, Google Kaggle); verifiable and confidential AI clouds (Apple Private Cloud Compute, Google Cloud, Microsoft Azure, AWS, and NVIDIA, Intel and AMD confidential hardware); agent platforms (Google, Microsoft, Amazon Web Services); payment flows (Visa, Mastercard, PayPal, Ant Group); vehicle software governance under UN Regulation 156; Chinese AI platforms (Alibaba, Baidu, ByteDance, Tencent, Huawei, Zhipu AI). It also gives a technical signal for the EU AI Act's substantial-modification rule and for China's generative AI filing regime, both of which depend on knowing whether the deployed system is the one that was assessed. Source disclosure. This architecture is described in International Application PCT/IB2026/053385 (filed 07.04.2026, published 04.06.2026 as WO/2026/115520; https://patentscope.wipo.int/search/en/detail.jsf?docId=WO2026115520). That application claims priority from Indian applications 202531130168, 202631007467 and 202631018571. The related application PCT/IB2026/055615 (filed 4 June 2026, publicly disclosed 16 July 2026) claims priority from it. Author: Sangam Das. Disclaimer: Company and product names, including in the title, indicate technical relevance only. This document is an AI-generated technical summary based on the original applications and public sources, and describes potential benefits only. It is not an endorsement, partnership, sponsorship, validation or evaluation by any company named, and it makes no allegation that any company uses, needs or infringes this technology. All company and product names are trademarks of their respective owners. Readers must read the original applications on WIPO PATENTSCOPE before drawing any conclusion. The author is open to strategic collaboration or acquihire discussions. Keywords AI governance, AI model integrity, model identity, behavioural fingerprinting, algorithmic logic fingerprint, model signing, OpenSSF Model Signing, Sigstore, verifiable transparency, confidential computing, trusted execution environment, decision-boundary sampling, sealed-probe verification, wrapper resistance, model registry, approval invalidation, fail-closed enforcement, run-time verification, validation receipt, AI agents, agentic payments, EU AI Act, UN R156, Google, NVIDIA, Apple Private Cloud Compute",
    "score": 7.0,
    "matched": [
     "agent payments",
