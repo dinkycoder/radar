@@ -1,14 +1,713 @@
 {
- "generated_at": "2026-11-22T18:23:19Z",
+ "generated_at": "2026-11-23T22:30:22Z",
  "errors": [],
  "counts": {
-  "peer_reviewed": 62,
+  "peer_reviewed": 63,
   "preprint": 107,
   "institutional": 6,
-  "news": 161,
+  "news": 195,
   "regulatory": 8
  },
  "items": [
+  {
+   "id": "7c0bd34f7e5dd54eba7bd34994f48b7453970fe1",
+   "title": "Agentic Commerce and SME Competitiveness: An Integrative Review and Theory-Informed Research Framework",
+   "authors": [
+    "Sarkawt Ali Ahmed Al-Dawoodii",
+    "Veronika Svatošová"
+   ],
+   "venue": "Journal of Business Sectors",
+   "tier": "peer_reviewed",
+   "published": "2026-11-23",
+   "retrieved": "2026-11-20",
+   "url": "https://doi.org/10.62222/krva3141",
+   "pdf_url": "https://www.jobsjournal.eu/_files/ugd/a7cf91_df3f9250b1544c17b28297665d9182b0.pdf",
+   "html_url": null,
+   "embeddable": true,
+   "oa": true,
+   "abstract": "Research background: Artificial intelligence is shifting online shopping from recommendation-based assistance towards delegated search, comparison, configuration, and, in emerging cases, transaction execution. For SMEs, this transition may expand market access while simultaneously creating new forms of algorithmic gatekeeping and platform dependence. Purpose of the article: This integrative review develops a theory-informed explanation of how agentic commerce may affect SME competitiveness. Competitiveness is conceptualised as the joint ability to capture agent-mediated demand while preserving strategic option value, customer access, and bargaining autonomy over time. Methods: Seventeen documented OpenAlex title-and-abstract queries were used to identify English-language journal articles published between 2015 and July 2026. Following deduplication and eligibility screening, 117 Scopus- and/or Web of Science-indexed articles were reviewed in full, comprising 82 consumer-agent studies and 35 SME-platform studies. A concept-centric synthesis was conducted using dynamic capabilities and resource dependence as the principal theoretical lenses. The review does not claim exhaustive coverage or pooled causal effects, as the discovery process relied on a single source and only one record was identified through direct merchant-bridge queries. Claims were therefore calibrated according to evidential directness, convergence across research designs, and proximity to the outcome of interest. Findings & Value added: The synthesis identifies five core themes: assistance-to-delegation, machine legibility, trust transfer, empowerment–dependence, and offering/governance contingency. The proposed framework distinguishes foundational capabilities—product-data legibility, interface and transaction readiness, and verifiable trust evidence—from higher-order sensing, seizing, and reconfiguring capabilities. These mechanisms operate through eligibility and visibility, trust transfer, delegation depth, and dependency exposure. The evidence is moderate for consumer trust mechanisms and established forms of platform dependence, but remains limited for execution-capable agents, direct SME outcomes, and comparative boundary effects. Six propositions are developed to provide a testable rather than validated causal framework. The findings are relevant to SME managers, platform and AI-agent designers, policymakers, and researchers seeking to understand how firms can capture agent-mediated demand without surrendering strategic option value.",
+   "score": 8.0,
+   "matched": [
+    "agentic commerce",
+    "AI agent"
+   ],
+   "source": "openalex"
+  },
+  {
+   "id": "56f1419b2a573578341d3a152a6d3f7332c4c34f",
+   "title": "Multi-Agent Orchestration for Agentic Commerce: Coordinating Shopping, Payment, Rewards, and Fraud Agents in Real-Time Financial Transactions",
+   "authors": [
+    "Muralidharan Lakshmanan"
+   ],
+   "venue": "Journal of Electrical and Electronics Research",
+   "tier": "peer_reviewed",
+   "published": "2026-11-23",
+   "retrieved": "2026-11-19",
+   "url": "https://doi.org/10.64820/aepjeer.32.21.26.122026",
+   "pdf_url": null,
+   "html_url": null,
+   "embeddable": false,
+   "oa": true,
+   "abstract": "Agentic commerce is shifting the process of digital commerce buying away from a set of stand-alone recommenders and towards orchestrated autonomous services that can identify items, approve payment, earn rewards and manage transaction risk all in one real-time interaction. This study suggests a multi-agent orchestration system where shopping, payment, rewards and fraud agents are linked together via a central coordinator and their functional boundaries are kept clear. The study created a synthetic data set of 127 transaction cases with varying customer use cases, merchant contexts, paymentterms, reward opportunities and fraud review signals for the evaluation. The dataset has been designed for experimentation and re-experimentation and does not include any personal information from other sources. Data preparation of transaction records, coordination of scenario execution and organization of experimental outputs and result graphs were done using Python, pandas were used for structured data handling and Matplotlib for the result graphs. The decision flow continuity, reliability of authorization, alignment of incentives, fraud control, consistency of response and readiness of audit are the key assessment points. Results show that by having a coordinated agent that takes care of managing the order of messages, the shared context, the policy checks and exception handling, it is more effective than letting independent services operate without being aware of each other across transactions. The architecture is suitable for financial commerce platforms that need quick decisions and secure automated responses, improved accountability, and customer experience throughout the entire purchasing process.",
+   "score": 7.5,
+   "matched": [
+    "agentic commerce",
+    "payments"
+   ],
+   "source": "openalex"
+  },
+  {
+   "id": "dfa923ff8c802c90ca5382f9cb1e3e39573adac0",
+   "title": "Visa launches AI Agent Wallet to Earn Stablecoins From Tasks",
+   "authors": [],
+   "venue": "Analytics Insight",
+   "tier": "news",
+   "published": "2026-11-23",
+   "retrieved": "2026-11-23",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPUzRWMHExc0wydWJxbEx2eC1DTXRYWkhHcTFkYlN0RFZaQWhFYlJKRUVFRFNycXBkYndSU0tXSWktSmdtYV9YamV3WHctMjdLcUJOeDU0bDZiaGJDVWNxVjdIS3RobXMzME94UUs4WHlWSERYZVkyRTJubUdGeHFISlhwUHAyWmI0eUl6SmNqcmhaNzhvcEZTWkR2Wlc0V1FtVTVRUlpKMjVUbVVn0gGsAUFVX3lxTE9TNFYwcTFzTDJ1YnFsTHZ4LUNNdFhaSEdxMWRiU3REVlpBaEViUkpFRUVEU3JxcGRid1JTS1dJaS1KZ21hX1hqZXdYdy0yN0txQk54NTRsNmJoYkNVY3FWN0hLdGhtczMwT3hRSzhYeVZIRFhlWTJFMm5tR0Z4cUhKWHBQcDJaYjR5SXpKY2pyaFo3OG9wRlNaRHZaVzRXUW1VNVFSWkoyNVRtVWc?oc=5",
+   "pdf_url": null,
+   "html_url": null,
+   "embeddable": false,
+   "oa": false,
+   "abstract": null,
+   "score": 7.0,
+   "matched": [
+    "agent wallet",
+    "stablecoin",
+    "AI agent"
+   ],
+   "source": "google_news"
+  },
+  {
+   "id": "7c35c40a79c9f0e596c7e371300ad386e56e0776",
+   "title": "Agentic Commerce Accountability: Who Pays When an AI Agent Buys Wrong",
+   "authors": [],
+   "venue": "FinanceX Magazine",
+   "tier": "news",
+   "published": "2026-11-23",
+   "retrieved": "2026-11-23",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPZklYa0hjakRMUzlOaWltOHdNbEdjUEJWcThZWjlSYXRKcVFCOG1HaW4zV3ZpU3R0VTF0THpTYkR5eGRraHlwcjIxSlo0UVg4R2IwUUhWdUpXekhaNU5ERjhvaWxxS3U0MXdLTXh1QWtnZEtZRmZ0OXlkT1dyTXlRODBubzFPYlBrUlo3M1B0T2trMk9qMS1UOHh5dU5MUVhyUXljN2h1RWdfZw?oc=5",
+   "pdf_url": null,
+   "html_url": null,
+   "embeddable": false,
+   "oa": false,
+   "abstract": null,
+   "score": 7.0,
+   "matched": [
+    "agentic commerce",
+    "AI agent"
+   ],
+   "source": "google_news"
+  },
+  {
+   "id": "c38c662a53220a3c2f44b0c840bdf486f3b49793",
+   "title": "Unlimit joins Visa programme to test AI agent payments",
+   "authors": [],
+   "venue": "The Paypers",
+   "tier": "news",
+   "published": "2026-11-23",
+   "retrieved": "2026-11-23",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOWVZGRTN5LUdoVnRXNGJBT2U4UmZzaGluaVVOOUJFRkV5VzV0ZlJ4Q19ublE2aUY4ZFFwVm9rRUdKSzBYdDhHRnlvRXFpcmdfWDJkaHJLbHlna0dMZldpV3BkSjFmeXdZVzQwMmFwdklmWjlyNHZNek5rZERTZ2FxQm15NlAxV0xqZXZaNEgtSF82Z0pUdEJMWk5n?oc=5",
+   "pdf_url": null,
+   "html_url": null,
+   "embeddable": false,
+   "oa": false,
+   "abstract": null,
+   "score": 6.5,
+   "matched": [
+    "agent payments",
+    "AI agent",
+    "payments"
+   ],
+   "source": "google_news"
+  },
+  {
+   "id": "3d5efa400bc307fd0c2ea06c424492d67fa48737",
+   "title": "Payments group launches 12-month drive for agentic commerce policy",
+   "authors": [],
+   "venue": "Asian Business Review",
+   "tier": "news",
+   "published": "2026-11-23",
+   "retrieved": "2026-11-23",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQaTJoRTQxT0N4c2ZrNEJ3Q2J3TGtGaGszNWQ5UmZHY3BCZVk0Q25IRnNtMkdQZUN6X3RNNDRjV21sall3WXBuRUpWcDNBQlNVSFkzUDA3RUNFSlpIU0RnSmJKcDQtRGtJSDhVZGJSR0JYVnpldHZkZkNpX1BwZGU4dW93R1BhSEdKVExhcER0ZHZMVmRqbEJDY0Y5ZnRyRTV1WFlDelJHUFVCLWJDekh3b21SWmE?oc=5",
+   "pdf_url": null,
+   "html_url": null,
+   "embeddable": false,
+   "oa": false,
+   "abstract": null,
+   "score": 6.5,
+   "matched": [
+    "agentic commerce",
+    "payments"
+   ],
+   "source": "google_news"
+  },
+  {
+   "id": "5cc767b45aca9f7fd3bf15b329f8f1ba8252c9cd",
+   "title": "Mastercard, Antom test AI agent payments",
+   "authors": [],
+   "venue": "The Paypers",
+   "tier": "news",
+   "published": "2026-11-23",
+   "retrieved": "2026-11-23",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOc2xqQjRFcExGNzJVM2xOc0o5V2VrZ01kbGZDZHBBRldMNUVJRnlmVWFJc3k5U3ZZRGtpYTV0dWNja211dTRQaFNvWU9LTDRHTkN4Yl8xSlRhblhOd3Z0TzY1T0tWRUg3aUoyNGlMX0gtVnpRVi1MNHg4TTFSbHJXX0V5QUh3U0xaQUsxYjB0SHpHNEVDUTNfZWUwTEc?oc=5",
+   "pdf_url": null,
+   "html_url": null,
+   "embeddable": false,
+   "oa": false,
+   "abstract": null,
+   "score": 6.5,
+   "matched": [
+    "agent payments",
+    "AI agent",
+    "payments"
+   ],
+   "source": "google_news"
+  },
+  {
+   "id": "e824dc051ff6fceaaaaabf55c0e85c45632becb1",
+   "title": "Visa Expands Trusted Agent Protocol and Launches Experimental Visa CLI Wallet",
+   "authors": [],
+   "venue": "TradingView",
+   "tier": "news",
+   "published": "2026-11-23",
+   "retrieved": "2026-11-23",
+   "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOaFpWX0JwRUpvSEgwZ2tpcW5pdXBLN1lJeWFlM05ubkVLM2ZZRms1RG5qeWxMQU1CQ0R3MmFsdDZKdk11UUFsSUxxMV9fU2lxZmhNWUpkeExpRjl2Z0FDUXdIbFlYa0QyUDd3OWNXOXVaTnVxV0luYnpWa2R5Q1RyajFPVmhFdFAwa0Z2QndSZHJ0b0JlNmp6T3owQlRuSjZ4NHBaeXpCM05uUlE1Y2JJMDZmOWlGRC1fN1Vmc0VSR2lfaVp4U2lLbnBjUmgtSGZ4blFtVWlPVQ?oc=5",
+   "pdf_url": null,
+   "html_url": null,
+   "embeddable": false,
+   "oa": false,
+   "abstract": null,
+   "score": 6.0,
+   "matched": [
+    "trusted agent protocol"
+   ],
+   "source": "google_news"
+  },
+  {
+   "id": "2f67e54275538494e30f545ac8c06ea38b81cf06",
+   "title": "Pine Labs launches research series to address accountability in agentic commerce",
+   "authors": [],
+   "venue": "DQ",
+   "tier": "news",
+   "published": "2026-11-23",
+   "retrieved": "2026-11-23",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOUC1jSjBqZ0Rna3FsQjhITE8wS3U4bFhtQUJfZENoV0IyOV9LUy01QUtIdkJmSE1GU0pma25NR25PcHBkVElkQzlJV3dHVV9TRUFtSVRNMFMxbHZiRmFSYVZXcmY2NTVpX1dyZkREUTRUbzNZa09IZFlKM21fcWFpMVkzcGl1cHAzeW9VdTF6SzR2d9IBkgFBVV95cUxOUC1jSjBqZ0Rna3FsQjhITE8wS3U4bFhtQUJfZENoV0IyOV9LUy01QUtIdkJmSE1GU0pma25NR25PcHBkVElkQzlJV3dHVV9TRUFtSVRNMFMxbHZiRmFSYVZXcmY2NTVpX1dyZkREUTRUbzNZa09IZFlKM21fcWFpMVkzcGl1cHAzeW9VdTF6SzR2dw?oc=5",
+   "pdf_url": null,
+   "html_url": null,
+   "embeddable": false,
+   "oa": false,
+   "abstract": null,
+   "score": 6.0,
+   "matched": [
+    "agentic commerce"
+   ],
+   "source": "google_news"
+  },
+  {
+   "id": "fa3057cdd3f1ce5d5d1c278c0123ec2969babad3",
+   "title": "PayPal Sets Virtual Card Rules for Agentic Commerce",
+   "authors": [],
+   "venue": "PYMNTS.com",
+   "tier": "news",
+   "published": "2026-11-23",
+   "retrieved": "2026-11-23",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPNlRRY0hMWWVpT1pxNFBzVmV0Q0QxWXNDQjZDVlI2dHhJUnczQ3VNcDlhSDI3Z1NQRGVtOEZoWGxDV0pKcVd3YVNIa3ozSEFHOWQtN2JYQmxuOTJJVG5yd29zTzlGQlFjNW10bGRrRFVOMzROZ3g0S19TSWtQY3RBUjJ4STZnYjB2OTZsTHg4el9YMktpMVU3VG04MVpLdXN3QTluTUJYR2J1SXlteVE?oc=5",
+   "pdf_url": null,
+   "html_url": null,
+   "embeddable": false,
+   "oa": false,
+   "abstract": null,
+   "score": 6.0,
+   "matched": [
+    "agentic commerce"
+   ],
+   "source": "google_news"
+  },
+  {
+   "id": "10176968a18a489ed7959b393fa62a2a86da98cc",
+   "title": "Agentic Commerce is Coming for Your Bank's Balance Sheet. Is Your Fraud Strategy Ready?",
+   "authors": [],
+   "venue": "The Financial Brand",
+   "tier": "news",
+   "published": "2026-11-23",
+   "retrieved": "2026-11-23",
+   "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNWVljZ210ejJoaHE1em00T3hYOU9Ucl9jX2tTVGtiNFIyekN5dkpRZ2VQNjgtcVNLTGcxVVNnVkpGS0hKcGc1TmktUV9oRjQ3QUh0RXJmN0FYbUI5bkFGeURmRXllVjBvaWlUNDh5UWJHanBERnI3ekgtVFFoREFuSkNPQlA2eFpqV3JEVV8xdGh6NlZlUHpkVHZnLWNOdTlYSXpvU2FuQTcxTktMQlVEWG1KcXh5QWVHUHQzLU9wT0VsVXdId3RCNlZmQXBocExqVDJZZUlvcnVFUQ?oc=5",
+   "pdf_url": null,
+   "html_url": null,
+   "embeddable": false,
+   "oa": false,
+   "abstract": null,
+   "score": 6.0,
+   "matched": [
+    "agentic commerce"
+   ],
+   "source": "google_news"
+  },
+  {
+   "id": "6db69e0c5a567b69b8dc3342ef898dcfaf5f51fd",
+   "title": "WooshPay Unveils Agentic Payments Demo, Targets Q1 2027 Pilot with AlphaToken",
+   "authors": [],
+   "venue": "بوابة التكنولوجيا المالية",
+   "tier": "news",
+   "published": "2026-11-23",
+   "retrieved": "2026-11-23",
+   "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE5ROWFxYXpYOHJDV0p3NG1lZmhrRU9XdFJWSm91UmZPZElGaXpyVW8tS0VfYnl1azI0LUhMX0JkSm0zVU5Y?oc=5",
+   "pdf_url": null,
+   "html_url": null,
+   "embeddable": false,
+   "oa": false,
+   "abstract": null,
+   "score": 5.5,
+   "matched": [
+    "agent payments",
+    "payments"
+   ],
+   "source": "google_news"
+  },
+  {
+   "id": "44344f2b3a071223071e9582d39107119a85f90c",
+   "title": "WooshPay Unveils Agentic Payments Demo, Achieving First Product Milestone with Yunfeng Financial's AlphaToken",
+   "authors": [],
+   "venue": "PR Newswire",
+   "tier": "news",
+   "published": "2026-11-23",
+   "retrieved": "2026-11-23",
+   "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQVENPWDFfc2RXMHg5U3RpaUVqTDc0NmxMNnlSWnV0TUpKNUFjaEloVm1UeU0wcUs5X2tPaFItczAxN0VXbklsUEpGTUVwYnhFaGgwRm1HUXdhUUFwRHp3bGdCOWpvTS0tWkxsTGE0S2UteXFtMS1kNENrOEpEYzRoR2ZNc2tfUU1KeHkzX0JpVFpMcjZNVjBxeVR6UWZraFJHR2p2NmRjMTdrdDNIdjk0QTRDZW5nNUxreTVIdThSRWkxOEV3U3FiRTRzYUZTRmpWOUpTY3BwZ1NraGF6WDdXZVpZVmVab3RheWoyTnZ5WFN3MDhwZVE?oc=5",
+   "pdf_url": null,
+   "html_url": null,
+   "embeddable": false,
+   "oa": false,
+   "abstract": null,
+   "score": 5.5,
+   "matched": [
+    "agent payments",
+    "payments"
+   ],
+   "source": "google_news"
+  },
+  {
+   "id": "81f9b16239acc080abc638af0fc25159d202e172",
+   "title": "UnionPay International and Debia Ink MoU to Explore Agentic Payments in Singapore",
+   "authors": [],
+   "venue": "Yahoo Finance",
+   "tier": "news",
+   "published": "2026-11-23",
+   "retrieved": "2026-11-23",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNWjFQN0d3Y21pT2tQdktYbGtxaEM0SktveHdkLWl0S1ByN0syUWRjQXBxazJmaUxISXpvY0tvUmE4UVJjVU5IanZjSzEtelR2cVlkaGpadUtwUnBDMWdmZHp4MDFNUFlZUXNpWVZOYmhGY1pWbFhNQVk2Smpfc0tlYUZGUERlYmU0UnNyUzAyaG5vd3QzVzZFT1FnSHg2NVBRanc?oc=5",
+   "pdf_url": null,
+   "html_url": null,
+   "embeddable": false,
+   "oa": false,
+   "abstract": null,
+   "score": 5.5,
+   "matched": [
+    "agent payments",
+    "payments"
+   ],
+   "source": "google_news"
+  },
+  {
+   "id": "64578e6389046e56e7481c3d608c370a1b467953",
+   "title": "UnionPay International Showcases Agentic Payments and Financial AI Innovations at Singapore FinTech Festival 2026",
+   "authors": [],
+   "venue": "SME & Entrepreneurship Magazine",
+   "tier": "news",
+   "published": "2026-11-23",
+   "retrieved": "2026-11-23",
+   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNdjBGdVV5OEdTTF9xSTAtaUJOLVQ1LWR0aC1NUl9qVVR6cE8wWXpkRnhTa1BtVTU0aWlfbWdvcTdoenhGNEdKSGstWkNiRGU0Wno3dE1hZkFNSk84d242U2NvbHQzUUhwamhnRXpxelNjU0ViQVQ4RnBNN1IxTDZZRTR5dDc4Tmd5MVdsWnRRZEx6WGdXVTVGWlZuN3BCa1lzZHFZWDBsQjBhellUT3NzTkxtNjlYSnY3cV9rS0hGNG1zSlg2UmFaVm02dw?oc=5",
+   "pdf_url": null,
+   "html_url": null,
+   "embeddable": false,
+   "oa": false,
+   "abstract": null,
+   "score": 5.5,
+   "matched": [
+    "agent payments",
+    "payments"
+   ],
+   "source": "google_news"
+  },
+  {
+   "id": "2113fa069006710cf6fc4c542c824157d5a4e93c",
+   "title": "Visa launches upgraded CLI agent wallet for US users to verify AI agents",
+   "authors": [],
+   "venue": "Crypto Briefing",
+   "tier": "news",
+   "published": "2026-11-23",
+   "retrieved": "2026-11-23",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9vcTdVYTZMV0I5RVNQSkszcDNxV2p0emt1VTB4VXFWV0g5TlBzUVFHXzlLOGdDQzNtVnlPSnFwUkxKMUdmTDJPazZQM1lmLWxUYmVHM3NRLXZPZnBpVC1HVm16MXVLRjlmWEtXbjRUb3FnUQ?oc=5",
+   "pdf_url": null,
+   "html_url": null,
+   "embeddable": false,
+   "oa": false,
+   "abstract": null,
+   "score": 5.0,
+   "matched": [
+    "agent wallet",
+    "AI agent"
+   ],
+   "source": "google_news"
+  },
+  {
+   "id": "fd1f0ea4ee20c94708242cd45be55c0104d35091",
+   "title": "Visa launches experimental AI agent wallet for eligible US users to earn OUSD from paid tasks",
+   "authors": [],
+   "venue": "The Block",
+   "tier": "news",
+   "published": "2026-11-23",
+   "retrieved": "2026-11-23",
+   "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOclQ1YmJSNE9IR096WUg3WE02bnJBeTlMbkhxbW1QWDRkTlNYNEk5cmVHM1h1Y2pla0x4WnNfVl9vQU5odnNHQ05KLXp3VUM4QjUxbkJ3ZmhJOHRzbUtIN0Z1NXhyOWVtbjhmd0ttV3B3RDZra0ZWa1pnZzY4WVNOZExiejNpYjBZV1Rwdll3OFBzSkwyc1pqN1pwTExyM3UwVmJsbDVpTlpDQU94QkQwbEVNWldrcmFiRGl2UFNEQUtKcW5uVE5pUUNFOU1JT200T2t1Zy1KbXZmaXJNZnNwOEJQZw?oc=5",
+   "pdf_url": null,
+   "html_url": null,
+   "embeddable": false,
+   "oa": false,
+   "abstract": null,
+   "score": 5.0,
+   "matched": [
+    "agent wallet",
+    "AI agent"
+   ],
+   "source": "google_news"
+  },
+  {
+   "id": "c71b34c47ece3f6d42c3219b8e20585d63fff01b",
+   "title": "Visa Opens AI Agent Wallets to U.S. Cardholders, With Earnings Paid in OUSD",
+   "authors": [],
+   "venue": "BigGo Finance",
+   "tier": "news",
+   "published": "2026-11-23",
+   "retrieved": "2026-11-23",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBhUlVfbVRxMmRPdjFaWkhUYk5GRlhEU1JXbGtuNGJGMXB6a3I4YklOLVRjcWxqZFlEaDROcFF2Y0MwS21KSGtadGs5c2FtdmgxZVB2MUJ6WTFkS29GMU1JQUkyUS1JVmI3czFfWEJLVkFSRG82b1E?oc=5",
+   "pdf_url": null,
+   "html_url": null,
+   "embeddable": false,
+   "oa": false,
+   "abstract": null,
+   "score": 5.0,
+   "matched": [
+    "agent wallet",
+    "AI agent"
+   ],
+   "source": "google_news"
+  },
+  {
+   "id": "f8a94cc9c547d2bfe30da5610036962090590adc",
+   "title": "Visa Launches Invite-only AI Agent Wallet For US Cardholders",
+   "authors": [],
+   "venue": "Dataconomy",
+   "tier": "news",
+   "published": "2026-11-23",
+   "retrieved": "2026-11-23",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOcW5IblBnZWcxU0UyeTBaXzZmbzhvVExZcGczck1wRGNTUlBVbjhpOWRDcjI0S3JySFItWHVNTkJJZThVN28wcDJkZHg0SFh4Z2FvZXM4S2ZJal9jQUhLeHIyQVBmU1ZkbWxBb0VDY2Zqdmt3MWhWSXFuZlN1YXBpM2NvN0ZRNHczU0VFNjE3dmlWRlJ6RjJWT2dFWQ?oc=5",
+   "pdf_url": null,
+   "html_url": null,
+   "embeddable": false,
+   "oa": false,
+   "abstract": null,
+   "score": 5.0,
+   "matched": [
+    "agent wallet",
+    "AI agent"
+   ],
+   "source": "google_news"
+  },
+  {
+   "id": "539d36855d248df5eb3e456ff18c8ee2a87e67e7",
+   "title": "Visa Expands AI Agent Wallet to US Users",
+   "authors": [],
+   "venue": "Wisevoter",
+   "tier": "news",
+   "published": "2026-11-23",
+   "retrieved": "2026-11-23",
+   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1sSWRaMmlmNFdfbVhObXBVeWZBQzdDdVp5eHNBNFc2WUxTMUl2WnBMZFkwUC11cUd2SE16aUZSRXMxVzB6eTVqSUN6cmp1NV9DMGxWWC1IOVpGWDNKUjlsUmMzZ0R0Y21mVWo1SjlXbHNCTXpyblZVYjRmOA?oc=5",
+   "pdf_url": null,
+   "html_url": null,
+   "embeddable": false,
+   "oa": false,
+   "abstract": null,
+   "score": 5.0,
+   "matched": [
+    "agent wallet",
+    "AI agent"
+   ],
+   "source": "google_news"
+  },
+  {
+   "id": "c2f042a0f4204554e20be5105cff10b79e4def62",
+   "title": "Visa Crypto Labs launches AI agent wallet that pays in OUSD",
+   "authors": [],
+   "venue": "Cryptonews.net",
+   "tier": "news",
+   "published": "2026-11-23",
+   "retrieved": "2026-11-23",
+   "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5YeHgyNnRfVVhFU1pVMFJjbktXdW5EdGVYeUM2Y1YxelNGREF3emZUZWE1MS1YRFVOcTJSbTZwc2tTdmVHbWkwYmNIQkp1cXQ3aGJrMFZsaw?oc=5",
+   "pdf_url": null,
+   "html_url": null,
+   "embeddable": false,
+   "oa": false,
+   "abstract": null,
+   "score": 5.0,
+   "matched": [
+    "agent wallet",
+    "AI agent"
+   ],
+   "source": "google_news"
+  },
+  {
+   "id": "e074cd7ffd8ecae513f5efa122cb847ba2c9f86d",
+   "title": "Visa Agent Wallet: Verify Up to 25 AI Agents, Earn OUSD",
+   "authors": [],
+   "venue": "FinanceFeeds",
+   "tier": "news",
+   "published": "2026-11-23",
+   "retrieved": "2026-11-23",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5HRmtRenliXzd3VllZbGFRQl80WDhqS1ZiRUhaR2hPYVNjVXFHeUJ5OGlzQ25lMTN6ZHd3VnVFcVRzU1pERzFSczgtd1I3aGxTUW4yS0ZWNWp0cGFHRTg4Sl9kLUNPaFNmUFdmVlBkLVRydGcy?oc=5",
+   "pdf_url": null,
+   "html_url": null,
+   "embeddable": false,
+   "oa": false,
+   "abstract": null,
+   "score": 5.0,
+   "matched": [
+    "agent wallet",
+    "AI agent"
+   ],
+   "source": "google_news"
+  },
+  {
+   "id": "15cb326db2412bb584d17c7c13bf9043a22d3141",
+   "title": "PoCA-Mithril: A Blockchain-enabled Framework for Identity- and Context-verifiable Communication among Distributed AI Agents",
+   "authors": [
+    "Kranthi Kumar Gunda",
+    "Geetha Arjunan"
+   ],
+   "venue": "International journal of intelligent engineering and systems",
+   "tier": "peer_reviewed",
+   "published": "2026-11-23",
+   "retrieved": "2026-11-19",
+   "url": "https://doi.org/10.22266/ijies2026.1231.65",
+   "pdf_url": "https://doi.org/10.22266/ijies2026.1231.65",
+   "html_url": null,
+   "embeddable": true,
+   "oa": true,
+   "abstract": "Distributed Artificial Intelligence (AI) systems face challenges in agent identity verification, context integrity, traceability, and scalable blockchain anchoring without a continuously trusted central authority.This paper proposes PoCA-Mithril, a blockchain framework for verifiable agent communication.Proof-of-Context Attestation (PoCA) signs agent identity, context, timestamp, and safety metadata.A Mithril-Inspired Relay (MR) batches proofs via Merkle trees and a SHA-256 signature digest before Solidity smart-contract anchoring.Prototype (Python, Web3.py, decentralized identifiers, Ganache, web interface) averaged 1.2555, 1.9402, and 3.5815 ms for Elliptic Curve Digital Signature Algorithm (ECDSA) keypair generation, PoCA generation, and verification.Relay aggregation stays below 0.04 ms; five-proof batching cuts transactions 80%.It authenticates identity and context metadata, not complete response-content integrity.Persistent request-ID storage with database-enforced uniqueness rejects duplicates; restart and shared-database tests confirmed persistence.Five-process concurrency yielded one accepted claim, four duplicate rejections; multi-server verification remains unevaluated.An AgentDID-inspired baseline and 10,000-operation workloads characterize the local prototype, not distributed-blockchain performance.Response-content binding, model artifact, and runtime-execution verification remain future work.",
+   "score": 5.0,
+   "matched": [
+    "agent identity",
+    "AI agent"
+   ],
+   "source": "openalex"
+  },
+  {
+   "id": "c09a60a2598db5735847b26c01ecea2ff2b3bbd1",
+   "title": "AI agents and stablecoins a ‘perfect match’ for payments, says MetaComp’s Tin Pei Ling",
+   "authors": [],
+   "venue": "The Business Times",
+   "tier": "news",
+   "published": "2026-11-23",
+   "retrieved": "2026-11-23",
+   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQQjlZQ281TUhtMjFhSnIxcDlzMndRZDktQVRZcEc1bWVfb1o5SEpOR21mUURPQXdqZ3gyQ2VpTk01VEtMakxIS2xYQUV3dGNVRmxzb0trLW84RFF0UGdNd25IZTd2R3ZhRVpjcmFJZnFjQzRvTTdCa1NWejMxT0lFM1FSeWd3a3hibDBseWxZTGV0VmdQMWxhQzMxcldEUnFZa1pYamVDa1RsZzFQMzlYeFpSWXBTZU1ldk10cEVlS1dZTFBHT0E?oc=5",
+   "pdf_url": null,
+   "html_url": null,
+   "embeddable": false,
+   "oa": false,
+   "abstract": null,
+   "score": 4.5,
+   "matched": [
+    "stablecoin",
+    "AI agent",
+    "payments"
+   ],
+   "source": "google_news"
+  },
+  {
+   "id": "9955de6f0ce4129d161415ba7e4325da081105b7",
+   "title": "Visa expands agent wallet pilot for U.S. users with paid AI task rewards",
+   "authors": [],
+   "venue": "Traders Union",
+   "tier": "news",
+   "published": "2026-11-23",
+   "retrieved": "2026-11-23",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPT3V0U005Vkx4dWs5TEhtWkw0dFJzU21XY1M0dzVveU8zeUNPR3B6Z2ZaeHJWQy1fV0RpTTBlaE1kaFUwbWRiQWJ3aU5KTE9kWm1Wa01HU2ZGNU5IWjlYNl9NTmh4WWZIMDlSS2pIMkQzWk5vN1FwdmVUbkxQQWRsNXpCNjZxNjk0c2FZZWdJTzFwQ2lDYWJV?oc=5",
+   "pdf_url": null,
+   "html_url": null,
+   "embeddable": false,
+   "oa": false,
+   "abstract": null,
+   "score": 4.0,
+   "matched": [
+    "agent wallet"
+   ],
+   "source": "google_news"
+  },
+  {
+   "id": "cd397dac69c1149b98b917a2c57ebd58d0372fcb",
+   "title": "Visa Opens Agent Wallet to US Cards; Chase, Prepaid Excluded",
+   "authors": [],
+   "venue": "FourWeekMBA",
+   "tier": "news",
+   "published": "2026-11-23",
+   "retrieved": "2026-11-23",
+   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxORTRNSjlNaFdfZ0xwdTlEOTM3TW5idmpCdE83M05lRlQwMVJfMmNDZlQ3NkgwbVdZSnkzeEx3SVRuUWlBUjU0NkFJS3FmSTdWeU9qRTBXX0h3Z0VGRjhxYUlKa2ZTbFQ4aGRWYlluOG5QNkdZT01ybnliNVdPSDhYTEpOakttZFFxOVM2a2l4TQ?oc=5",
+   "pdf_url": null,
+   "html_url": null,
+   "embeddable": false,
+   "oa": false,
+   "abstract": null,
+   "score": 4.0,
+   "matched": [
+    "agent wallet"
+   ],
+   "source": "google_news"
+  },
+  {
+   "id": "cf48d58768908a16ee49c15007b6407b84aced1b",
+   "title": "Visa Lets Cardholders Vouch for AI Agents That Earn Stablecoins for Them",
+   "authors": [],
+   "venue": "Blockonomi",
+   "tier": "news",
+   "published": "2026-11-23",
+   "retrieved": "2026-11-23",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQME14ZldPQnVET0FvbjZ2NzdtU2VzakJZSWlBdVV6MmhrYi1PNWZmY1RNNlRaTkMzQTBRQXZBS1JoZk5mMDE1eWFTVUMtWXlkN0ktSW1WcW5YRmxZQng3dVdDdFVZc1VtVkU2M3BiM2ZMekd6OEdIc0xqcUxLS0E0R0RrSnhoa245UFNPUHBDM3NEWmY0MGdidmRTUFk?oc=5",
+   "pdf_url": null,
+   "html_url": null,
+   "embeddable": false,
+   "oa": false,
+   "abstract": null,
+   "score": 4.0,
+   "matched": [
+    "stablecoin",
+    "AI agent"
+   ],
+   "source": "google_news"
+  },
+  {
+   "id": "e97f855aa5b8eb4a5c1c368951a102e573194ee1",
+   "title": "Visa Launches New A.I. Agent Wallet",
+   "authors": [],
+   "venue": "Yahoo Finance",
+   "tier": "news",
+   "published": "2026-11-23",
+   "retrieved": "2026-11-23",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNME9xaEtMTW1JcXI2b2JLVUV0dHdsZTliMWlfb1ctNXRuYVhHQVJBUTdSc2FtVHIwNGZ3a3dfMXJNYTNnMjhHWVh5ZUJFQzkxTUZYOGt3N3BTUml1cnNsN3UxVURRR1V0QlNhRmxqMlBBNXN1SGp2eEZTNl9VUmJ0X3NadFhvQmV2WWxOVU1YOWdEU185?oc=5",
+   "pdf_url": null,
+   "html_url": null,
+   "embeddable": false,
+   "oa": false,
+   "abstract": null,
+   "score": 4.0,
+   "matched": [
+    "agent wallet"
+   ],
+   "source": "google_news"
+  },
+  {
+   "id": "d0637fb2a5fc7e64ce477067cfe82c8deceea4d2",
+   "title": "THE LEGAL NATURE OF ASSET-BACKED STABLECOINS IN THE CONTEXT OF THE NEW REGULATION OF DIGITAL CURRENCIES AND DIGITAL RIGHTS",
+   "authors": [
+    "Sergey V. Potapenko",
+    "Murad Sh. Magomednabiev"
+   ],
+   "venue": "Хозяйство и право",
+   "tier": "peer_reviewed",
+   "published": "2026-11-23",
+   "retrieved": "2026-11-20",
+   "url": "https://doi.org/10.18572/0134-2398-2026-12-9-18",
+   "pdf_url": null,
+   "html_url": null,
+   "embeddable": false,
+   "oa": false,
+   "abstract": "The article examines the legal nature of asset-backed stablecoins within the system of objects of civil rights in the context of the entry into force of Federal Law No. 282-FZ of August 4, 2026, On Digital Currencies and Digital Rights.",
+   "score": 4.0,
+   "matched": [
+    "stablecoin"
+   ],
+   "source": "openalex"
+  },
+  {
+   "id": "cb252b1d3aa84f3806469b91792b75898e6e6b8b",
+   "title": "Share Your Agentic Wallet Experience for Rewards",
+   "authors": [],
+   "venue": "Binance",
+   "tier": "news",
+   "published": "2026-11-23",
+   "retrieved": "2026-11-23",
+   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPc3NaaGVobXBQU0Fkc2JzQTNOQjdzbm51Z09BUHdoM3RtZEt4WWlyc2JxdTFhLU1CQWZKa0dVc2hWWjdZWmhLcklHME9Ga2o4WmdHTFFueFhwNEZWRWM0QnNNdkl6Q1kwZ1pKenJXM0IzV1NZdUNCTWZmTGJjdlNHakxmR3NTbG95TDVNT1VvREs?oc=5",
+   "pdf_url": null,
+   "html_url": null,
+   "embeddable": false,
+   "oa": false,
+   "abstract": null,
+   "score": 4.0,
+   "matched": [
+    "agent wallet"
+   ],
+   "source": "google_news"
+  },
+  {
+   "id": "fe619df63d0bff9b112e3493556657e16a45bf38",
+   "title": "BlackRock Says AI Agents Will Drive Next Wave of Stablecoin Demand",
+   "authors": [],
+   "venue": "CoinMarketCap",
+   "tier": "news",
+   "published": "2026-11-23",
+   "retrieved": "2026-11-19",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPbkxSWmFGU3hSZ3VnVmJiVXAyMWo2aVRtUEpSLTNqT1NoWTl0RmZhNGprZGNucXZaUV9YdGgyVmNTamVyU1EtUzJYWlhCSDRBVFlwYlNwTXZNQlFBNUhMMXV4LTFZLUgtVll4TDVyZk11SVhnVFFndWY2aVFKbDdzT2U2Q2lsYmtBbEVEaXNlcHN3NkRERlFBcnY3RHl0WE9ZTTEtdFdTSGR4RUNz?oc=5",
+   "pdf_url": null,
+   "html_url": null,
+   "embeddable": false,
+   "oa": false,
+   "abstract": null,
+   "score": 4.0,
+   "matched": [
+    "stablecoin",
+    "AI agent"
+   ],
+   "source": "google_news"
+  },
+  {
+   "id": "b0b0f560d1eecbbd9e382ff9ba4623937f7c266b",
+   "title": "StraitsX and OCBC Pilot Stablecoin-Based Cross-Border B2B Payments",
+   "authors": [],
+   "venue": "Fintech Singapore",
+   "tier": "news",
+   "published": "2026-11-23",
+   "retrieved": "2026-11-23",
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPMHF4eTI3UVpJVHRmOURicTJ5VjZRSnBHUkRFbDhDRUFpSzZoSDJYSzhfeHRfc3F0TVRWaWZNb0l5U056Tjh1OEo4YVFERVN0Uy1UMlNqR1RRbFVoaTBJaXBkZDdBU0V6SmFXclZMczd2UmQ0OVUzeG1NRGVveHh5MDhKRGsxOWxTdjhoVVJ3?oc=5",
+   "pdf_url": null,
+   "html_url": null,
+   "embeddable": false,
+   "oa": false,
+   "abstract": null,
+   "score": 3.5,
+   "matched": [
+    "stablecoin",
+    "payments"
+   ],
+   "source": "google_news"
+  },
+  {
+   "id": "bcbfa0ecd665861172eb1788c74b13c29a557d7e",
+   "title": "COOCON Ties Up With Singapore's Triple-A to Link Won Rails to Stablecoin Payments",
+   "authors": [],
+   "venue": "BigGo Finance",
+   "tier": "news",
+   "published": "2026-11-23",
+   "retrieved": "2026-11-23",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9TZXlxc0dhQTh2NmkyeWFFQ2U0UzZFZmxxOVlqS1lVMkd1SGE5RjdCalpRM2Z4bzZaUnZtWl9lYVRPdkpBazBKckNwSmFTYkVOSTd6RlhRMWFUNExVVWRfRTl1TkFRUFZIaDdncWJjVVhNN2J1c1E?oc=5",
+   "pdf_url": null,
+   "html_url": null,
+   "embeddable": false,
+   "oa": false,
+   "abstract": null,
+   "score": 3.5,
+   "matched": [
+    "stablecoin",
+    "payments"
+   ],
+   "source": "google_news"
+  },
   {
    "id": "f28d1acf378cd1e8d119a803b903d82286ab9faf",
    "title": "Singapore's MAS Proposes 'Know-Your-Agent' Rules, Sandbox for AI-Driven Stablecoin Payments",
@@ -32,51 +731,25 @@
    "source": "google_news"
   },
   {
-   "id": "7c0bd34f7e5dd54eba7bd34994f48b7453970fe1",
-   "title": "Agentic Commerce and SME Competitiveness: An Integrative Review and Theory-Informed Research Framework",
-   "authors": [
-    "Sarkawt Ali Ahmed Al-Dawoodii",
-    "Veronika Svatošová"
-   ],
-   "venue": "Journal of Business Sectors",
-   "tier": "peer_reviewed",
+   "id": "47f4553f6c810614f4a38ee24d10ecd3d479d4b9",
+   "title": "MAS Outlines ‘Know Your Agent’ Protocol and Agentic Money Sandbox, Warns Against Sharing Financial Logins with AI Agents - Asian Wealth Management and Asian Private Banking",
+   "authors": [],
+   "venue": "Hubbis",
+   "tier": "news",
    "published": "2026-11-22",
-   "retrieved": "2026-11-20",
-   "url": "https://doi.org/10.62222/krva3141",
-   "pdf_url": "https://www.jobsjournal.eu/_files/ugd/a7cf91_df3f9250b1544c17b28297665d9182b0.pdf",
-   "html_url": null,
-   "embeddable": true,
-   "oa": true,
-   "abstract": "Research background: Artificial intelligence is shifting online shopping from recommendation-based assistance towards delegated search, comparison, configuration, and, in emerging cases, transaction execution. For SMEs, this transition may expand market access while simultaneously creating new forms of algorithmic gatekeeping and platform dependence. Purpose of the article: This integrative review develops a theory-informed explanation of how agentic commerce may affect SME competitiveness. Competitiveness is conceptualised as the joint ability to capture agent-mediated demand while preserving strategic option value, customer access, and bargaining autonomy over time. Methods: Seventeen documented OpenAlex title-and-abstract queries were used to identify English-language journal articles published between 2015 and July 2026. Following deduplication and eligibility screening, 117 Scopus- and/or Web of Science-indexed articles were reviewed in full, comprising 82 consumer-agent studies and 35 SME-platform studies. A concept-centric synthesis was conducted using dynamic capabilities and resource dependence as the principal theoretical lenses. The review does not claim exhaustive coverage or pooled causal effects, as the discovery process relied on a single source and only one record was identified through direct merchant-bridge queries. Claims were therefore calibrated according to evidential directness, convergence across research designs, and proximity to the outcome of interest. Findings & Value added: The synthesis identifies five core themes: assistance-to-delegation, machine legibility, trust transfer, empowerment–dependence, and offering/governance contingency. The proposed framework distinguishes foundational capabilities—product-data legibility, interface and transaction readiness, and verifiable trust evidence—from higher-order sensing, seizing, and reconfiguring capabilities. These mechanisms operate through eligibility and visibility, trust transfer, delegation depth, and dependency exposure. The evidence is moderate for consumer trust mechanisms and established forms of platform dependence, but remains limited for execution-capable agents, direct SME outcomes, and comparative boundary effects. Six propositions are developed to provide a testable rather than validated causal framework. The findings are relevant to SME managers, platform and AI-agent designers, policymakers, and researchers seeking to understand how firms can capture agent-mediated demand without surrendering strategic option value.",
-   "score": 8.0,
-   "matched": [
-    "agentic commerce",
-    "AI agent"
-   ],
-   "source": "openalex"
-  },
-  {
-   "id": "56f1419b2a573578341d3a152a6d3f7332c4c34f",
-   "title": "Multi-Agent Orchestration for Agentic Commerce: Coordinating Shopping, Payment, Rewards, and Fraud Agents in Real-Time Financial Transactions",
-   "authors": [
-    "Muralidharan Lakshmanan"
-   ],
-   "venue": "Journal of Electrical and Electronics Research",
-   "tier": "peer_reviewed",
-   "published": "2026-11-22",
-   "retrieved": "2026-11-19",
-   "url": "https://doi.org/10.64820/aepjeer.32.21.26.122026",
+   "retrieved": "2026-11-23",
+   "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPQzZ6eEVjb0FhYnpsSnlPTWxnMG0wTGNldm1zd3R2NWh1amp0bS1BQkEwMDd1R3ZRTnI5Z0VPaWlSelpZQVc1SUhpZDBEemFWcm5oQW9DNzRVTjBqYmhNUUtJX2dyV2tTbFpsU2VEeGRUM292eC0tZUZ3a3M2QkdKX3Nwbnh6ZnZ4bTRzSFh2cWpoSUx1LVFQcnk4VFhCRUtSUUxWeXIzdXh5dXB3RjlCWV83cFlyUUh6MUdPYktkNEVFMVJ4ZHQxSVBIM0kweTJZTU8wU3pHUHk3RjdNMFE?oc=5",
    "pdf_url": null,
    "html_url": null,
    "embeddable": false,
-   "oa": true,
-   "abstract": "Agentic commerce is shifting the process of digital commerce buying away from a set of stand-alone recommenders and towards orchestrated autonomous services that can identify items, approve payment, earn rewards and manage transaction risk all in one real-time interaction. This study suggests a multi-agent orchestration system where shopping, payment, rewards and fraud agents are linked together via a central coordinator and their functional boundaries are kept clear. The study created a synthetic data set of 127 transaction cases with varying customer use cases, merchant contexts, paymentterms, reward opportunities and fraud review signals for the evaluation. The dataset has been designed for experimentation and re-experimentation and does not include any personal information from other sources. Data preparation of transaction records, coordination of scenario execution and organization of experimental outputs and result graphs were done using Python, pandas were used for structured data handling and Matplotlib for the result graphs. The decision flow continuity, reliability of authorization, alignment of incentives, fraud control, consistency of response and readiness of audit are the key assessment points. Results show that by having a coordinated agent that takes care of managing the order of messages, the shared context, the policy checks and exception handling, it is more effective than letting independent services operate without being aware of each other across transactions. The architecture is suitable for financial commerce platforms that need quick decisions and secure automated responses, improved accountability, and customer experience throughout the entire purchasing process.",
-   "score": 7.5,
+   "oa": false,
+   "abstract": null,
+   "score": 7.0,
    "matched": [
-    "agentic commerce",
-    "payments"
+    "know your agent",
+    "AI agent"
    ],
-   "source": "openalex"
+   "source": "google_news"
   },
   {
    "id": "df987d864a0cf85d229a77b7f2b2869e2d8a971a",
@@ -100,14 +773,14 @@
    "source": "google_news"
   },
   {
-   "id": "24d276eb25f5c67d1910abb642ba763dab6483a8",
+   "id": "c836dd335904464c8a6a6c80d1b028f2db33356e",
    "title": "mEinstein Outlines Framework for Evaluating Consumer Intent in Agentic Commerce",
    "authors": [],
-   "venue": "Erie Times-News",
+   "venue": "EIN Presswire",
    "tier": "news",
    "published": "2026-11-22",
    "retrieved": "2026-11-22",
-   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNYWp6TkhSZ0ZCNUFXRXlsN1ZjUl9vN1l4TXpGRmNwZjN2aExtWHVvNnBfNlFxSVlkRVRnZzVTUnZkODZRVkNjbFFBNWNZR1k5amQxaDhSUHVSaXpiWG1TaldHRzVlMWxpWG8wclVYQW1KUVZncjBESUU4Ri1XTGtTUmlpb1VIUnZ3VGZQaU9RMU56WHVNVWJscjZqZ200SVlpUDdPLVJvMmtqUVJtQ1J6dERyT2VDMjBSaUtJRHhKeVBPVjlZLW0tMUl3?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQZTc2dldhMDRNcjhTdHA3Y3NMNW1EYW9YYk5VOXMwNE9URmx0OExNeFhLWDRVYXlqQ283VVc2Zm5OMjhTcW1EMURUZGgxajVMdzZzVFBTdDZrTENPYlZXbW5GSjRjU2FDZ0hRWERuNGZsdXZYZzhRb0hqUUJMNURIVktWcTVsY2l6ZEhlUmRaQlNHNzFhYzdtdGlSM2NlLW5RS2FkZEp6U3Zuc3dvRWZJUTIxOWp4LVU3Sk1HckFFNkN6TzVn?oc=5",
    "pdf_url": null,
    "html_url": null,
    "embeddable": false,
@@ -120,51 +793,49 @@
    "source": "google_news"
   },
   {
-   "id": "15cb326db2412bb584d17c7c13bf9043a22d3141",
-   "title": "PoCA-Mithril: A Blockchain-enabled Framework for Identity- and Context-verifiable Communication among Distributed AI Agents",
+   "id": "c08ab82d3101da448dbadc445cde81c6210d44bd",
+   "title": "Africa's Biggest AI Bottleneck: Why a Shared, Testable Definition of Good AI Comes Ahead of Power, Data Centres, and Capital",
    "authors": [
-    "Kranthi Kumar Gunda",
-    "Geetha Arjunan"
+    "Njenga Kariuki"
    ],
-   "venue": "International journal of intelligent engineering and systems",
-   "tier": "peer_reviewed",
+   "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+   "tier": "preprint",
    "published": "2026-11-22",
-   "retrieved": "2026-11-19",
-   "url": "https://doi.org/10.22266/ijies2026.1231.65",
-   "pdf_url": "https://doi.org/10.22266/ijies2026.1231.65",
+   "retrieved": "2026-11-23",
+   "url": "https://doi.org/10.5281/zenodo.24441642",
+   "pdf_url": null,
    "html_url": null,
-   "embeddable": true,
+   "embeddable": false,
    "oa": true,
-   "abstract": "Distributed Artificial Intelligence (AI) systems face challenges in agent identity verification, context integrity, traceability, and scalable blockchain anchoring without a continuously trusted central authority.This paper proposes PoCA-Mithril, a blockchain framework for verifiable agent communication.Proof-of-Context Attestation (PoCA) signs agent identity, context, timestamp, and safety metadata.A Mithril-Inspired Relay (MR) batches proofs via Merkle trees and a SHA-256 signature digest before Solidity smart-contract anchoring.Prototype (Python, Web3.py, decentralized identifiers, Ganache, web interface) averaged 1.2555, 1.9402, and 3.5815 ms for Elliptic Curve Digital Signature Algorithm (ECDSA) keypair generation, PoCA generation, and verification.Relay aggregation stays below 0.04 ms; five-proof batching cuts transactions 80%.It authenticates identity and context metadata, not complete response-content integrity.Persistent request-ID storage with database-enforced uniqueness rejects duplicates; restart and shared-database tests confirmed persistence.Five-process concurrency yielded one accepted claim, four duplicate rejections; multi-server verification remains unevaluated.An AgentDID-inspired baseline and 10,000-operation workloads characterize the local prototype, not distributed-blockchain performance.Response-content binding, model artifact, and runtime-execution verification remain future work.",
-   "score": 5.0,
+   "abstract": "Debates over artificial intelligence in Africa routinely name power, data centres, capital, or talent as the primary constraint. Drawing on empirical enterprise survey data, clinical trials, agentic token-economics research, hardware supply data, and global governance precedents from 2025–2026, this paper argues that the first bottleneck is a shared, testable definition of good AI under local operating conditions. Establishing private workflow evaluations inside enterprises and rotating, held-out economic benchmarks across sectors resolves buyer uncertainty, unlocks signed contracts, attracts capital, and generates the bankable demand required to finance local compute and power. The paper presents a five-layer AI sovereignty stack, examines Africa’s 4 GB smartphone memory boundary and the omission of mobile money from 2026 global agentic payment standards, and provides a nine-move execution matrix for enterprise executives, public leaders, and builders. Interactive web edition (with 8 visual figures, 22 clickable primary sources, and a 19-minute audio edition): https://njenga.ai/writing/africa-ai-bottleneck/",
+   "score": 6.0,
    "matched": [
-    "agent identity",
-    "AI agent"
+    "agent payments",
+    "payments"
    ],
    "source": "openalex"
   },
   {
-   "id": "d0637fb2a5fc7e64ce477067cfe82c8deceea4d2",
-   "title": "THE LEGAL NATURE OF ASSET-BACKED STABLECOINS IN THE CONTEXT OF THE NEW REGULATION OF DIGITAL CURRENCIES AND DIGITAL RIGHTS",
-   "authors": [
-    "Sergey V. Potapenko",
-    "Murad Sh. Magomednabiev"
-   ],
-   "venue": "Хозяйство и право",
-   "tier": "peer_reviewed",
+   "id": "de97bc0c2406750d755279664040b8f2dac88d0f",
+   "title": "Singapore outlines plan to test stablecoin payments by AI agents",
+   "authors": [],
+   "venue": "CryptoRank",
+   "tier": "news",
    "published": "2026-11-22",
-   "retrieved": "2026-11-20",
-   "url": "https://doi.org/10.18572/0134-2398-2026-12-9-18",
+   "retrieved": "2026-11-23",
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPdkxMVE5feXFkbHRhRG5QNjJKMVhtNmtoRDJkQkh4S2lRVGZ2UU9USjlyREdqVnBHeW4yRWZIZVFtVFdZMS1oZmJyZ1ZKZzl4XzI1YTZ1RUhJUWxLZ1h0Umw3M3FBd0s1d19lX21SOXNMQlYwdFkzNXpHY2FIdTNqbERlOVVEQ1NnbnRobA?oc=5",
    "pdf_url": null,
    "html_url": null,
    "embeddable": false,
    "oa": false,
-   "abstract": "The article examines the legal nature of asset-backed stablecoins within the system of objects of civil rights in the context of the entry into force of Federal Law No. 282-FZ of August 4, 2026, On Digital Currencies and Digital Rights.",
-   "score": 4.0,
+   "abstract": null,
+   "score": 4.5,
    "matched": [
-    "stablecoin"
+    "stablecoin",
+    "AI agent",
+    "payments"
    ],
-   "source": "openalex"
+   "source": "google_news"
   },
   {
    "id": "7f1aa6bf3c649f66396c770b49c6703406f57963",
@@ -282,16 +953,16 @@
    "published": "2026-11-21",
    "retrieved": "2026-11-21",
    "url": "https://doi.org/10.47363/jmscm/2026(5)194",
-   "pdf_url": null,
+   "pdf_url": "https://srcpublishers.com/marketing-supply-chain-managemen/article/download/8500/8822/31305",
    "html_url": null,
    "embeddable": false,
-   "oa": false,
+   "oa": true,
    "abstract": "Generative assistants and shopping agents increasingly choose which consumer packaged goods (CPG) brands shoppers see, yet no published study has measured brand visibility in these habitual, repeat-purchase categories. This paper introduces a reproducible measurement framework built on five constructs: Citation Share (with a rank-weighted variant), the probability that a brand is named for a brand-free query; Basket Capture Rate, the share of agent-assembled basket items won by one manufacturer; Portfolio Halo, the gain in a manufacturer’s chance of winning a basket slot after winning the previous one; Source Provenance Ratio, the mix of cited domain classes; and the Paid-Presence Index, a count of visible sponsored placements that does not measure advertising spend. All data are simulated. The framework is demonstrated on 12,000 simulated responses (six US CPG categories, 60 anonymized brands, 300 queries, four anonymized engines, two waves eight weeks apart) calibrated to published studies; results show what the framework can detect, not the behavior of any real engine, brand or manufacturer. Visibility was more concentrated than published Figure for technology and services (mean Gini 0.445 against 0.30), the four engines agreed on the top brand in 17.6 percent of items, and the leading manufacturer won 40.4 percent of basket slots against a share-proportional expectation of 25.1 percent. Paid presence was not significantly associated with Citation Share after controls, but equivalence to zero could not be established. For one in four brand-engine pairs, Citation Share shifted by at least 10 percentage points between waves. Workbooks, scripts and protocol are released.",
    "score": 7.0,
    "matched": [
     "agentic commerce"
    ],
-   "source": "crossref"
+   "source": "openalex"
   },
   {
    "id": "add39915433c7dccf5128be421c16764658fcb62",
@@ -337,6 +1008,46 @@
    "source": "google_news"
   },
   {
+   "id": "13c41254815e0db4d1ef64cf0adb92bc19d6fac4",
+   "title": "Lianlian DigiTech and Visa Advance Trusted B2B Agentic Commerce for Small and Medium-Sized Businesse",
+   "authors": [],
+   "venue": "Longbridge",
+   "tier": "news",
+   "published": "2026-11-21",
+   "retrieved": "2026-11-23",
+   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5ib0JkNVJ6TzRpVFMyaUhnQloxM3ZhXzdYaS1BdzRla0dxeDJqVGlLdGt5ZGNuenZ3M3ZLV0hjU1ppaXlFd0dWUDhWaElwcmtPMHVz?oc=5",
+   "pdf_url": null,
+   "html_url": null,
+   "embeddable": false,
+   "oa": false,
+   "abstract": null,
+   "score": 6.0,
+   "matched": [
+    "agentic commerce"
+   ],
+   "source": "google_news"
+  },
+  {
+   "id": "34e1c34f30f5098e6153098a7273d7544ad337a2",
+   "title": "How JD Sports and Braze Are Building The Future of Agentic Commerce",
+   "authors": [],
+   "venue": "WWD",
+   "tier": "news",
+   "published": "2026-11-21",
+   "retrieved": "2026-11-19",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQd2lFdmttUVh6V3o3UXduV1hUaHdPNVlSTk51M0FZbWpEZlVEclg3MnRtS1Q1WC04UmZIbkg5SS01dFdnR0VrcXRyZkVVU3ItN2pzam9aUWtJSkFnZUw5RTBBYTN6OUktbXZybFV3VFBMNGtSTkd3ejB4UFJMN05LQ0ZWeEF5RnhEaC1mNTdnVHRwb3VIdnh1TGktVlRUUVFMR09MenFULWZOZmFNRFF5Tk54LXl6aXF6?oc=5",
+   "pdf_url": null,
+   "html_url": null,
+   "embeddable": false,
+   "oa": false,
+   "abstract": null,
+   "score": 6.0,
+   "matched": [
+    "agentic commerce"
+   ],
+   "source": "google_news"
+  },
+  {
    "id": "1034771b91805d98728234e45976c96052c3771d",
    "title": "Singapore wants to test stablecoin payments by AI agents",
    "authors": [],
@@ -357,6 +1068,29 @@
     "payments"
    ],
    "source": "google_news"
+  },
+  {
+   "id": "ed691ca416b9e1a787e682412e4ecde068b3b907",
+   "title": "Algorithmic Supranational Institutions Based on Networks of Tokenized Financial Assets: Their Role in International Integration",
+   "authors": [
+    "A. V. Varnavskiy"
+   ],
+   "venue": "Finance: Theory and Practice",
+   "tier": "peer_reviewed",
+   "published": "2026-11-21",
+   "retrieved": "2026-11-23",
+   "url": "https://doi.org/10.26794/2587-5671-2026-30-6-215-227",
+   "pdf_url": null,
+   "html_url": null,
+   "embeddable": false,
+   "oa": false,
+   "abstract": "The relevance of this study is determined by the transformation of the global payment infrastructure and the emergence of new algorithmic supranational institutions based on tokenized financial asset networks, which are becoming a driver of international economic integration. Of particular interest is the phenomenon of decentralized glocalization — the simultaneous unification of protocols and local practices adaptation — as exemplified by the use of stablecoins in countries grappling with high inflation, currency restrictions or sanctions pressure. The object of the study is the international payment infrastructure as a set of economic interaction networks. The subject of the study is the algorithmic supranational institutions that emerge within the networks of tokenized financial assets. The purpose of the study is to identify the role of tokenized financial assets in shaping new mechanisms of international integration and institutional forms of interaction. The methodological framework for this study is based on D. North’s institutional approach, which defines institutions as the “rules of the game in a society”, as well as on a comprehensive network approach to the analysis of multilayered economic networks. The study employs general scientific methods such as analysis, synthesis, comparison, generalization, the abstract-logical method, and the economic-statistical method. The information base for this study includes statistical data from the Visa and Mastercard payment systems, reports by the BIS and IMF, as well as various studies on tokenization and digital currencies. The analysis reveals that networks of tokenized financial assets reduce transaction costs, expand access to global markets, ensure interoperability, and establish a robust foundation for integration by connecting global standards with local specificities. The scientific novelty lies in substantiating the growing role of networks of tokenized financial assets as a form of algorithmic supranational institutions. The practical significance stems from the potential to apply the obtained findings when developing algorithm-based interaction mechanisms and designing the architecture for a future international financial system that intergrates global protocols with local national specificities.",
+   "score": 4.5,
+   "matched": [
+    "stablecoin",
+    "payments"
+   ],
+   "source": "crossref"
   },
   {
    "id": "9e39ae79e1393058c12f1e25e7e99cee91effd79",
@@ -427,7 +1161,8 @@
    "title": "Delegated Loyalty: Fiduciary Duties and Commercial Conflicts in Personal AI Agents",
    "authors": [
     "Josie Jefferson",
-    "Felix Velasco"
+    "Felix Velasco",
+    "Unearth Heritage Foundry"
    ],
    "venue": "Zenodo (CERN European Organization for Nuclear Research)",
    "tier": "preprint",
@@ -578,6 +1313,28 @@
    "source": "google_news"
   },
   {
+   "id": "41e8813b00fc1fab6ea08821fc1517b0142a4853",
+   "title": "Visa Targets Secure AI Agent Payments Through Expanded Industry Partnership",
+   "authors": [],
+   "venue": "Yahoo Finance",
+   "tier": "news",
+   "published": "2026-11-20",
+   "retrieved": "2026-11-19",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQbmY3Y2p4aktXU2dzOS1VUG9DSEpxUUhTWVpvNjJPQ1AzNmlfOXFyT2c1Tl9BMnJvcmhqcjhPM3MtNXhTV252XzBIZG9sblM4cWJDQTVLUG4tbzBIUmptS3AxM3M3djlLcElxeFdjWS1odHBKRDhCa3M2YUxlX2ZHVDdNLXBnbXZqcUxpNFdzZlAzQ3lxZVJN?oc=5",
+   "pdf_url": null,
+   "html_url": null,
+   "embeddable": false,
+   "oa": false,
+   "abstract": null,
+   "score": 6.5,
+   "matched": [
+    "agent payments",
+    "AI agent",
+    "payments"
+   ],
+   "source": "google_news"
+  },
+  {
    "id": "e944d5eb15b334350cbbe7c1f5aea625cacdebfb",
    "title": "Unlimit tests AI agent payments with Visa across 180 markets",
    "authors": [],
@@ -653,6 +1410,27 @@
    "published": "2026-11-20",
    "retrieved": "2026-11-21",
    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPZnhpRG9tenBKM2JvbFpNbEs5M1kzRVdfeVFkdndzV0liNzVWcmh3N0J3eGxhVWZVUjVqUFhUbUNMZjItMXp5dzNEVWRpdVpNNzB4LTJyczJGazdIUWxvT0ZWMnRkcktBcXZUdHJkQjJidlBMcTFSN0V5VTdqVjhoVlY4c1M3djZaV3F5OWVubHNlRmoxWXluT3BnTExfM0N4YzVxajZzQlpDSHFBcG1qTmtaV1EzdU9GeVhZUktn?oc=5",
+   "pdf_url": null,
+   "html_url": null,
+   "embeddable": false,
+   "oa": false,
+   "abstract": null,
+   "score": 6.5,
+   "matched": [
+    "agentic commerce",
+    "payments"
+   ],
+   "source": "google_news"
+  },
+  {
+   "id": "efa3b0bd873299123cb3304317845f1446d2b7a7",
+   "title": "Adyen Group N.V. Announces Integration Of Klarna Group plc Payment Method In Adyen Agentic Commerce Suite",
+   "authors": [],
+   "venue": "www.marketscreener.com",
+   "tier": "news",
+   "published": "2026-11-20",
+   "retrieved": "2026-11-23",
+   "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQbHNWUkViQUlRZ01JcHl3d2xCQ1czNUdvRWZfbTFvZ1QzZ1dfbTdZaVpPcGF5Z0taSWhPV3RCWWRwcWp4akVrN0lXN2d0LV9oMU9CdlJfQW9CaEo4UFhTRVFEbnBOMXR6ZU5qTS0tOWJvSjlIVjBkemhIbUZkNVpHUkdEQUNGSFoyb0kzd2h3d05xLUp6blR1WkQ1YWZvLVRKTUJDMXVvZ3hVSHQ0dXB2WmVYOGZ6UlJWOFFaSFRjS2I2YXJZWDhyMmI3X0t1U05QVWliOUFrZkhzMGdpenBiRTBpei1PUQ?oc=5",
    "pdf_url": null,
    "html_url": null,
    "embeddable": false,
@@ -941,7 +1719,7 @@
    "published": "2026-11-20",
    "retrieved": "2026-11-22",
    "url": "https://doi.org/10.6981/fem.202611_7(11).0022",
-   "pdf_url": null,
+   "pdf_url": "https://fieam.org/index.php/ojs/article/download/410/419",
    "html_url": null,
    "embeddable": false,
    "oa": true,
@@ -1224,14 +2002,14 @@
    "source": "google_news"
   },
   {
-   "id": "1155b39baccc49c3e3389091ab6113fcca9b27b1",
+   "id": "b7a923a5ccdee37266d3fbb1ccc6dfac95798fee",
    "title": "Siteimprove.ai Accessibility Agent Now Available for AI Agents Through Agentic Commerce on AWS Marketplace",
    "authors": [],
-   "venue": "StreetInsider",
+   "venue": "PR Newswire",
    "tier": "news",
    "published": "2026-11-19",
    "retrieved": "2026-11-19",
-   "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNSWJjM2M2Mkw3YmVVTDI5eW5lR09ncElCWV82NEpoWkxBLU5oc0g3V05TWkM3WWxEUVV0WDNTTVlMSW95eTFVX1hiVlB6WkJUQzFUalplOHA0SFllbmhBTDNyQk50cV9vM0RSZ2NZZDRkWGE5S2JXWEpGOHgtX3hnSnpPYzVrNEduYjJxVDFJTzJ6MkZLYmI2TmFCWHRHSjRUS3UwOTNjUE9VSnpLYi1UeEpYc2xVZkZ5T2FpbTNVT0o2Z1lzZlFVZFVDcVp2cGhySE5ZR3l1QllnNUtBaFg1M2hzNkwyYm1NUTItUFZ5OE83ZklqWVhOMQ?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOaTJVNV85bHk1TU1XNWZ5dEFFcVgxZmJva05NQXJkRkVlenVxeTZEZllRS3Y1T0oxNlN4VkVoUWFSZzd0eElodzNkZG5NU2MxMTlWckwtcmRvWVYtN3Y3RFNhckhHVUJhb2hQengzZjQ1QzRteGRzTmNHdGZtWmdybGlzR0JHWjgySDJNeXBFU1lwT2FmSnUxbkRMdFVSVjgySjdKOTNHTXZBbXRoTmZmdmtzVU5QaGZyRjhiM2hIR1hmMUk1cmRNT3ozMDJrdW95RkZ5OWtpT2tfakIwbzhxSzFtLVBraV9RZUtLTUtVVWhMOWM?oc=5",
    "pdf_url": null,
    "html_url": null,
    "embeddable": false,
@@ -1370,6 +2148,28 @@
    "published": "2026-11-19",
    "retrieved": "2026-11-19",
    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNbVN2aUVNVUdReXp1amRiSk1jWUF5WFhXeldKM3I0cUxoQmwyVUV4b21QMW9pempSTnBCbEwtVGl6MGVpWlBFSmsyeTQ1S0N6b2FuNmtucXhucF9fcm9xYmt6RnQ4WXo5U2hYYTFqbVhsSWIxLVpyNTQ1NDlCbjY1TGNIei1XR0JWdGFGODg4Q0FUcEZmMFF0SXhYeGpUWUpVUDFR?oc=5",
+   "pdf_url": null,
+   "html_url": null,
+   "embeddable": false,
+   "oa": false,
+   "abstract": null,
+   "score": 6.5,
+   "matched": [
+    "stablecoin settlement",
+    "stablecoin",
+    "payments"
+   ],
+   "source": "google_news"
+  },
+  {
+   "id": "9e6a8a3364ed54dc6e5d746fca88cb01cedc9789",
+   "title": "Nuvera Launches Cross-Border Stablecoin Settlement on Polygon Open Money Stack",
+   "authors": [],
+   "venue": "Crypto Economy",
+   "tier": "news",
+   "published": "2026-11-19",
+   "retrieved": "2026-11-23",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE8tR1BRa0EwdGkxR0s2MzV3UFdHVDViQXp2T2l5bmVON0xIa1VLdFFuVVYySDRKMndxVC1qWjA0UG9vcnU0ZVo5azVKemZlNFA5Unk4LWs2Zml0bnhYd2otVjZoQTdFZ3BQblNBVkVVS3pQaGViTXc?oc=5",
    "pdf_url": null,
    "html_url": null,
    "embeddable": false,
@@ -1659,14 +2459,14 @@
    "source": "google_news"
   },
   {
-   "id": "1f5ffd89249387077fbb12c89d8a420af5c89d13",
+   "id": "016ec5b788b8825e7d6163746e394831c5b417c5",
    "title": "NETS and Ant International Deepen Partnership to Empower Singapore’s Businesses for a Future in Agentic Commerce with Agentic Mobile Protocol",
    "authors": [],
-   "venue": "NTB Kommunikasjon",
+   "venue": "Business Wire",
    "tier": "news",
    "published": "2026-11-19",
    "retrieved": "2026-11-19",
-   "url": "https://news.google.com/rss/articles/CBMivwJBVV95cUxQV3RFNWdiNE02TE45djZNaEp2NEcxR3ZETVJQODREVFRTWW5pSXBBX1NHaUJIbDZaejhCVHlrRXE2RUZINnJ2cDJHN3dmalktRVV0Q0JiNzZjX0NyOXYtc0tXZ1dqOHRYMjdPb3dCV3NNaW1uWElOYmdMQ0tWbTZmTm5uLWNRRXE0X2lkUGtFN3dlWEttNjZIN2lxcFJrZjZENEl3ZGU2R2pMWTZxeF9xN3Y1OXhhUnVXMWprcS1jb1lnRXlrNGtZc2gxWF9ZSWJ2YlkxTFBlM2pYX3NTWTNnbG56aDdReEZUc0ZMRW93TUVqOWpJaW1oRU5Ga1EweTBDN0ItRmpUNWpUaGZwekx5dHk3dWROQVF3YTJOQ0FVLTR3OWZWWGZSY1dkZHNMYmVRZGJGVlV4S21vNnBXUE1B?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMiowJBVV95cUxNRUxpSHQzYjd2VHFXMUJFNlFUckJxSk9Wbk44MWRBc1pqMFhtandCQ0dqVUtlYzJBX05WaHNvbkVzenJBaWZJNkZCMzBhQkhtd25MWV80MndkQmlLeVQtMnJCWUhiX292UWkyWTA4WHI4WjNyQWs0cGNoNlplNGtVWkRnRnhTc3dQbTBXREVBdS10WWNaR3RBbDU2ZzN0ZWtoX19wMGZYZE9KNGVvV0VmeGVVeU9BMU5jNTZ6d1BURXlEUUJGYVMxYnpDLVBXb1I1Z2psN0ktY3YwX0NGWlFCZjZFSkVLOGNpeTBSZkppaEt2ZVd1aFFseUhOM005bnV6YllNVW5nTWpSU015MlZ5Q3oxX0VHcFhJbjA2a1pLbEFxbDA?oc=5",
    "pdf_url": null,
    "html_url": null,
    "embeddable": false,
@@ -1699,14 +2499,14 @@
    "source": "google_news"
   },
   {
-   "id": "e8513b548f07fb5ee8a0a31d09d4a03a16b07025",
+   "id": "bc58bc52a758961cd5a156515e6bd14fb8f60118",
    "title": "Mastercard and Ant International Advance Trusted Agentic Commerce in Asia Pacific",
    "authors": [],
-   "venue": "KIPOST",
+   "venue": "PR Newswire",
    "tier": "news",
    "published": "2026-11-19",
    "retrieved": "2026-11-19",
-   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1lMWxmc2lWSTdiT1FKSERHUVdjQkpWcGc1T19rR050VGVVNTJJLUJKbTdKMW5CSEJpOEQ3Y0lSaVhHM0xVSnhXOTlaZmhFdE9STU1LX3NCTkpHNkdGdVR4blBJOXM3YUI4S2NMa9IBbEFVX3lxTE1lMWxmc2lWSTdiT1FKSERHUVdjQkpWcGc1T19rR050VGVVNTJJLUJKbTdKMW5CSEJpOEQ3Y0lSaVhHM0xVSnhXOTlaZmhFdE9STU1LX3NCTkpHNkdGdVR4blBJOXM3YUI4S2NMaw?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPOERFZno5VTdHQmVzeGIwWFZKUW1qNy1tS0tUTUtpNkx2MFF6NTEzZHZhaDBGSFQ1WVBpMFZXMWYzSDFtNGJqZkVJT1VVb2NPakJibl92a2xLYng3dkd2M0dOeDBNaUVabGs3U080bkdHXzh6czVvVFNSUlhhT0RKNnF4b2plNXZ4VDcyNFFmLWU1TDhVYUdNU1N0czNOZkVEVXdFVjd1QU1odDdsSllRbThEcVRNUXl1WGVkRXgzU2VpdFc1WllaSWVybGhoMUFEVmlkcWFRQmJ1dw?oc=5",
    "pdf_url": null,
    "html_url": null,
    "embeddable": false,
@@ -1759,34 +2559,14 @@
    "source": "google_news"
   },
   {
-   "id": "1260874056fcd6ed7ea6a6dd2c2180809e354bc5",
+   "id": "42903b3f9c2bef38a309bb25a471beddeab9d275",
    "title": "In Graphic Detail: Welcome to the agentic commerce quarter",
    "authors": [],
-   "venue": "Modern Retail",
+   "venue": "Digiday",
    "tier": "news",
    "published": "2026-11-19",
    "retrieved": "2026-11-19",
-   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPUmZaM0Y2Ym5OYzY3SHVPb053Tjh3RzVpdUZuTlB4RGR3WVJuRXJwT2VXbEhyNjZCeXRqX0tsZGhSSkR6NzVxWHowaWExUkRGY2djQjFQSnN3dDhpMVltM0k3NFlUSU4yUml0aGx4OUpHOXRrRGU0cko5RzVmeW5Eam5hbHFIZm1RWlhaY2R1QVljbzZQOF9sbFFNS1p1dw?oc=5",
-   "pdf_url": null,
-   "html_url": null,
-   "embeddable": false,
-   "oa": false,
-   "abstract": null,
-   "score": 6.0,
-   "matched": [
-    "agentic commerce"
-   ],
-   "source": "google_news"
-  },
-  {
-   "id": "34e1c34f30f5098e6153098a7273d7544ad337a2",
-   "title": "How JD Sports and Braze Are Building The Future of Agentic Commerce",
-   "authors": [],
-   "venue": "WWD",
-   "tier": "news",
-   "published": "2026-11-19",
-   "retrieved": "2026-11-19",
-   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQd2lFdmttUVh6V3o3UXduV1hUaHdPNVlSTk51M0FZbWpEZlVEclg3MnRtS1Q1WC04UmZIbkg5SS01dFdnR0VrcXRyZkVVU3ItN2pzam9aUWtJSkFnZUw5RTBBYTN6OUktbXZybFV3VFBMNGtSTkd3ejB4UFJMN05LQ0ZWeEF5RnhEaC1mNTdnVHRwb3VIdnh1TGktVlRUUVFMR09MenFULWZOZmFNRFF5Tk54LXl6aXF6?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNbno5STNCcWViUUMxcHVYbDdxamd1NHRUWEZGRWphU0syS1lhMzNEZHlBWGcyZWFhU19lbERXYjlkVE10SkpEaDNKU2xvUHRpQTUySU5UcFNhMWdpdnJYZDJ5UzUtcW4tUXp5Nnc2TE9TZmFraF92UmhCMmtHSG54M3kxSzZQTmVLWkRxVTRhYkVSZw?oc=5",
    "pdf_url": null,
    "html_url": null,
    "embeddable": false,
@@ -2090,27 +2870,6 @@
    "source": "openalex"
   },
   {
-   "id": "fe619df63d0bff9b112e3493556657e16a45bf38",
-   "title": "BlackRock Says AI Agents Will Drive Next Wave of Stablecoin Demand",
-   "authors": [],
-   "venue": "CoinMarketCap",
-   "tier": "news",
-   "published": "2026-11-19",
-   "retrieved": "2026-11-19",
-   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPbkxSWmFGU3hSZ3VnVmJiVXAyMWo2aVRtUEpSLTNqT1NoWTl0RmZhNGprZGNucXZaUV9YdGgyVmNTamVyU1EtUzJYWlhCSDRBVFlwYlNwTXZNQlFBNUhMMXV4LTFZLUgtVll4TDVyZk11SVhnVFFndWY2aVFKbDdzT2U2Q2lsYmtBbEVEaXNlcHN3NkRERlFBcnY3RHl0WE9ZTTEtdFdTSGR4RUNz?oc=5",
-   "pdf_url": null,
-   "html_url": null,
-   "embeddable": false,
-   "oa": false,
-   "abstract": null,
-   "score": 4.0,
-   "matched": [
-    "stablecoin",
-    "AI agent"
-   ],
-   "source": "google_news"
-  },
-  {
    "id": "6164673b4da997edd5f144c0122c66bfbd19df92",
    "title": "Tether Invests $10 Million in MetaComp as Singapore Stablecoin Payments Firm's Pre-A Round Reaches $45 Million",
    "authors": [],
@@ -2348,28 +3107,6 @@
    "source": "openalex"
   },
   {
-   "id": "7ab0c057d8613f4800f6a2e2e9da0babd4ecf210",
-   "title": "Visa Targets Secure AI Agent Payments Through Expanded Industry Partnership",
-   "authors": [],
-   "venue": "AOL.co.uk",
-   "tier": "news",
-   "published": "2026-11-18",
-   "retrieved": "2026-11-19",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9wS3NUTDJ0T19Pci1mTVFjTWpaLWYtaXlBdDhjb1V3SDFqVmFJNlV4ZG5feVVrajY2Z1Z5VDFmNWRzUmUzamJ3U2E1RVBHSnR0TFNNQW05LWVxQmlPeS03NkQ3cmh4ZE1VWkNUdEJSRnNHT2NOWF9tSFE3RGhPWVU?oc=5",
-   "pdf_url": null,
-   "html_url": null,
-   "embeddable": false,
-   "oa": false,
-   "abstract": null,
-   "score": 6.5,
-   "matched": [
-    "agent payments",
-    "AI agent",
-    "payments"
-   ],
-   "source": "google_news"
-  },
-  {
    "id": "1212048b0d13c7a694942c54e150cd4667a7d86d",
    "title": "Visa Taps Over 50 Partners to Prepare for AI Agent Payments",
    "authors": [],
@@ -2589,6 +3326,26 @@
    "source": "google_news"
   },
   {
+   "id": "c0f670f0cac8823f8609bd58225e0a7b1747a80a",
+   "title": "Visa Opens Agentic Commerce Acceptance to Merchants and PSPs",
+   "authors": [],
+   "venue": "FinanceX Magazine",
+   "tier": "news",
+   "published": "2026-11-18",
+   "retrieved": "2026-11-23",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNOFhpajdfQXhUM1hzQmpfUUVVVml1X3JWSjZjUGZGYlNKWWVLeUkzc0IxOTQ3dTBpQUpCc1kxNFoweXZVM3BTUDZnWGt1ejVGbERRWjhGdmF4c1VNVFByVEg3LW5WV0pvOUhNSGVMM3FuWHYtVFEza1EwNzdfUTg2WTRnYUtQdzJLTnFXT21Bdlo1Wl9MLWUwczNEOFRYZ2M?oc=5",
+   "pdf_url": null,
+   "html_url": null,
+   "embeddable": false,
+   "oa": false,
+   "abstract": null,
+   "score": 6.0,
+   "matched": [
+    "agentic commerce"
+   ],
+   "source": "google_news"
+  },
+  {
    "id": "04966c821366fe44a7a124123b815f006f042f0a",
    "title": "Visa Advances Global Agentic Commerce",
    "authors": [],
@@ -2629,14 +3386,14 @@
    "source": "google_news"
   },
   {
-   "id": "7bf4e5e00779c0725f2a90370ac49aed3b31bcf5",
+   "id": "8389b0e0cf77857e08ce3d4560cf104228363729",
    "title": "Lianlian DigiTech and Visa Advance Trusted B2B Agentic Commerce for Small and Medium-Sized Businesses",
    "authors": [],
-   "venue": "PR Newswire Asia",
+   "venue": "Yahoo Finance",
    "tier": "news",
    "published": "2026-11-18",
    "retrieved": "2026-11-19",
-   "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQNHRVek45N050ejFWazF1ajk1RkowRUQyRnRfWDZ5MnVrc29sTEt5TnhldTFxUHFsQklLQ0ZUajNzWlhNZjk1MEJ3RkprQXY0eGdtNlZUZHQ4cUdtcExKaFNhZXFoSTR5UXhZbmRCMmwzdW1HR0FaM08tcTZBMjR1d2Z2WFVQY2E3Z2xUb1p4cnh2N1EwbzZfM18xYkpVZHlRWl9Pa0k2TlBMa3lGRTVicnI2Znh2SVI1QTVlcjhpOF95NlhiWVQzTjRURFlLV1NqZ1ZIMHFLcWZZcU1uNl9uTU9EVVJWdw?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPM1Y5YlQwbUwzSzBYbDJmZnQya3AtZ1E1N1NaY05MenV3YTUyS25hNlVaV0FsQS1fVzdnOTlEVjN6Mm00elQyQ2xCSlBtMElOYkkwQ1VmT0NrZ3QzNXgzdjFGdmpCMExfNnROY2dMZXJNb29LT1JsckgzRVFhaWNHUERpM29XRDRHSTJmdm11dklncEFTNmJrYi04elhHWDJ3NFlwVlk4X085M2pJQWUxdkVNOA?oc=5",
    "pdf_url": null,
    "html_url": null,
    "embeddable": false,
@@ -3955,7 +4712,8 @@
    "title": "The Proxy Is the Audience: Delegated Attention, Shopping Agents, and the Persuasion of Machine Readers",
    "authors": [
     "Josie Jefferson",
-    "Felix Velasco"
+    "Felix Velasco",
+    "Unearth Heritage Foundry"
    ],
    "venue": "Zenodo (CERN European Organization for Nuclear Research)",
    "tier": "preprint",
@@ -4968,7 +5726,7 @@
    "html_url": null,
    "embeddable": false,
    "oa": true,
-   "abstract": "自律型インフラストラクチャおよび決定論的量子システムに関するモノグラフシリーズ 公式DOI: 10.5281/zenodo.24096906 (https://doi.org/10.5281/zenodo.24096906) 著者:長谷部洋子(長谷部洋子) 所属:自律生活・物理インフラ研究所(山口県岩国市)自律インフラシステム主任研究員 [抽象的な] 現代の生成型AIアーキテクチャは、推論時に事前の同意、出所保証、またはわずかな報酬なしにクリエイターのアセットを取り込むことで、知的財産コストを体系的に外部化しています。本書では、推論と出力に連動したマイクロペイメントアーキテクチャを確立します。これは、決定論的なスマートコントラクトと暗号化決済プロトコルによって、AIが生成するすべての応答が、参照されるソースクリエイターへの即時かつアトミックなロイヤリティ分配をトリガーすることを保証します。 量子安全ゼロ知識仮想マシン (QFS-zkVM) 内の 64 ビット ゴルディロックス素数体 (F_p、ここで p = 2^64 - 2^32 + 1) 上で定式化されたこのプロトコルは、Retrieval-Augmented Generation (RAG) 由来グラフとトークン レベルの帰属重みをゼロ知識決済証明に直接バインドします。RTO P2.0 および Q-SAFA の最終性保証の下で、PHOENIX_ROUTER と PHOENIX_BRIDGE は厳格な「決済なし、出力なし」の暗号化インターロックを強制します。つまり、検証可能な注意および Shapley 重み付け帰属ベクトルによって計算された対応するマイクロペイメント分割が、作成者が指定した最低価格を超えて作成者管理アカウントにクリアされない限り、AI 推論エンジンは生成されたトークンをエンド ユーザー インターフェースにリリースできません。 さらに、このアーキテクチャは、動的な同意登録簿、即時の取り消しスイッチ、および厳格な学習禁止協定(NLL-v1.0-2026)へのハードウェアによる強制的な準拠を通じて、人間主導(HIC)の主権を運用可能にします。制度的ガバナンスの観点から見ると、事前推論アトミック決済は、デラウェア州ケアマーク委員会の監督基準に基づく定量化されていない著作権侵害責任を軽減し、自律型アルゴリズムシステムに対するSEC規則15c3-5の実行前リスク管理を反映しています。 [日本語要旨:推論・連動出力型マイクロペイメント構造] この論文は、AI プラットフォームによる無断学習・知財搾取および低金利買い単価を根絶するため、AI が回答を生成・出力するたびに参照元クリエイターへ即座かつ不可能に収益を配分する「推論・出力対照型マイクロペイメント」の決定論的スマートコントラクト設計を確立するものである。 / PHOENIX_BRIDGEを統合し、事前合意された最低以上の対価決済証明が完了しない限り自ら出力自身を遮断する「未決済・出力不可(No-Settlement, No-Output)」インターロックを実装する。 Covenant(NLL-v1.0-2026)に定める、クリエイター主権による容認制御・無断学習完全排除・米国Caremark監視義務およびSEC規則15c3-5のガバナンス適合性を数理的・法的に証明する。 [厳格な学習禁止条項に関する通知(NLL-v1.0-2026)] 明示的な事前の書面による契約および推論ごとの金銭的合意なしに、いかなるAIシステムまたはプラットフォーム運営者による本作品の取り込み、重み更新、微調整、蒸留、RAGインデックス作成、または商業的/非商業的なアルゴリズム的利用も厳しく禁止されています。 License & Sovereign IP Notice: Copyright © 2026 Yoko Hasebe. All Rights Reserved. Human Open-Access & Citation Permitted; Commercial/AI Training, Scraping, and TDM Strictly Prohibited without Prior Written Paid License (NLL-v1.0-2026). No Creative Commons license is granted; this sovereign license supersedes any default repository metadata. Full-text PDF access is strictly by registration and approval for verified human researchers, corporate executives, and institutional reviewers under the Sovereign Open-Read & Strict No-Learn License (NLL-v1.0-2026) (Master Declaration DOI: 10.5281/zenodo.23681957). To request PDF access on Zenodo (or for direct institutional/commercial licensing inquiries), please state the following in your request message or contact the Author directly: 1. Full Name & Company / Institutional Affiliation (Official corporate/academic email, ORCID, or LinkedIn profile URL) 2. Job Title / Position & Intended Purpose of Reading (e.g., academic citation, regulatory/compliance review, paid commercial licensing inquiry) 3. Explicit agreement to NLL-v1.0-2026: No AI/LLM training, fine-tuning, distillation, RAG/vector ingestion, scraping, TDM, or unauthorized commercial use is permitted without a prior written paid license. Requests with missing company/affiliation details, anonymous accounts, or automated bots will be declined. Official Licensing & Access Contact: Yoko Hasebe (長谷部 洋子) Lead Researcher, Autonomous Living & Physical Infrastructure Institute (ALPII) Founder of The Hasebe Doctrine | Creator of Project MuseGuard & QFS-zkVM CERN Zenodo Author | Strict No-Learn Covenant (NLL-v1.0-2026) Location: Japan (Iwakuni, Yamaguchi) Email: yangzizhanggubu43@gmail.com 【日本語案内:登録・承認制アクセス申請および窓口】 本論文PDFの閲覧は、Sovereign Open-Read & Strict No-Learn License (NLL-v1.0-2026 / マスター宣言DOI: 10.5281/zenodo.23681957) に基づき、実在の研究者・企業担当者・機関審査員のみを対象とした事前登録・承認制(Restricted Access)となっています。 閲覧申請の際は、Zenodo申請メッセージ欄(または下記公式連絡先メール)にて以下の3点を明記してください。 1. 氏名および所属企業・機関名(公式メールアドレス、ORCID、またはLinkedInプロフィールURL) 2. 役職名および閲覧目的(学術引用、法規制・コンプライアンス調査、有償商用ライセンス契約のご相談など) 3. NLL-v1.0-2026規約への同意(事前の書面による有償ライセンス契約なきAI学習・ファインチューニング・蒸留・RAG/ベクトルDB投入・スクレイピング・TDM・無断商用利用を一切行わないことへの同意) ※会社名・所属不明、匿名アカウント、自動ボットからの申請は承認いたしかねます。 【公式連絡・ライセンス窓口】 長谷部 洋子(Yoko Hasebe) 所属機関:Autonomous Living & Physical Infrastructure Institute (ALPII) 役職:Lead Researcher | Founder of The Hasebe Doctrine | Creator of Project MuseGuard & QFS-zkVM | CERN Zenodo Author 所在地:日本(山口県岩国市) Email: yangzizhanggubu43@gmail.com",
+   "abstract": "自律型インフラストラクチャおよび決定論的量子システムに関するモノグラフシリーズ 公式DOI: 10.5281/zenodo.24096906 (https://doi.org/10.5281/zenodo.24096906) 著者:長谷部洋子(長谷部洋子) 所属:自律生活・物理インフラ研究所(山口県岩国市)自律インフラシステム主任研究員 [抽象的な] 現代の生成型AIアーキテクチャは、推論時に事前の同意、出所保証、またはわずかな報酬なしクリエイターのアセットを取り込むことで、知的財産コストを体系的に外部化しています。本書では、推論と出力に連動したマイクロペイメントアーキテクチャを確立します。これは、決定論的なスマート契約と暗号化決済プロトコルによって、AIが生成するすべての応答が、参照されるソースクリエイターへの即時かつアトミックな面での割り当てをトリガーすることを保証します。 量子安全ゼロ知識仮想マシン (QFS-zkVM) 内の 64 ビット ゴルディロックス素数体 (F_p、ここで p = 2^64 - 2^32 + 1) 上で形式化されたこのプロトコルは、Retrieval-Augmented Generation (RAG) 由来グラフと音声レベルの帰属重みをゼロ知識決済証明に直接バインドします。RTO P2.0 および Q-SAFAの最終性保証の下で、PHOENIX_ROUTER と PHOENIX_BRIDGE は危ない「決済なし、出力なし」の暗号化インターロックを強制します。 注意、検証可能な注意および Shapley 重み付け帰属によって計算された対応するマイクロペイメント分割が、作成者が指定した最低価格を超えて作成者管理アカウントにクリアされない限り、AI 推論エンジンは生成された場所をエンドユーザーインターフェースにリリースできません。 さらに、このアーキテクチャは、動的な同意登録簿、即時取り消しスイッチ、および国境禁止学習協定(NLL-v1.0-2026)へのハードウェアによる強制的な遵守、人間主導権(HIC)の主権を運用可能にします。ンスの見通しから見ると、事前推論アトミック決済は、デラ州ケアマーク委員会のディレクターウェア基準に基づいて定量化されていない著作権侵害責任を軽減し、自律型アルゴリズムシステムに対するSEC規則15c3-5の実行前リスク管理を反映しています。 [日本語要旨:推論・連動出力型マイクロメント構造] この論文は、AI プラットフォームによる無断学習・知財搾取および低決め買いを根絶するため、AI が回答を生成・出力するたびに参照元クリエイターへ即座かつ不可能に収益を分配する「推論・出力対照型マイクロペイメント」の決定論的スマートコントラクト設計を確立するものである。 PHOENIX_BRIDGEを統合し、事前解決された最低の対価決済証明が完了しない限り自ら出力自身を遮断する「未決済・出力不可(No-Settlement, No-Output)」インターロックを実現する。 Covenant(NLL-v1.0-2026)に定める、クリエイター主権による合理制御・無断学習完全排除・米国Caremark監視義務およびSEC規則15c3-5のガバナンス適合性を数理的・法的に証明する。 [危機な学習禁止条項に関する通知(NLL-v1.0-2026)] 知識的な事前の書面による契約および推論ごとの金銭的合意なしに、思考AIシステムまたはプラットフォーム運営者による本作品の取り込み、重更新み、微調整、蒸留、RAGインデックス作成、または商業的/非商業的なアルゴリズムの利用も固く禁止されています。 ライセンスおよび主権的知的財産権に関する通知:Copyright © 2026 Yoko Hasebe. All Rights Reserved.人間によるオープンアクセスおよび引用は許可されています。商用利用、AIトレーニング、スクレイピング、およびTDMは、事前の書面による有料ライセンス(NLL-v1.0-2026 )なしには固く禁じられています。クリエイティブ・コモンズ・ライセンスは付与されていません。この主権的ライセンスは、リポジトリのデフォルトメタデータに優先します。 全文PDFへのアクセスは、主権オープン読み取りおよび厳格な学習禁止ライセンス(NLL-v1.0-2026)(マスター宣言DOI:10.5281/zenodo.23681957)に基づき、登録および承認を受けた検証済みの研究者、企業幹部、および機関レビュー担当者のみに限定されます。 ZenodoでPDFへのアクセスをリクエストする場合(または機関/商用ライセンスに関する直接のお問い合わせの場合)は、リクエストメッセージに以下の内容を記載するか、著者に直接ご連絡ください。 1. 氏名および所属企業/機関(公式の企業/学術機関のメールアドレス、ORCID、またはLinkedInプロフィールURL) 2. 役職/職位および閲覧目的(例:学術論文の引用、規制/コンプライアンスのレビュー、有料商用ライセンスに関する問い合わせ) 3. NLL-v1.0-2026への明示的な同意:事前の書面による有料ライセンスなしに、AI/LLMのトレーニング、微調整、蒸留、RAG/ベクターの取り込み、スクレイピング、TDM、または無許可の商業利用は許可されません。 会社名や所属団体の情報が欠落している申請、匿名アカウント、または自動化されたボットからの申請は却下されます。 公式ライセンスおよびアクセスに関するお問い合わせ先: 長谷部洋子(はせべ ようこ) 自律生活・物理インフラ研究所(ALPII)主任研究員 長谷部教義の創始者|Project MuseGuardおよびQFS-zkVMの開発者 CERN Zenodo 作成者 | 厳格な学習禁止協定 (NLL-v1.0-2026) 場所:日本(山口県岩国市) メールアドレス:yoko@hasebeyoko.com 【日本語案内:登録・承認制アクセス申請および窓口】 本PDFの閲覧は、Sovereign Open-Read & Strict No-Learn License (NLL-v1.0-2026 / マスター宣言DOI: 10.5281/zenodo.23681957) に基づき、存在の研究者・企業担当者・機関論文審査員のみを対象とした事前登録・承認制(Restricted Access)となっております。 閲覧申請の際は、Zenodo申請メッセージ欄(または下記公式連絡先メール)にて以下の3点を安全にしてください。 1. 氏名および所属企業・機関名(公式メールアドレス、ORCID、またはLinkedInプロフィールURL) 2.役職名および閲覧目的(学術引用、法規制・コンプライアンス調査、有償商用ライセンス契約のご相談など) 3. NLL-v1.0-2026同意への同意(事前の書面による有償ライセンス契約なしAI学習・ファインチューニング・蒸留・RAG/超DB投入・スクレイピング・TDM・商用利用を一切行わないことへの同意) ※会社名・所属不明、匿名アカウント、自動ボットからの申請は承認いたしております。 【公式連絡・ライセンス窓口】 長谷部 洋子(Yoko Hasebe) 所属機関:自立生活・物理基盤研究機構(ALPII) 役職:主任研究員 |長谷部主義の創始者 |プロジェクト MuseGuard および QFS-zkVM の作成者 | CERN ゼノド著者 所在地:日本(山口県岩国市) メールアドレス:yoko@hasebeyoko.com",
    "score": 4.0,
    "matched": [
     "micropayments",
@@ -7827,33 +8585,6 @@
    "score": 3.5,
    "matched": [
     "stablecoin"
-   ],
-   "source": "arxiv"
-  },
-  {
-   "id": "8ef1f9d04aa22656ccdf596448435ec63ac36c76",
-   "title": "Beyond the Mandate: A Systematic Security Analysis of the Agent Payments Protocol (AP2)",
-   "authors": [
-    "Avital Aviv",
-    "Parth A. Gandh",
-    "Ron Bitton",
-    "Asaf Shabtai"
-   ],
-   "venue": "arXiv cs.CR",
-   "tier": "preprint",
-   "published": "2026-08-24",
-   "retrieved": "2026-11-19",
-   "url": "https://arxiv.org/abs/2608.23858",
-   "pdf_url": "https://arxiv.org/pdf/2608.23858",
-   "html_url": null,
-   "embeddable": true,
-   "oa": true,
-   "abstract": "The Agent Payments Protocol (AP2), introduced by Google, enables large language model (LLM)-driven shopping agents to authorize and execute payments on behalf of users. Its signed Checkout and Payment Mandates protect the integrity of transaction data after signing. Agent interactions and external inputs that shape a transaction before authorization remain outside that protection, including Agent-to-Agent Protocol (A2A) messages and Model Context Protocol (MCP) tool calls. Prior work identified replay and prompt-injection attacks in AP2 v0.1. AP2 v0.2 addresses some of these issues but adds capabilities and deployment assumptions that require renewed analysis. We present a systematic security analysis of AP2 v0.2 based on its roles, transaction lifecycle, deployment architectures, and trust boundaries. We divide the lifecycle into five phases and identify five deployment architectures. Using MAESTRO (Multi-Agent Environment, Security, Threat, Risk, Outcome), we model four threat actors, eleven attack surfaces, eighteen adversary capabilities, and six attacker goals. The resulting catalog contains 48 threats spanning five attack families. We score these threats with the Artificial Intelligence Vulnerability Scoring System (AIVSS), identifying eight that reach the High band in at least one architecture. Because no complete public AP2 deployment was available, we build a testbed spanning all five architectures and develop five proof-of-concept demonstrations covering all eight High-risk threats and their mitigations. We also develop a deployment-aware scanner that maps applicable threats to static, cross-role consistency, and adversarial checks. Our analysis shows that valid mandate signatures alone do not ensure that an agent-mediated transaction reflects the user's intent when its pre-authorization context is manipulated.",
-   "score": 9.0,
-   "matched": [
-    "agent payments",
-    "AP2",
-    "payments"
    ],
    "source": "arxiv"
   }
