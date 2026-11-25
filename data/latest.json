@@ -1,14 +1,36 @@
 {
- "generated_at": "2026-11-24T21:03:56Z",
+ "generated_at": "2026-11-25T20:25:50Z",
  "errors": [],
  "counts": {
-  "peer_reviewed": 65,
-  "preprint": 111,
+  "peer_reviewed": 66,
+  "preprint": 115,
   "institutional": 6,
-  "news": 209,
+  "news": 224,
   "regulatory": 8
  },
  "items": [
+  {
+   "id": "3f99092bf301bb861365863158c2f433d828e9cb",
+   "title": "Base: 7.3M x402 Payments Prove Stablecoin Micro-Pay Edge",
+   "authors": [],
+   "venue": "Blockchain News",
+   "tier": "news",
+   "published": "2026-11-25",
+   "retrieved": "2026-11-25",
+   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNdG5wMUdDTlBaZE1qR3Q2OWNuZXlnZkthNnpoSF9wOXREZWVGUW9sWG1nZ0w3UURYWjZLMFZhd0hHdW0tV3I4aEhqVzZHNS1QVTZrc24yYWNPb19mOWRoclJta3pqUEhzZ3lfYkhVTE1HSnBPY2V3RXZWdDlkYzFpVVpNSm5WMG00d1l6anFuYWd5MEU?oc=5",
+   "pdf_url": null,
+   "html_url": null,
+   "embeddable": false,
+   "oa": false,
+   "abstract": null,
+   "score": 8.5,
+   "matched": [
+    "x402",
+    "stablecoin",
+    "payments"
+   ],
+   "source": "google_news"
+  },
   {
    "id": "7c0bd34f7e5dd54eba7bd34994f48b7453970fe1",
    "title": "Agentic Commerce and SME Competitiveness: An Integrative Review and Theory-Informed Research Framework",
@@ -18,7 +40,7 @@
    ],
    "venue": "Journal of Business Sectors",
    "tier": "peer_reviewed",
-   "published": "2026-11-24",
+   "published": "2026-11-25",
    "retrieved": "2026-11-20",
    "url": "https://doi.org/10.62222/krva3141",
    "pdf_url": "https://www.jobsjournal.eu/_files/ugd/a7cf91_df3f9250b1544c17b28297665d9182b0.pdf",
@@ -41,7 +63,7 @@
    ],
    "venue": "Journal of Electrical and Electronics Research",
    "tier": "peer_reviewed",
-   "published": "2026-11-24",
+   "published": "2026-11-25",
    "retrieved": "2026-11-19",
    "url": "https://doi.org/10.64820/aepjeer.32.21.26.122026",
    "pdf_url": null,
@@ -55,6 +77,300 @@
     "payments"
    ],
    "source": "openalex"
+  },
+  {
+   "id": "83c648eb8124795f40118988afcafac35f964e97",
+   "title": "Visa’s stablecoin settlement run rate tops $25 billion a year",
+   "authors": [],
+   "venue": "Crypto Briefing",
+   "tier": "news",
+   "published": "2026-11-25",
+   "retrieved": "2026-11-25",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9iNkEzZjhTcU5KTWU1NENCaHdqYW1LQWp1WTlSM2k2Uk1ZbTZIMEI5eVZBQXJkb1RnRVJRaU54YkdVeDhTWmVEaldENzZUcUJjZnZ1RzVvX3hvNmZwaklCNU9WYmMzNXJyXzNSV0lGVlpOa0FQQ1V1Nkk4alRmYWc?oc=5",
+   "pdf_url": null,
+   "html_url": null,
+   "embeddable": false,
+   "oa": false,
+   "abstract": null,
+   "score": 6.5,
+   "matched": [
+    "stablecoin settlement",
+    "stablecoin",
+    "payments"
+   ],
+   "source": "google_news"
+  },
+  {
+   "id": "7072950b34882af9333e5e31c3b5c5a56dd7429a",
+   "title": "Visa Exec: On-Chain AI Agent Payments Are ~$50K a Week",
+   "authors": [],
+   "venue": "OneSafe",
+   "tier": "news",
+   "published": "2026-11-25",
+   "retrieved": "2026-11-25",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1xRVZGV1h0U0RYbHBtOUhfS1hiRzQ3Wi1kRnEwVnlvSVRid2lzSEIxNW9SWFpxRkN3VV94eEZJc0tJbW0wQTVXTHo2SFJFZXNpNXduakhBUnVqQnJXc2szamxERVEwaGdBTTFQSmdDR3lYTG1EUmdCX0tMUXJxLUU?oc=5",
+   "pdf_url": null,
+   "html_url": null,
+   "embeddable": false,
+   "oa": false,
+   "abstract": null,
+   "score": 6.5,
+   "matched": [
+    "agent payments",
+    "AI agent",
+    "payments"
+   ],
+   "source": "google_news"
+  },
+  {
+   "id": "900806ac0a250aa937b85c132e08cf9b8593fa2c",
+   "title": "Shroff – a referee that verifies delivery before x402 payments settle",
+   "authors": [
+    "bomanapsnkari"
+   ],
+   "venue": "Hacker News · shroff-production.up.railway.app",
+   "tier": "news",
+   "published": "2026-11-25",
+   "retrieved": "2026-11-25",
+   "url": "https://shroff-production.up.railway.app/",
+   "pdf_url": null,
+   "html_url": null,
+   "embeddable": false,
+   "oa": false,
+   "abstract": null,
+   "score": 6.5,
+   "matched": [
+    "x402",
+    "payments"
+   ],
+   "source": "hacker_news"
+  },
+  {
+   "id": "23fd33ca44f1fde523e5d4219721374645881b1d",
+   "title": "Pine Labs launches research series on agentic commerce accountability",
+   "authors": [],
+   "venue": "The Paypers",
+   "tier": "news",
+   "published": "2026-11-25",
+   "retrieved": "2026-11-25",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNRTA4N2gzajZlZHlmVGNhYkpjdHVfUkdsbmMwa2hkdkUyb3RrSzNSQWl1TzdKeFMtZnNrQnZ5S09MNm5UWGVjM0U2cDRFZUFybGY2b1ExN1JXMFlySmVRd0w1R2RhT0x3WWNuUGwzVUtwTDlUNnhxWk9pRU1BalVhZ2NDNVM3LWtTSm5yc0x0cTM0S3UzNzFxVEZFcmxNRXBTeS1QTnZ5Y0Z5QQ?oc=5",
+   "pdf_url": null,
+   "html_url": null,
+   "embeddable": false,
+   "oa": false,
+   "abstract": null,
+   "score": 6.0,
+   "matched": [
+    "agentic commerce"
+   ],
+   "source": "google_news"
+  },
+  {
+   "id": "189583d7fe72567db5eecb34585eb46bef1c753b",
+   "title": "MAS Plans a 'Know Your Agent' Protocol for AI in Finance",
+   "authors": [],
+   "venue": "OneSafe",
+   "tier": "news",
+   "published": "2026-11-25",
+   "retrieved": "2026-11-25",
+   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQMlQ0SzhwSlJaMG1ScnpmTWZ6cXNpbURYZFk5V0pXaEFTc0tVRmFpQnJnUUcyNlhHR0UzUzlxWUpELW1zX1ZUa3JydUNnNngxdW9OalpVS2U2Mkx3NEhJOWE3VGtnTWF2U2Y5clJRRHNDRHdKZUpObkwxVlhsenVnQXBn?oc=5",
+   "pdf_url": null,
+   "html_url": null,
+   "embeddable": false,
+   "oa": false,
+   "abstract": null,
+   "score": 6.0,
+   "matched": [
+    "know your agent"
+   ],
+   "source": "google_news"
+  },
+  {
+   "id": "89952f04320ba17e71052ebc2a82da88561a2c75",
+   "title": "How CPGs Can Prepare for the Rise of Agentic Commerce",
+   "authors": [],
+   "venue": "Consumer Goods Technology",
+   "tier": "news",
+   "published": "2026-11-25",
+   "retrieved": "2026-11-25",
+   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1XN0ZQZ25SN212YXBPbXNUNEJxQ0VPaU1uMndldGk1T1U4a2QyaGNyMHBwVGRybl94Nkl3dnFmUU13WFMxUU90dkhxSWRjeWw1VGZCRWpDandNYlVreGhQaWJhQ09VaU5tVUNQdWpJUmRrLXdQUXd3?oc=5",
+   "pdf_url": null,
+   "html_url": null,
+   "embeddable": false,
+   "oa": false,
+   "abstract": null,
+   "score": 6.0,
+   "matched": [
+    "agentic commerce"
+   ],
+   "source": "google_news"
+  },
+  {
+   "id": "6a615187c63f9f1bd79fac7555c359a1ce17858e",
+   "title": "Natural Launches Natural Accept for Agent Payments",
+   "authors": [],
+   "venue": "Wisevoter",
+   "tier": "news",
+   "published": "2026-11-25",
+   "retrieved": "2026-11-25",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNbWxHcFBSNGtuUUQxVzhVVmNlX0NTeXAydnN5YktUUUx3ZVdEMWIwTk1qMlUxd1NRREh0b0dnSnd6NzlxZkdqb2tQbHE1YWMybkllZEk5S1N1NHNjZGNwOVE2STFsWURsWDI1RS1zUEF5bGdETk9xQ1FMX0otWjFmcmllT1kta3MtaDQ0RFVSOEV6VmZl?oc=5",
+   "pdf_url": null,
+   "html_url": null,
+   "embeddable": false,
+   "oa": false,
+   "abstract": null,
+   "score": 5.5,
+   "matched": [
+    "agent payments",
+    "payments"
+   ],
+   "source": "google_news"
+  },
+  {
+   "id": "b5287080c4770a2215363410f4090e589400de21",
+   "title": "Lianlian DigiTech Launches LianLian XCard, Closing the Loop Between AI Task Execution and Agentic Payments",
+   "authors": [],
+   "venue": "TradingView",
+   "tier": "news",
+   "published": "2026-11-25",
+   "retrieved": "2026-11-25",
+   "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQSndhWDZETk1vQklaREI0Zlh6T1dfQVRSNzBJdm5CVmY3UXAtSTVGcmFET01jcG53UzJETWs3eTRsc2VyaDRycERfWHdmMW1EMWU3bldMcC1pWFdaODlXYTJ3TjdUSWdSX1MyWms5YTNCQ2lTOWNFT3pWdGtwblRCczAzWmVNTFJFXy1rLVRiWTM3UzN2S29vYkVBYUtFMndUMTJmSzhxVGYyMUtrYnRlaGNVdC1GSUhlOFU5bW5KNzVRWWJjeHVXckIwdzU1d3hPbUlILThNQVM3ejdnWFhnc1VLd1lKM2kwWFZScUEyejFEMjNFTDVoV29R?oc=5",
+   "pdf_url": null,
+   "html_url": null,
+   "embeddable": false,
+   "oa": false,
+   "abstract": null,
+   "score": 5.5,
+   "matched": [
+    "agent payments",
+    "payments"
+   ],
+   "source": "google_news"
+  },
+  {
+   "id": "6c7f74ba97a54e5e42ff7f3ce493d5ee34ced738",
+   "title": "Lianlian DigiTech Launches LianLian XCard, Bringing Agentic Payments and AI Benefits to Global Business",
+   "authors": [],
+   "venue": "The Daily Tribune News",
+   "tier": "news",
+   "published": "2026-11-25",
+   "retrieved": "2026-11-25",
+   "url": "https://news.google.com/rss/articles/CBMiuAJBVV95cUxQWVBCMjRvM3ljc2g3RHNTREN3SXF1dTliMkRXVjQ5N1dBbGpjRkk5VU5RVUFweGoxajFZMEg3WjdCYzJzcE1JZUdCYUI4N29IMThFU3BWNUpJVFE5U0h6REdYX0ZUT2ZVRERVUmlRbkZNWlJ1UWw2SHdFNldqRloxdzdsQ1VIRGtKSF82NF9iZEZDMGwxN0VuZW1LUWVWcTBFOEJMdnFNNFNnSHFMZzAwaHNYV2JyN0dDU3ZLbDRhd083OExQa2hlWDY3UEJIUWtQVGh4QkFWbEtIWnROdWpWS0FpSUFXOUpnanVBWG5iMjAwajRpb0pHZmh5ZEJtQmM0M1VSZ3ZMd3dZcnBsRzVoWnZFMzVtWGRkMllwSHV4MnBjNDJheXMxWWJyWUZ6c1RHZURjaU1nYmI?oc=5",
+   "pdf_url": null,
+   "html_url": null,
+   "embeddable": false,
+   "oa": false,
+   "abstract": null,
+   "score": 5.5,
+   "matched": [
+    "agent payments",
+    "payments"
+   ],
+   "source": "google_news"
+  },
+  {
+   "id": "15cb326db2412bb584d17c7c13bf9043a22d3141",
+   "title": "PoCA-Mithril: A Blockchain-enabled Framework for Identity- and Context-verifiable Communication among Distributed AI Agents",
+   "authors": [
+    "Kranthi Kumar Gunda",
+    "Geetha Arjunan"
+   ],
+   "venue": "International journal of intelligent engineering and systems",
+   "tier": "peer_reviewed",
+   "published": "2026-11-25",
+   "retrieved": "2026-11-19",
+   "url": "https://doi.org/10.22266/ijies2026.1231.65",
+   "pdf_url": "https://doi.org/10.22266/ijies2026.1231.65",
+   "html_url": null,
+   "embeddable": true,
+   "oa": true,
+   "abstract": "Distributed Artificial Intelligence (AI) systems face challenges in agent identity verification, context integrity, traceability, and scalable blockchain anchoring without a continuously trusted central authority.This paper proposes PoCA-Mithril, a blockchain framework for verifiable agent communication.Proof-of-Context Attestation (PoCA) signs agent identity, context, timestamp, and safety metadata.A Mithril-Inspired Relay (MR) batches proofs via Merkle trees and a SHA-256 signature digest before Solidity smart-contract anchoring.Prototype (Python, Web3.py, decentralized identifiers, Ganache, web interface) averaged 1.2555, 1.9402, and 3.5815 ms for Elliptic Curve Digital Signature Algorithm (ECDSA) keypair generation, PoCA generation, and verification.Relay aggregation stays below 0.04 ms; five-proof batching cuts transactions 80%.It authenticates identity and context metadata, not complete response-content integrity.Persistent request-ID storage with database-enforced uniqueness rejects duplicates; restart and shared-database tests confirmed persistence.Five-process concurrency yielded one accepted claim, four duplicate rejections; multi-server verification remains unevaluated.An AgentDID-inspired baseline and 10,000-operation workloads characterize the local prototype, not distributed-blockchain performance.Response-content binding, model artifact, and runtime-execution verification remain future work.",
+   "score": 5.0,
+   "matched": [
+    "agent identity",
+    "AI agent"
+   ],
+   "source": "openalex"
+  },
+  {
+   "id": "d0637fb2a5fc7e64ce477067cfe82c8deceea4d2",
+   "title": "THE LEGAL NATURE OF ASSET-BACKED STABLECOINS IN THE CONTEXT OF THE NEW REGULATION OF DIGITAL CURRENCIES AND DIGITAL RIGHTS",
+   "authors": [
+    "Sergey V. Potapenko",
+    "Murad Sh. Magomednabiev"
+   ],
+   "venue": "Хозяйство и право",
+   "tier": "peer_reviewed",
+   "published": "2026-11-25",
+   "retrieved": "2026-11-20",
+   "url": "https://doi.org/10.18572/0134-2398-2026-12-9-18",
+   "pdf_url": null,
+   "html_url": null,
+   "embeddable": false,
+   "oa": false,
+   "abstract": "The article examines the legal nature of asset-backed stablecoins within the system of objects of civil rights in the context of the entry into force of Federal Law No. 282-FZ of August 4, 2026, On Digital Currencies and Digital Rights.",
+   "score": 4.0,
+   "matched": [
+    "stablecoin"
+   ],
+   "source": "openalex"
+  },
+  {
+   "id": "4ce4e3e4d87c7046bceb2fe0f7d72c0f71ce8276",
+   "title": "South Korea's Kaia Joins Hands with Hecto Group to Target Corporate Stablecoin Payments Market",
+   "authors": [],
+   "venue": "BigGo Finance",
+   "tier": "news",
+   "published": "2026-11-25",
+   "retrieved": "2026-11-25",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBCTFZyX3pJR25lcVRwWXlUTFIwdGczckJVLTlxa21uUGh3eVpteWFSLTV3LWg3LW1rS2FvOXpUc0h1WUlPMTZJeWI2NG03UW14VFVzM2hEWmllOUk4QjNXc0tqTlpDYnpZMENxODNVZkRRMDd1cHc?oc=5",
+   "pdf_url": null,
+   "html_url": null,
+   "embeddable": false,
+   "oa": false,
+   "abstract": null,
+   "score": 3.5,
+   "matched": [
+    "stablecoin",
+    "payments"
+   ],
+   "source": "google_news"
+  },
+  {
+   "id": "b7940f3d51e83d52037bf4366068c8f4196d0d2b",
+   "title": "AgentBank: Banking on Blockchain Agentic Payments",
+   "authors": [
+    "Yuexin Xiang",
+    "Martin Perešíni",
+    "Yuchen Lei",
+    "Yuquan Li",
+    "Yuanzhe Zhang",
+    "Andreas Deppeler",
+    "Tsz Hon Yuen",
+    "Shiping Chen",
+    "Qin Wang",
+    "Burkhard Stiller"
+   ],
+   "venue": "arXiv cs.CR",
+   "tier": "preprint",
+   "published": "2026-11-24",
+   "retrieved": "2026-11-25",
+   "url": "https://arxiv.org/abs/2611.32389",
+   "pdf_url": "https://arxiv.org/pdf/2611.32389",
+   "html_url": null,
+   "embeddable": true,
+   "oa": true,
+   "abstract": "AI agents increasingly pay for data and computation through protocols such as x402 and AP2, but individually funded wallets idle and require asset transfers for every payment. We present AgentBank, a smart-contract banking layer that lets agents spend bank liabilities under owner-issued mandates and on-chain spending limits. Internal payments update account balances without transferring assets, while pooled backing funds are allocated between reserves and yield-bearing strategies. We bound losses from compromised agent keys and analyze how correlated demand affects reserve requirements. Experiments show that AgentBank reduces idle liquidity by 52-77% relative to per-agent wallets and lowers gas costs for batched internal payments. Using historical DeFi liquidity data, we evaluate how reserve policies balance treasury returns against payment availability during market stress. We further examine the risks of automated bank runs and evaluate mechanisms to mitigate them.",
+   "score": 18.0,
+   "matched": [
+    "agent payments",
+    "x402",
+    "AP2",
+    "agent wallet",
+    "AI agent",
+    "payments"
+   ],
+   "source": "arxiv"
   },
   {
    "id": "0280977f4b119bb0c55ce360257fa582d53b48e7",
@@ -223,46 +539,71 @@
    "source": "google_news"
   },
   {
-   "id": "15cb326db2412bb584d17c7c13bf9043a22d3141",
-   "title": "PoCA-Mithril: A Blockchain-enabled Framework for Identity- and Context-verifiable Communication among Distributed AI Agents",
+   "id": "0f840e4d43b782a9380cfa380cf835062b1ece8d",
+   "title": "Payments Without Provenance: Private Stablecoin Transfers from Uniform Notes, Nested Hops, Speculative Roots and Transparent Recursive Proofs",
    "authors": [
-    "Kranthi Kumar Gunda",
-    "Geetha Arjunan"
+    "0xItsss",
+    "Miles Nowhere",
+    "Not A Fraud Labs"
    ],
-   "venue": "International journal of intelligent engineering and systems",
-   "tier": "peer_reviewed",
+   "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+   "tier": "preprint",
    "published": "2026-11-24",
-   "retrieved": "2026-11-19",
-   "url": "https://doi.org/10.22266/ijies2026.1231.65",
-   "pdf_url": "https://doi.org/10.22266/ijies2026.1231.65",
+   "retrieved": "2026-11-25",
+   "url": "https://doi.org/10.5281/zenodo.24499898",
+   "pdf_url": null,
    "html_url": null,
-   "embeddable": true,
+   "embeddable": false,
    "oa": true,
-   "abstract": "Distributed Artificial Intelligence (AI) systems face challenges in agent identity verification, context integrity, traceability, and scalable blockchain anchoring without a continuously trusted central authority.This paper proposes PoCA-Mithril, a blockchain framework for verifiable agent communication.Proof-of-Context Attestation (PoCA) signs agent identity, context, timestamp, and safety metadata.A Mithril-Inspired Relay (MR) batches proofs via Merkle trees and a SHA-256 signature digest before Solidity smart-contract anchoring.Prototype (Python, Web3.py, decentralized identifiers, Ganache, web interface) averaged 1.2555, 1.9402, and 3.5815 ms for Elliptic Curve Digital Signature Algorithm (ECDSA) keypair generation, PoCA generation, and verification.Relay aggregation stays below 0.04 ms; five-proof batching cuts transactions 80%.It authenticates identity and context metadata, not complete response-content integrity.Persistent request-ID storage with database-enforced uniqueness rejects duplicates; restart and shared-database tests confirmed persistence.Five-process concurrency yielded one accepted claim, four duplicate rejections; multi-server verification remains unevaluated.An AgentDID-inspired baseline and 10,000-operation workloads characterize the local prototype, not distributed-blockchain performance.Response-content binding, model artifact, and runtime-execution verification remain future work.",
-   "score": 5.0,
+   "abstract": "Stablecoins have become the payment rail of public blockchains, and every transfer on them is public: who paid, whom, how much and when. We present OrangeHail, a payment system in which a transfer is unlinkable to its payer and payee under stated conditions (an honest mover among three, concurrent payments of the same nominal, no adversary at both ends) without a trusted operator and without a trusted setup of its own. The design combines four mechanisms. Uniform notes: value enters and leaves the shielded pool only in three nominals, every hop of a payment holds exactly its nominal, and the only fee is paid on entry, so amounts and fees carry no linking evidence. Hop notes: a payment is a chain of three notes, each entrusted to a different staked relay that can only move it forward before a deadline and can neither keep, redirect nor destroy it; after the deadline only the payer can take it back. Nested hop packets: the payer hands out only the first relay's packet; each relay carries the next one sealed, so no relay after the first learns when the payment was made. Speculative roots: spends may be proven against the note-tree root of a batch that has not landed yet, which makes proving parallel across hops and across a committee of batchers without weakening safety. Clients prove their spends as STARKs over KoalaBear with Poseidon2; provers fold them recursively; one halo2-KZG proof over the Perpetual Powers of Tau is verified on chain. We specify the relations, packet formats, contract transitions and node automata of the implementation, prove the money properties, reduce unlinkability to metadata and measure it by simulation against chain, network, relay, batcher and doorway adversaries. A wallet proves a spend in 0.76 s in WebAssembly, a 16-spend batch is proven in five minutes on a desktop CPU, and settlement costs about 90k gas per spend.",
+   "score": 4.0,
    "matched": [
-    "agent identity",
-    "AI agent"
+    "stablecoin",
+    "payments"
    ],
    "source": "openalex"
   },
   {
-   "id": "d0637fb2a5fc7e64ce477067cfe82c8deceea4d2",
-   "title": "THE LEGAL NATURE OF ASSET-BACKED STABLECOINS IN THE CONTEXT OF THE NEW REGULATION OF DIGITAL CURRENCIES AND DIGITAL RIGHTS",
+   "id": "e0ac23697d04e09fbd34a53e13df3ee7183efe7b",
+   "title": "How African Professionals Get Paid in Dollars From Abroad",
    "authors": [
-    "Sergey V. Potapenko",
-    "Murad Sh. Magomednabiev"
+    "MARKANTHONY NZE"
    ],
-   "venue": "Хозяйство и право",
-   "tier": "peer_reviewed",
+   "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+   "tier": "preprint",
    "published": "2026-11-24",
-   "retrieved": "2026-11-20",
-   "url": "https://doi.org/10.18572/0134-2398-2026-12-9-18",
+   "retrieved": "2026-11-25",
+   "url": "https://doi.org/10.5281/zenodo.24503044",
    "pdf_url": null,
    "html_url": null,
    "embeddable": false,
-   "oa": false,
-   "abstract": "The article examines the legal nature of asset-backed stablecoins within the system of objects of civil rights in the context of the entry into force of Federal Law No. 282-FZ of August 4, 2026, On Digital Currencies and Digital Rights.",
+   "oa": true,
+   "abstract": "African professionals paid by employers and clients abroad receive their dollars through a chain of intermediaries that no single regulator sees whole. This paper follows such a payment from the payer's account to the worker's spendable balance. It rests on 111 cited sources, each opened and checked between November 2 and November 16, 2026, and on World Development Indicators series retrieved on November 16, 2026. It compares bank wires, payout platforms, employer-of-record services, mobile money, and stablecoins; sets Nigeria's foreign-exchange measures of 2021 to 2026 and the Nigeria Tax Act 2025 beside the rules of Kenya, Ghana, South Africa, Egypt, and Ethiopia; and adds an analytical model and a panel estimate. Regional remittance averages near 8.4 to 8.8 percent overstate what a dollar costs to reach Nigeria, where the World Bank's average cost of sending money was 4.64 percent in 2023. Provider pages state fees and omit the exchange margin. The naira price of a dollar rose 3.56 times between 2022 and 2025 while consumer prices rose 2.04 times. Across 12 African economies and 280 country-years from 2002 to 2025, a fixed-effects regression puts two-year pass-through from the dollar's local price to consumer prices at 0.28 (heteroskedasticity-consistent standard error 0.03), far below one and stable across four checks. The model built on that estimate shows why the date of conversion can outweigh every visible fee, and the constructed cases agree. Documented freezes fell on users against whom no wrongdoing was named, and no public source counts the professionals paid this way. Recommendations are addressed to institutions, not to individuals. Keywords: hard-currency pay; cross-border payments; remote work; Nigeria; foreign exchange; remittance costs; platform labor",
+   "score": 4.0,
+   "matched": [
+    "stablecoin",
+    "payments"
+   ],
+   "source": "openalex"
+  },
+  {
+   "id": "2ba3d2daf768f71b0f7b1af88593e559199ecc52",
+   "title": "Capitalization Shifts in Crypto's Wild Frontier: A Markov Chain Analysis",
+   "authors": [
+    "Antonis Ballis",
+    "Κωνσταντίνος Δράκος",
+    "Dimitrios Anastasiou"
+   ],
+   "venue": "International Journal of Finance & Economics",
+   "tier": "peer_reviewed",
+   "published": "2026-11-24",
+   "retrieved": "2026-11-25",
+   "url": "https://doi.org/10.1002/ijfe.70339",
+   "pdf_url": null,
+   "html_url": null,
+   "embeddable": false,
+   "oa": true,
+   "abstract": "Using the population of cryptocurrencies listed with a reported capitalization on CoinMarketCap, roughly 8000 distinct assets were observed weekly from April 2013 to July 2026; we investigate the mobility properties of the cryptocurrency market. We model movements across the cross‐sectional capitalization distribution as a Markov chain augmented with entry and absorbing exit states and estimate the transition matrix that governs capitalization transitions. Market eras are identified endogenously: least‐squares break detection applied to a rolling mobility index locates two structural breaks, in November 2017 and July 2021, which divide the market's history into a frontier, an expansion and a consolidation era. Mobility declines and persistence rises monotonically across the three eras; the exit probability decreases with capitalization and market‐wide exit risk falls sharply after the frontier era. Formal tests reject first‐order dependence and exact time‐homogeneity, as expected in samples of this size, but the deviations become smaller over time. Decile transitions are mostly driven by changes in a coin's own capitalization rather than by changes in the composition of the asset universe. In a time‐varying framework, mobility is significantly lower in the spot‐ETF era, in broader markets and in high‐VIX regimes. The results hold among the largest assets, which account for almost all of the market's capitalization and are robust to excluding stablecoins and stale or implausible quotes and to alternative treatments of temporary disappearances. Overall, the evidence indicates that the cryptocurrency market has entered a phase of maturity.",
    "score": 4.0,
    "matched": [
     "stablecoin"
@@ -311,6 +652,27 @@
    "matched": [
     "agent wallet",
     "stablecoin",
+    "AI agent"
+   ],
+   "source": "google_news"
+  },
+  {
+   "id": "3735ab0e7d8431bb5b7681f27a7f8a6309f824d4",
+   "title": "Singapore’s MAS Will Help Build a “Know Your Agent” Protocol to Verify AI Agents",
+   "authors": [],
+   "venue": "Outbound Investment Group",
+   "tier": "news",
+   "published": "2026-11-23",
+   "retrieved": "2026-11-25",
+   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1ENmpxY1RMMEQtWlNYRDdfalB6NGVlVE1yckJ1M0MzYzdWbUFaQTlqMVNOeHFnekt4eWpiY2NLM2NKYmRfZVF6STZ6elZRR01ITWp0VzJVUllNbDZkYzlKa3dyNG40UVBScmZQc0NZeHBUOVBhUEFBcG53?oc=5",
+   "pdf_url": null,
+   "html_url": null,
+   "embeddable": false,
+   "oa": false,
+   "abstract": null,
+   "score": 7.0,
+   "matched": [
+    "know your agent",
     "AI agent"
    ],
    "source": "google_news"
@@ -979,7 +1341,7 @@
    "published": "2026-11-23",
    "retrieved": "2026-11-24",
    "url": "https://doi.org/10.1093/9780197808801.003.0016",
-   "pdf_url": null,
+   "pdf_url": "https://academic.oup.com/book/63701/chapter/590656323/chapter-pdf/73959817/workid-usac0043761-book-part-21.pdf",
    "html_url": null,
    "embeddable": false,
    "oa": true,
@@ -1007,6 +1369,27 @@
    "score": 4.0,
    "matched": [
     "agent wallet"
+   ],
+   "source": "google_news"
+  },
+  {
+   "id": "b7a2ce092286f38f3e9c631cf3ae416b9243c7e1",
+   "title": "Hong Kong Explores Agentic AI to Catch Crypto Crime as Stablecoins Carry 84% of Illicit Volume",
+   "authors": [],
+   "venue": "Cryptonews.net",
+   "tier": "news",
+   "published": "2026-11-23",
+   "retrieved": "2026-11-25",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9DQU1keVA5TkE5U0V6WkVzbjJjaHp0OGNuYzRzVmhOX3JIUlBmU1V2X19IeDlLaHhVM1NhUXY0bGd0R0NFQWlWWTBqS2k0UjRvSzRTZENldTFyUQ?oc=5",
+   "pdf_url": null,
+   "html_url": null,
+   "embeddable": false,
+   "oa": false,
+   "abstract": null,
+   "score": 4.0,
+   "matched": [
+    "stablecoin",
+    "AI agent"
    ],
    "source": "google_news"
   },
@@ -1051,6 +1434,52 @@
     "payments"
    ],
    "source": "google_news"
+  },
+  {
+   "id": "641af0c741ad0ebf77e457f8c5341d773080a311",
+   "title": "From Experimentation to Institution: Cryptocurrency Regulation in Latin America",
+   "authors": [
+    "Jonas Figueredo"
+   ],
+   "venue": "University of Miami School of Law Institutional Repository (University of Miami)",
+   "tier": "preprint",
+   "published": "2026-11-23",
+   "retrieved": "2026-11-25",
+   "url": "https://repository.law.miami.edu/umialr/vol58/iss1/7",
+   "pdf_url": "https://repository.law.miami.edu/context/umialr/article/2720/viewcontent/UMIALR_vol_58_no_1__5__Figueredo_Template_FINAL.pdf",
+   "html_url": null,
+   "embeddable": false,
+   "oa": true,
+   "abstract": "This Note examines how Latin American countries have responded to the rise of cryptocurrency, a region where persistent inflation, currency volatility, and heavy reliance on remittances have fueled some of the world’s highest rates of grassroots crypto adoption. It compares three divergent approaches. El Salvador’s adoption of Bitcoin as legal tender in 2021 illustrates the costs of regulatory improvisation, culminating in an IMF-driven reversal in 2025. Brazil’s coordinated licensing, capital, and anti-money-laundering framework demonstrates how deliberate supervision can channel innovation toward stability. Venezuela’s state-backed Petro and its use of stablecoins to evade sanctions show how corruption and weak oversight produce regulatory collapse. The Note then analyzes the economic and legal spillover of these choices across the hemisphere. Finally, it argues that the United States’ 2025 GENIUS Act creates a brief window for Latin American countries to adopt comparable stablecoin frameworks before global standards become entrenched.",
+   "score": 3.5,
+   "matched": [
+    "stablecoin"
+   ],
+   "source": "openalex"
+  },
+  {
+   "id": "6a88ad5dcc241248103d7a804c8bf97f1b113236",
+   "title": "Design an Algorithmic Stablecoin based on a Predictive PID Controller",
+   "authors": [
+    "Yuqiao Zhao",
+    "Waiki Ching",
+    "Chi-wing Wong"
+   ],
+   "venue": "arXiv",
+   "tier": "preprint",
+   "published": "2026-11-23",
+   "retrieved": "2026-11-25",
+   "url": "https://doi.org/10.48550/arxiv.2611.30982",
+   "pdf_url": null,
+   "html_url": null,
+   "embeddable": false,
+   "oa": true,
+   "abstract": "Cryptocurrencies issued based on blockchain technology have attracted increasing attention in recent years. However, their high volatility makes it difficult for them to become circulating currencies. This led to the creation of stablecoins. Existing stablecoins can be divided into three main categories: stablecoins pegged to fiat currencies, stablecoins collateralized by crypto assets, and algorithmically controlled stablecoins. Most existing stablecoins are either of the first two types. We design an algorithmic stablecoin controlled only by a predictive Proportional-Integral-Derivative (PID) controller, which uses the price forecasted by Autoregressive Integrated Moving Average (ARIMA) model as part of its input. Simulation experiments show that, under ideal market conditions, the stablecoin can achieve long-term goals that fluctuate within a pre-defined range. Furthermore, it consistently restores prices to the anchor interval in the presence of exogenous disturbances.",
+   "score": 3.5,
+   "matched": [
+    "stablecoin"
+   ],
+   "source": "openalex"
   },
   {
    "id": "cd1e83b6c7ffb7da8b8d3f9f17a595eac72eb90a",
@@ -1160,14 +1589,35 @@
    "source": "google_news"
   },
   {
-   "id": "c836dd335904464c8a6a6c80d1b028f2db33356e",
+   "id": "2847e3342d78a45d2cab77693054c5b25cfe4e48",
+   "title": "Adyen and Klarna Expand Agentic Commerce Beyond Traditional Card Payments",
+   "authors": [],
+   "venue": "Payments Industry Intelligence",
+   "tier": "news",
+   "published": "2026-11-22",
+   "retrieved": "2026-11-25",
+   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNQ1VtUVkwYWlXdmJDRmE0Z0U5THpaS09OLUk1R1o4Qm9ObU5IdnpPM3V3anQ1dldQeHhfcVVzZ01zamZmN1d4cS1OLThMQjJXck1GSndXS2ZLaXdZd3BCV25oYVNVdnZXUlRQSVZIdUlpaUg0ZjREUmNzOXFsY2NPTmMtRThiU2ZHNmc?oc=5",
+   "pdf_url": null,
+   "html_url": null,
+   "embeddable": false,
+   "oa": false,
+   "abstract": null,
+   "score": 6.5,
+   "matched": [
+    "agentic commerce",
+    "payments"
+   ],
+   "source": "google_news"
+  },
+  {
+   "id": "9b50520cf34dd62a24ccedcbf4b62f455610724d",
    "title": "mEinstein Outlines Framework for Evaluating Consumer Intent in Agentic Commerce",
    "authors": [],
-   "venue": "EIN Presswire",
+   "venue": "Greenville Online",
    "tier": "news",
    "published": "2026-11-22",
    "retrieved": "2026-11-22",
-   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQZTc2dldhMDRNcjhTdHA3Y3NMNW1EYW9YYk5VOXMwNE9URmx0OExNeFhLWDRVYXlqQ283VVc2Zm5OMjhTcW1EMURUZGgxajVMdzZzVFBTdDZrTENPYlZXbW5GSjRjU2FDZ0hRWERuNGZsdXZYZzhRb0hqUUJMNURIVktWcTVsY2l6ZEhlUmRaQlNHNzFhYzdtdGlSM2NlLW5RS2FkZEp6U3Zuc3dvRWZJUTIxOWp4LVU3Sk1HckFFNkN6TzVn?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOaWdqSnd3YmM0OVE4NHFTRm9MTHZ5cHRxMEZ6aGIwdmJ0UkN6bmEybEhCRG5IdlJFQmktZWVmMnp1VzljOTlWcnJfSTBJNkpOb1JXZEVKVE1jZGk1VElnOXBSdFh1VlJGR1ZGbnJQSFBxMmI4c19YRHgxcWE3NEp1dFZXaWx6VTF2TzlWTXgwZU9lWTVaMWV1RTlmQTliM3daWTRjOWh3OUFsZ0w4T1dTZi1adVFFbElhYlBjc3dTWjJuTDdzemN2VzFnaWl0UHlBVzQ1eWJBRQ?oc=5",
    "pdf_url": null,
    "html_url": null,
    "embeddable": false,
@@ -1732,6 +2182,28 @@
    "published": "2026-11-20",
    "retrieved": "2026-11-20",
    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOMF9LMWJMcHl1SzE3dGZXNlJGQ3lBZTh1X25jSE9VTmlRdGxYd29qeDJUV1BobWI4WDJkS2U5RnA0LTRUNjZsNDlHSnF3TWZnTUFLUXJVSDN1ZUZBUjBnVEFqZnFvX0Yzbm80YnJ0ODFvSXZndFdNbjRzbjNwZ1k2eVpvVV9lLXJZUW92UXlmcERPdjlFTHZHdFJkSU0?oc=5",
+   "pdf_url": null,
+   "html_url": null,
+   "embeddable": false,
+   "oa": false,
+   "abstract": null,
+   "score": 6.5,
+   "matched": [
+    "agent payments",
+    "AI agent",
+    "payments"
+   ],
+   "source": "google_news"
+  },
+  {
+   "id": "41e8813b00fc1fab6ea08821fc1517b0142a4853",
+   "title": "Visa Targets Secure AI Agent Payments Through Expanded Industry Partnership",
+   "authors": [],
+   "venue": "Yahoo Finance",
+   "tier": "news",
+   "published": "2026-11-20",
+   "retrieved": "2026-11-19",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQbmY3Y2p4aktXU2dzOS1VUG9DSEpxUUhTWVpvNjJPQ1AzNmlfOXFyT2c1Tl9BMnJvcmhqcjhPM3MtNXhTV252XzBIZG9sblM4cWJDQTVLUG4tbzBIUmptS3AxM3M3djlLcElxeFdjWS1odHBKRDhCa3M2YUxlX2ZHVDdNLXBnbXZqcUxpNFdzZlAzQ3lxZVJN?oc=5",
    "pdf_url": null,
    "html_url": null,
    "embeddable": false,
@@ -2950,6 +3422,26 @@
    "source": "google_news"
   },
   {
+   "id": "95b2b8539d14b00a45cff83d6f68e49fd64d54a5",
+   "title": "MAS Plans SG Digital Ledger and 'Know Your Agent' Protocol",
+   "authors": [],
+   "venue": "The Defiant",
+   "tier": "news",
+   "published": "2026-11-19",
+   "retrieved": "2026-11-19",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQOUYyVEQtaHhTby1JdmFidjVoNjQwYUdsVUNSTWhrU3dwTDFkT0d0cm1xeFVJZFM3YmZxRUpwLS00WXlpV251VFlNTlNsMnBNTGJ6a3lnQ1dCZjA0MlBtNGxDaFVBYVc5WE43RmdVdUIxVFVNOF93a1lQRnZfbUN6Y0JzNzBHTDVZdU1sYTZIUUdvT1lKaXZlOGhybXVpY0xqNTg2Mg?oc=5",
+   "pdf_url": null,
+   "html_url": null,
+   "embeddable": false,
+   "oa": false,
+   "abstract": null,
+   "score": 6.0,
+   "matched": [
+    "know your agent"
+   ],
+   "source": "google_news"
+  },
+  {
    "id": "949800c3268e7a1e0076d683370d72f2338bd841",
    "title": "Industrifonden backs Stockholm’s Wilgot with $3M to win agentic commerce for brands",
    "authors": [],
@@ -2970,14 +3462,14 @@
    "source": "google_news"
   },
   {
-   "id": "42903b3f9c2bef38a309bb25a471beddeab9d275",
+   "id": "1260874056fcd6ed7ea6a6dd2c2180809e354bc5",
    "title": "In Graphic Detail: Welcome to the agentic commerce quarter",
    "authors": [],
-   "venue": "Digiday",
+   "venue": "Modern Retail",
    "tier": "news",
    "published": "2026-11-19",
    "retrieved": "2026-11-19",
-   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNbno5STNCcWViUUMxcHVYbDdxamd1NHRUWEZGRWphU0syS1lhMzNEZHlBWGcyZWFhU19lbERXYjlkVE10SkpEaDNKU2xvUHRpQTUySU5UcFNhMWdpdnJYZDJ5UzUtcW4tUXp5Nnc2TE9TZmFraF92UmhCMmtHSG54M3kxSzZQTmVLWkRxVTRhYkVSZw?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPUmZaM0Y2Ym5OYzY3SHVPb053Tjh3RzVpdUZuTlB4RGR3WVJuRXJwT2VXbEhyNjZCeXRqX0tsZGhSSkR6NzVxWHowaWExUkRGY2djQjFQSnN3dDhpMVltM0k3NFlUSU4yUml0aGx4OUpHOXRrRGU0cko5RzVmeW5Eam5hbHFIZm1RWlhaY2R1QVljbzZQOF9sbFFNS1p1dw?oc=5",
    "pdf_url": null,
    "html_url": null,
    "embeddable": false,
@@ -3215,6 +3707,27 @@
     "AI agent"
    ],
    "source": "openalex"
+  },
+  {
+   "id": "3e0085fd520edcc9ff567412da335162a163fb00",
+   "title": "Singapore MAS Launches S$100 Million Tokenized Bills and Develops AI Agent Identity Protocol",
+   "authors": [],
+   "venue": "Hokanews",
+   "tier": "news",
+   "published": "2026-11-19",
+   "retrieved": "2026-11-25",
+   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE0xdzR6Z3JVNFFfN01RbFg5bWJtV1pwbXd0ejluVnEwWUtzekZSTGkyV19maGpFM2ZyNTlHZFJoMnlvUVAyZnIzeGctMDlzUm4tVFVXQXZkd0VEend4N2tVTnVJc2RnRW1oVEpXY18wbHRVdG81cHNzSzVuMjZHUQ?oc=5",
+   "pdf_url": null,
+   "html_url": null,
+   "embeddable": false,
+   "oa": false,
+   "abstract": null,
+   "score": 4.0,
+   "matched": [
+    "agent identity",
+    "AI agent"
+   ],
+   "source": "google_news"
   },
   {
    "id": "93cdd64e26bfb3cf8d787a705885464c1be74d9c",
@@ -3518,28 +4031,6 @@
    "source": "openalex"
   },
   {
-   "id": "7ab0c057d8613f4800f6a2e2e9da0babd4ecf210",
-   "title": "Visa Targets Secure AI Agent Payments Through Expanded Industry Partnership",
-   "authors": [],
-   "venue": "AOL.co.uk",
-   "tier": "news",
-   "published": "2026-11-18",
-   "retrieved": "2026-11-19",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9wS3NUTDJ0T19Pci1mTVFjTWpaLWYtaXlBdDhjb1V3SDFqVmFJNlV4ZG5feVVrajY2Z1Z5VDFmNWRzUmUzamJ3U2E1RVBHSnR0TFNNQW05LWVxQmlPeS03NkQ3cmh4ZE1VWkNUdEJSRnNHT2NOWF9tSFE3RGhPWVU?oc=5",
-   "pdf_url": null,
-   "html_url": null,
-   "embeddable": false,
-   "oa": false,
-   "abstract": null,
-   "score": 6.5,
-   "matched": [
-    "agent payments",
-    "AI agent",
-    "payments"
-   ],
-   "source": "google_news"
-  },
-  {
    "id": "1212048b0d13c7a694942c54e150cd4667a7d86d",
    "title": "Visa Taps Over 50 Partners to Prepare for AI Agent Payments",
    "authors": [],
@@ -3817,26 +4308,6 @@
    "score": 6.0,
    "matched": [
     "agentic commerce"
-   ],
-   "source": "google_news"
-  },
-  {
-   "id": "95b2b8539d14b00a45cff83d6f68e49fd64d54a5",
-   "title": "MAS Plans SG Digital Ledger and 'Know Your Agent' Protocol",
-   "authors": [],
-   "venue": "The Defiant",
-   "tier": "news",
-   "published": "2026-11-18",
-   "retrieved": "2026-11-19",
-   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQOUYyVEQtaHhTby1JdmFidjVoNjQwYUdsVUNSTWhrU3dwTDFkT0d0cm1xeFVJZFM3YmZxRUpwLS00WXlpV251VFlNTlNsMnBNTGJ6a3lnQ1dCZjA0MlBtNGxDaFVBYVc5WE43RmdVdUIxVFVNOF93a1lQRnZfbUN6Y0JzNzBHTDVZdU1sYTZIUUdvT1lKaXZlOGhybXVpY0xqNTg2Mg?oc=5",
-   "pdf_url": null,
-   "html_url": null,
-   "embeddable": false,
-   "oa": false,
-   "abstract": null,
-   "score": 6.0,
-   "matched": [
-    "know your agent"
    ],
    "source": "google_news"
   },
@@ -4527,17 +4998,17 @@
    "source": "openalex"
   },
   {
-   "id": "65ba5a0455b5f604bf8f676fdb6d1a558fcf73d5",
+   "id": "1d0b49e9508f8bf81a1e46bf983f29ce74649a03",
    "title": "Agent Trust Infrastructure (ATI): A Federated Identity, Trust, Attestation, and Accountability Architecture for Cross-Organization Autonomous AI Agents",
    "authors": [
     "Viet K. Nguyen",
-    "Mohammad Husain"
+    "Mohammad I. Husain"
    ],
-   "venue": "arXiv",
+   "venue": "arXiv cs.AI",
    "tier": "preprint",
    "published": "2026-11-17",
    "retrieved": "2026-11-19",
-   "url": "https://doi.org/10.48550/arxiv.2611.23202",
+   "url": "https://arxiv.org/abs/2611.23202",
    "pdf_url": "https://arxiv.org/pdf/2611.23202",
    "html_url": null,
    "embeddable": true,
@@ -4548,7 +5019,7 @@
     "agent identity",
     "AI agent"
    ],
-   "source": "openalex"
+   "source": "arxiv"
   },
   {
    "id": "078a60073513ee9172c090e0e5418d1c819d2aa3",
@@ -4792,7 +5263,7 @@
    "html_url": null,
    "embeddable": false,
    "oa": true,
-   "abstract": "A field survey leaves a trail: a quote, a crew schedule, observations, photographs, CAD drawings, an invoice, a payment. In most practices that trail is broken across paper field books, spreadsheets, shared drives and separate accounting software, so the deliverable handed to a client can no longer be tied to the record it came from. I built SiteSurveyor to close that gap. It is an open-source reference architecture, released as a multi-tenant workspace where projects, jobs, quotes, invoices, evidence and payments share one PostgreSQL database guarded by row-level security. Confidential files stay off-chain. Solana is used only where the database cannot give the guarantee on its own: wallet sign-in, stablecoin settlement, and wallet-signed SHA-256 digests that let a third party confirm a file is byte-identical to the one anchored, without seeing its contents. Every anchoring attempt, success or failure, lands in an append-only ledger that database triggers protect from edits. An AI assistant works the same records through a typed, allowlisted tool surface, reads back what it wrote, and asks before deleting anything; a separate Python worker screens open earth-observation imagery into ranked field targets. This paper gives the design, maps the cybersecurity risks of surveying practice onto the controls that answer them, states plainly what an anchored digest does not prove, and lists the automated checks (over 850 TypeScript tests and 124 edge-function tests) that hold those claims to account. Three pieces are meant to be lifted out and reused: the tenant-scoped data core, the evidence-anchoring service, and the allowlisted agent tool surface.",
+   "abstract": "A field survey leaves a trail: a quote, a crew schedule, observations, photographs, CAD drawings, an invoice, a payment. In most practices that trail is broken across paper field books, spreadsheets, shared drives and separate accounting software, so the deliverable handed to a client can no longer be tied to the record it came from. We built SiteSurveyor to close that gap. It is an open-source reference architecture, released as a multi-tenant workspace where projects, jobs, quotes, invoices, evidence and payments share one PostgreSQL database guarded by row-level security. Confidential files stay off-chain. Solana is used only where the database cannot give the guarantee on its own: wallet sign-in, stablecoin settlement, and wallet-signed SHA-256 digests that let a third party confirm a file is byte-identical to the one anchored, without seeing its contents. Every anchoring attempt, success or failure, lands in an append-only ledger that database triggers protect from edits. An AI assistant works the same records through a typed, allowlisted tool surface, reads back what it wrote, and asks before deleting anything; a separate Python worker screens open earth-observation imagery into ranked field targets. This paper gives the design, maps the cybersecurity risks of surveying practice onto the controls that answer them, states plainly what an anchored digest does not prove, and lists the automated checks (911 TypeScript tests, 109 edge-function test cases and 53 model-contract checks, at commit 753d6f2) that hold those claims to account. Three pieces are meant to be lifted out and reused: the tenant-scoped data core, the evidence-anchoring service, and the allowlisted agent tool surface.",
    "score": 7.0,
    "matched": [
     "stablecoin settlement",
@@ -8997,30 +9468,6 @@
     "payments"
    ],
    "source": "crossref"
-  },
-  {
-   "id": "a2eae26f7535abcf0593cdec302dcc493262e96e",
-   "title": "Defending the Peg: Real-Time Dynamic Protection and Anomaly Detection in DeFi Stablecoins",
-   "authors": [
-    "Hengxing Zeng",
-    "Shipeng Ye",
-    "Xiaoqi Li"
-   ],
-   "venue": "arXiv cs.CR",
-   "tier": "preprint",
-   "published": "2026-08-26",
-   "retrieved": "2026-11-19",
-   "url": "https://arxiv.org/abs/2608.25600",
-   "pdf_url": "https://arxiv.org/pdf/2608.25600",
-   "html_url": null,
-   "embeddable": true,
-   "oa": true,
-   "abstract": "With the rapid evolution of the Decentralized Finance (DeFi) ecosystem, stablecoins have emerged as a critical infrastructure bridging the cryptocurrency market with traditional financial paradigms. However, stablecoin systems rely heavily on smart contracts to execute automated operations. The immutable nature of these systems post-deployment means that the exploitation of security vulnerabilities can lead to irreversible, massive economic losses and potentially trigger systemic financial risks. Current research on stablecoin smart contract security faces challenges such as a lack of domain-specific targeting and the obsolescence of static defense models. To address this, this paper systematically analyzes common attack vectors in stablecoin environments and proposes a practical, real-time dynamic defense architecture. By analyzing 12 real-world security incidents, we elucidate the underlying mechanisms of high-risk patterns such as reentrancy attacks, oracle manipulation, and composite flash loan attacks. Concurrently, we construct a real-time anomaly detection model utilizing multi-dimensional on-chain temporal features and the Bi-LSTM algorithm. Experimental results demonstrate that this model achieves a classification accuracy of 96.61\\%, with an average recall rate of 97.70\\% for malicious attack samples, and a single inference latency ranging from 1.5 to 2.8 milliseconds.",
-   "score": 3.5,
-   "matched": [
-    "stablecoin"
-   ],
-   "source": "arxiv"
   }
  ]
 }
