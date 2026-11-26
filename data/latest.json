@@ -1,36 +1,14 @@
 {
- "generated_at": "2026-11-25T20:25:50Z",
+ "generated_at": "2026-11-26T20:03:49Z",
  "errors": [],
  "counts": {
-  "peer_reviewed": 66,
-  "preprint": 115,
+  "peer_reviewed": 67,
+  "preprint": 117,
   "institutional": 6,
-  "news": 224,
+  "news": 236,
   "regulatory": 8
  },
  "items": [
-  {
-   "id": "3f99092bf301bb861365863158c2f433d828e9cb",
-   "title": "Base: 7.3M x402 Payments Prove Stablecoin Micro-Pay Edge",
-   "authors": [],
-   "venue": "Blockchain News",
-   "tier": "news",
-   "published": "2026-11-25",
-   "retrieved": "2026-11-25",
-   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNdG5wMUdDTlBaZE1qR3Q2OWNuZXlnZkthNnpoSF9wOXREZWVGUW9sWG1nZ0w3UURYWjZLMFZhd0hHdW0tV3I4aEhqVzZHNS1QVTZrc24yYWNPb19mOWRoclJta3pqUEhzZ3lfYkhVTE1HSnBPY2V3RXZWdDlkYzFpVVpNSm5WMG00d1l6anFuYWd5MEU?oc=5",
-   "pdf_url": null,
-   "html_url": null,
-   "embeddable": false,
-   "oa": false,
-   "abstract": null,
-   "score": 8.5,
-   "matched": [
-    "x402",
-    "stablecoin",
-    "payments"
-   ],
-   "source": "google_news"
-  },
   {
    "id": "7c0bd34f7e5dd54eba7bd34994f48b7453970fe1",
    "title": "Agentic Commerce and SME Competitiveness: An Integrative Review and Theory-Informed Research Framework",
@@ -40,7 +18,7 @@
    ],
    "venue": "Journal of Business Sectors",
    "tier": "peer_reviewed",
-   "published": "2026-11-25",
+   "published": "2026-11-26",
    "retrieved": "2026-11-20",
    "url": "https://doi.org/10.62222/krva3141",
    "pdf_url": "https://www.jobsjournal.eu/_files/ugd/a7cf91_df3f9250b1544c17b28297665d9182b0.pdf",
@@ -63,7 +41,7 @@
    ],
    "venue": "Journal of Electrical and Electronics Research",
    "tier": "peer_reviewed",
-   "published": "2026-11-25",
+   "published": "2026-11-26",
    "retrieved": "2026-11-19",
    "url": "https://doi.org/10.64820/aepjeer.32.21.26.122026",
    "pdf_url": null,
@@ -77,6 +55,262 @@
     "payments"
    ],
    "source": "openalex"
+  },
+  {
+   "id": "18b846e15e1821785a609b65e0fc43e26e0c4c7b",
+   "title": "What Is Agentic Commerce? How AI Agents Are Changing Online Shopping",
+   "authors": [],
+   "venue": "LoveBelfast",
+   "tier": "news",
+   "published": "2026-11-26",
+   "retrieved": "2026-11-26",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPUWg4ekN3VkxwcDQ5YjkxdGZkWTFaU1RtaklFMklGejQyTmRndlVNVWlFaWpSdk16Uk9FV21tbjZMWUVKLWNpLVJvenJYMTdKWGtHRGs2bXdqY0hsUjRrenhxd1M5b0p4cTFJV2J3bFhhRFEtNzliUGtGZUxHVVQzOUJseHdwTEZZVnJjTjVlYXpGQ1RKZDhYV09n?oc=5",
+   "pdf_url": null,
+   "html_url": null,
+   "embeddable": false,
+   "oa": false,
+   "abstract": null,
+   "score": 7.0,
+   "matched": [
+    "agentic commerce",
+    "AI agent"
+   ],
+   "source": "google_news"
+  },
+  {
+   "id": "0d2e3bb1a279154ed79698aa7f8bd43dfbb6d840",
+   "title": "Solana Ranks Second in AI Agent Payments as Competition With Base Intensifies",
+   "authors": [],
+   "venue": "Kriptofoni",
+   "tier": "news",
+   "published": "2026-11-26",
+   "retrieved": "2026-11-26",
+   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9ucE44MkR0NFBXOE1QUHhWTG1maGFyNmY4TmpwbjFoOGFEWVdTODY4dXVFbEZuWGhWakJ3Mkwydjl3dHEtT2RKR0hMNUxLa1dRTEpSdTVLc2lMeXJzdzdZUkRwSlBmai01ZUNRNDZhX293c013Zy1WSHhWcGc?oc=5",
+   "pdf_url": null,
+   "html_url": null,
+   "embeddable": false,
+   "oa": false,
+   "abstract": null,
+   "score": 6.5,
+   "matched": [
+    "agent payments",
+    "AI agent",
+    "payments"
+   ],
+   "source": "google_news"
+  },
+  {
+   "id": "b02ce79886824ad67a8c0529b6e3c33138beb2e5",
+   "title": "Primer's Gabriel Le Roux: agentic shopping is a plumbing problem, not a checkout problem",
+   "authors": [],
+   "venue": "Dealroom",
+   "tier": "news",
+   "published": "2026-11-26",
+   "retrieved": "2026-11-26",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOakNTTmV1MXNwUG81OXNOc0xhUDFUNEZOTFE1SzFfSXRBU296NVBtd0Y4bkhIbTBzekE1Xy15ZElQYk5ISTVLWGlneGJQdFI1YjJtZEFDMTd1bExTdGpSU1FpRk00QlhrX3U2Wk1GYVJNaC00LVZHcnFDY29zeU83ckNtZ0xYR0JGTWs5cE5yd2gzQTl5bThJWDhDc0lNclBzMW9UeUUwekJyenkzRXNVZ21XU2RmemV1VEZMRw?oc=5",
+   "pdf_url": null,
+   "html_url": null,
+   "embeddable": false,
+   "oa": false,
+   "abstract": null,
+   "score": 6.5,
+   "matched": [
+    "agentic commerce",
+    "payments"
+   ],
+   "source": "google_news"
+  },
+  {
+   "id": "35a5d6709747e5bd23702a98f087842ab2c5bc22",
+   "title": "Singapore-based Debia partners with Mastercard to pilot agentic commerce",
+   "authors": [],
+   "venue": "Electronic Payments International",
+   "tier": "news",
+   "published": "2026-11-26",
+   "retrieved": "2026-11-26",
+   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOSnhSWjJVSzBvTmJRYkJLSjV1Rm13eFJhdm5DbkRrOGMzd1JXR3hLM2gzUTBIT1g5aDFudElIdzNTV0gyclVMU1E4bjlGdHpqTzlWbTRyazZJd3NzcDAyUzdTLTYzWW5EZDlGTWZSVVdIVUdPMVJmTUpsQ0pBb0J0SjRBNXc2TkJhWmNRLTdrYTBqbUJBS0N2akg5SVRQY1UxWlFnTENFX0lrMUxKaEN3US0xS1JMaXpDT29fVTFycmU0SUxz?oc=5",
+   "pdf_url": null,
+   "html_url": null,
+   "embeddable": false,
+   "oa": false,
+   "abstract": null,
+   "score": 6.0,
+   "matched": [
+    "agentic commerce"
+   ],
+   "source": "google_news"
+  },
+  {
+   "id": "b110510bd4b8f4e9ed5860637018d0935342d169",
+   "title": "Shufti Features Know Your Agent, Patented Age Verification,",
+   "authors": [],
+   "venue": "GlobeNewswire",
+   "tier": "news",
+   "published": "2026-11-26",
+   "retrieved": "2026-11-26",
+   "url": "https://news.google.com/rss/articles/CBMimwJBVV95cUxOSW5lX1Y2UDJkLXJwaXp0THVCZXlKZHI2SEhGUm05NElNUWRlanBBN3pXQkE3RU5xb3RtLTZ0SmxNanQ0VHBUUTlzTVZVWjh4MURRc0NtWXVHcjUwTWJrOHJaWEt6eU5ETUQ0dUNBcVdKYi16dnN6ZVN3ZE5FRDNTcDRuRHE3VTc3ZkJxSjBMSmpDTzFvYWpBaUYtREFEYm5aZzJveVlBTER2ME9kLTR4ZXdGX0xkcDVtWGoteldlYUo4ZVNzLVR1YUIxT29UMDFsZ0RSZE1vb092cTFQTHp2TEpYMkw1T0ZBdW9xT0tvQktwcGg4ank5eTJzajF2MGhndUU2LWh1NDRHMnFKRHdKYU9OamJYNkR4Y2ln?oc=5",
+   "pdf_url": null,
+   "html_url": null,
+   "embeddable": false,
+   "oa": false,
+   "abstract": null,
+   "score": 6.0,
+   "matched": [
+    "know your agent"
+   ],
+   "source": "google_news"
+  },
+  {
+   "id": "50d010a25e2feb417d591a9a104cafe64b50a7fc",
+   "title": "How marketplaces are adapting to the age of agentic commerce",
+   "authors": [],
+   "venue": "Retail Week",
+   "tier": "news",
+   "published": "2026-11-26",
+   "retrieved": "2026-11-26",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPNE8tWXBDN3hVZEFaSjE2bVZiSlpCTk04MXl2bE01QnBJcXhleWppampTTzk4NUVmeG00TTg5ODRiRmdBMWFNelFlVkdSYTVKTUxabEVoUUwxV0tMdlpsTnZpXzZjZk5FWmpWcXdOYkdWN0JKbXR3c2I5MlFjc3FJWlU2WXBaVkM5aTVseUU5WlpDYjB3cVF6al9GLWpTeTdySm5QeEl2UkhKaVBlaUM2MG1XUFRLb2FO?oc=5",
+   "pdf_url": null,
+   "html_url": null,
+   "embeddable": false,
+   "oa": false,
+   "abstract": null,
+   "score": 6.0,
+   "matched": [
+    "agentic commerce"
+   ],
+   "source": "google_news"
+  },
+  {
+   "id": "db4fad9f0e259d870a889ad8895e86222df60d41",
+   "title": "Debia and Mastercard Sign MoU to Advance Agentic Commerce",
+   "authors": [],
+   "venue": "The Malaysian Reserve",
+   "tier": "news",
+   "published": "2026-11-26",
+   "retrieved": "2026-11-26",
+   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNUEp5RmF5YjMxZkF5Sy1yM0Y5RXRIVWpWTkt3TTRjckZFU000NHRFTXJKMU1YeXBlUWs5UGlkM01DRGNHT1BRRmFhQk9GV28wTUFUWEdPMHJnaWZYelhQbFBHdzdOZ3hBdVNqUXV1WHlLUnpJOTdiVFBwcWF6aGNjNlNTd2xLMHJFQUpNM1pzQ1NRdlFCQUNVVFM3QTlseC1TUExKTm55ZEQ?oc=5",
+   "pdf_url": null,
+   "html_url": null,
+   "embeddable": false,
+   "oa": false,
+   "abstract": null,
+   "score": 6.0,
+   "matched": [
+    "agentic commerce"
+   ],
+   "source": "google_news"
+  },
+  {
+   "id": "fdc0bb504d3a1e6b8e62899be267c6f56fe7945f",
+   "title": "Agentic payments: The next evolution of commerce and a new role for financial institutions",
+   "authors": [],
+   "venue": "UK Finance",
+   "tier": "news",
+   "published": "2026-11-26",
+   "retrieved": "2026-11-26",
+   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOUVU1bkNIX1gwdHFHYlVpRWY3RjlkUEo4UFNqLUZvRUVWWXJDdUNqakVOUllNX3gyLXgzejVMUDVhNkZVb2Z1a2ZEVVB4WXdYNWZ3d3VWeFk5bGtFT19ZS3JWcFBzdGxBUFNISVluQWdvM3lGOVdOaS1PbFBKSGVaSkZJMVZqWmE1aW5rSDgzNTFoanF0M0lDc1h4eFNfZ01tWmg5NlVveGptRUx6VV9SQ3E4QnpyMkpObUZrVzczbHUxZ0hrQ1E?oc=5",
+   "pdf_url": null,
+   "html_url": null,
+   "embeddable": false,
+   "oa": false,
+   "abstract": null,
+   "score": 5.5,
+   "matched": [
+    "agent payments",
+    "payments"
+   ],
+   "source": "google_news"
+  },
+  {
+   "id": "15cb326db2412bb584d17c7c13bf9043a22d3141",
+   "title": "PoCA-Mithril: A Blockchain-enabled Framework for Identity- and Context-verifiable Communication among Distributed AI Agents",
+   "authors": [
+    "Kranthi Kumar Gunda",
+    "Geetha Arjunan"
+   ],
+   "venue": "International journal of intelligent engineering and systems",
+   "tier": "peer_reviewed",
+   "published": "2026-11-26",
+   "retrieved": "2026-11-19",
+   "url": "https://doi.org/10.22266/ijies2026.1231.65",
+   "pdf_url": "https://doi.org/10.22266/ijies2026.1231.65",
+   "html_url": null,
+   "embeddable": true,
+   "oa": true,
+   "abstract": "Distributed Artificial Intelligence (AI) systems face challenges in agent identity verification, context integrity, traceability, and scalable blockchain anchoring without a continuously trusted central authority.This paper proposes PoCA-Mithril, a blockchain framework for verifiable agent communication.Proof-of-Context Attestation (PoCA) signs agent identity, context, timestamp, and safety metadata.A Mithril-Inspired Relay (MR) batches proofs via Merkle trees and a SHA-256 signature digest before Solidity smart-contract anchoring.Prototype (Python, Web3.py, decentralized identifiers, Ganache, web interface) averaged 1.2555, 1.9402, and 3.5815 ms for Elliptic Curve Digital Signature Algorithm (ECDSA) keypair generation, PoCA generation, and verification.Relay aggregation stays below 0.04 ms; five-proof batching cuts transactions 80%.It authenticates identity and context metadata, not complete response-content integrity.Persistent request-ID storage with database-enforced uniqueness rejects duplicates; restart and shared-database tests confirmed persistence.Five-process concurrency yielded one accepted claim, four duplicate rejections; multi-server verification remains unevaluated.An AgentDID-inspired baseline and 10,000-operation workloads characterize the local prototype, not distributed-blockchain performance.Response-content binding, model artifact, and runtime-execution verification remain future work.",
+   "score": 5.0,
+   "matched": [
+    "agent identity",
+    "AI agent"
+   ],
+   "source": "openalex"
+  },
+  {
+   "id": "d0637fb2a5fc7e64ce477067cfe82c8deceea4d2",
+   "title": "THE LEGAL NATURE OF ASSET-BACKED STABLECOINS IN THE CONTEXT OF THE NEW REGULATION OF DIGITAL CURRENCIES AND DIGITAL RIGHTS",
+   "authors": [
+    "Sergey V. Potapenko",
+    "Murad Sh. Magomednabiev"
+   ],
+   "venue": "Хозяйство и право",
+   "tier": "peer_reviewed",
+   "published": "2026-11-26",
+   "retrieved": "2026-11-20",
+   "url": "https://doi.org/10.18572/0134-2398-2026-12-9-18",
+   "pdf_url": null,
+   "html_url": null,
+   "embeddable": false,
+   "oa": false,
+   "abstract": "The article examines the legal nature of asset-backed stablecoins within the system of objects of civil rights in the context of the entry into force of Federal Law No. 282-FZ of August 4, 2026, On Digital Currencies and Digital Rights.",
+   "score": 4.0,
+   "matched": [
+    "stablecoin"
+   ],
+   "source": "openalex"
+  },
+  {
+   "id": "4b89273d45db9ebe02c3f2f7d3bfd5b40b0d4fc3",
+   "title": "Sudah siapkah Indonesia menerbitkan stablecoin rupiah?",
+   "authors": [
+    "Buddi Wibowo"
+   ],
+   "venue": "Article",
+   "tier": "preprint",
+   "published": "2026-11-26",
+   "retrieved": "2026-11-26",
+   "url": "https://doi.org/10.64628/aan.rwumwmawx",
+   "pdf_url": null,
+   "html_url": null,
+   "embeddable": false,
+   "oa": false,
+   "abstract": null,
+   "score": 3.5,
+   "matched": [
+    "stablecoin"
+   ],
+   "source": "crossref"
+  },
+  {
+   "id": "3f99092bf301bb861365863158c2f433d828e9cb",
+   "title": "Base: 7.3M x402 Payments Prove Stablecoin Micro-Pay Edge",
+   "authors": [],
+   "venue": "Blockchain News",
+   "tier": "news",
+   "published": "2026-11-25",
+   "retrieved": "2026-11-25",
+   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNdG5wMUdDTlBaZE1qR3Q2OWNuZXlnZkthNnpoSF9wOXREZWVGUW9sWG1nZ0w3UURYWjZLMFZhd0hHdW0tV3I4aEhqVzZHNS1QVTZrc24yYWNPb19mOWRoclJta3pqUEhzZ3lfYkhVTE1HSnBPY2V3RXZWdDlkYzFpVVpNSm5WMG00d1l6anFuYWd5MEU?oc=5",
+   "pdf_url": null,
+   "html_url": null,
+   "embeddable": false,
+   "oa": false,
+   "abstract": null,
+   "score": 8.5,
+   "matched": [
+    "x402",
+    "stablecoin",
+    "payments"
+   ],
+   "source": "google_news"
   },
   {
    "id": "83c648eb8124795f40118988afcafac35f964e97",
@@ -146,6 +380,26 @@
    "source": "hacker_news"
   },
   {
+   "id": "0bce1b5f82ebadb50a1650cc67238044300544a8",
+   "title": "x402 price today, X402 to USD live price, marketcap and chart",
+   "authors": [],
+   "venue": "CoinMarketCap",
+   "tier": "news",
+   "published": "2026-11-25",
+   "retrieved": "2026-11-24",
+   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBRMjhBQVpfQVRFZEkzNExPaW1BS2FYa0I3Rk4wUm9zNzUzdU9TeFVwSGpjUlVjZ3dBNG96MDljb3lMdk9wNmlpaG9Ia2NVR2pJS3JINQ?oc=5",
+   "pdf_url": null,
+   "html_url": null,
+   "embeddable": false,
+   "oa": false,
+   "abstract": null,
+   "score": 6.0,
+   "matched": [
+    "x402"
+   ],
+   "source": "google_news"
+  },
+  {
    "id": "23fd33ca44f1fde523e5d4219721374645881b1d",
    "title": "Pine Labs launches research series on agentic commerce accountability",
    "authors": [],
@@ -206,6 +460,26 @@
    "source": "google_news"
   },
   {
+   "id": "8ca7f3d5a4bd81d09be1cfe941669bd4acd69ea2",
+   "title": "Agentic Commerce and the End of the Traditional Online Shopping Journey",
+   "authors": [],
+   "venue": "MarkHub24",
+   "tier": "news",
+   "published": "2026-11-25",
+   "retrieved": "2026-11-26",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNTURWY0ZwblZGU2dCanZhNm02enpfSExKLXhxWWIydzJueWdjMW1QdTBvUG02TVV4YjJ3MEtHTnlSQ1ZWWG45bEU4dEl2V2RLVG5FRnY2cnREVHM3SXF0dzdXanQxTGxaWlg5Y05lQmc4RXRxUFJ2M2FSV3dkUXI1UUJzUFYyclVfUkdYRGpqVlU1NGNkNHFUajdPaFY0eGduUHdkcQ?oc=5",
+   "pdf_url": null,
+   "html_url": null,
+   "embeddable": false,
+   "oa": false,
+   "abstract": null,
+   "score": 6.0,
+   "matched": [
+    "agentic commerce"
+   ],
+   "source": "google_news"
+  },
+  {
    "id": "6a615187c63f9f1bd79fac7555c359a1ce17858e",
    "title": "Natural Launches Natural Accept for Agent Payments",
    "authors": [],
@@ -227,14 +501,14 @@
    "source": "google_news"
   },
   {
-   "id": "b5287080c4770a2215363410f4090e589400de21",
+   "id": "533ffdb27c52afc3aa0520699c4be85fbc6cb6f9",
    "title": "Lianlian DigiTech Launches LianLian XCard, Closing the Loop Between AI Task Execution and Agentic Payments",
    "authors": [],
-   "venue": "TradingView",
+   "venue": "Yahoo! Finance Canada",
    "tier": "news",
    "published": "2026-11-25",
    "retrieved": "2026-11-25",
-   "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQSndhWDZETk1vQklaREI0Zlh6T1dfQVRSNzBJdm5CVmY3UXAtSTVGcmFET01jcG53UzJETWs3eTRsc2VyaDRycERfWHdmMW1EMWU3bldMcC1pWFdaODlXYTJ3TjdUSWdSX1MyWms5YTNCQ2lTOWNFT3pWdGtwblRCczAzWmVNTFJFXy1rLVRiWTM3UzN2S29vYkVBYUtFMndUMTJmSzhxVGYyMUtrYnRlaGNVdC1GSUhlOFU5bW5KNzVRWWJjeHVXckIwdzU1d3hPbUlILThNQVM3ejdnWFhnc1VLd1lKM2kwWFZScUEyejFEMjNFTDVoV29R?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQYTktQ2dJQ1g3UXlwSTFHMkhfYWlNcC1NUkwxX2kzTnpJdkpJa2FFVjNWdzA5dFhaczdnMGltblFuMUxJcDE3SlVzdUNlOUpqTS1pX3ZSalRRS1ZxanpGVE5sS3RVQ1pKYlBfdkVMbzRiT1RUclJkSjYzY21MVVlKX1N3QlpKN3NHME51MXN6NkxnMzdj?oc=5",
    "pdf_url": null,
    "html_url": null,
    "embeddable": false,
@@ -269,49 +543,51 @@
    "source": "google_news"
   },
   {
-   "id": "15cb326db2412bb584d17c7c13bf9043a22d3141",
-   "title": "PoCA-Mithril: A Blockchain-enabled Framework for Identity- and Context-verifiable Communication among Distributed AI Agents",
+   "id": "cb8f37ac224a67a03d7c990defa7e40a5af4bd88",
+   "title": "AI Safety for Sandboxed AI Agents: Why Containment, Proxy Admission and Credential Brokering Do Not Prove That a Specific Action Is Still Authorized When It Takes Effect, and How Execution-Finality Controls Close That Gap Across Credential Mediation, Process Lineage, Network Egress and Distributed Multi-Agent Authority",
    "authors": [
-    "Kranthi Kumar Gunda",
-    "Geetha Arjunan"
+    "Sangam Das"
    ],
-   "venue": "International journal of intelligent engineering and systems",
-   "tier": "peer_reviewed",
+   "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+   "tier": "preprint",
    "published": "2026-11-25",
-   "retrieved": "2026-11-19",
-   "url": "https://doi.org/10.22266/ijies2026.1231.65",
-   "pdf_url": "https://doi.org/10.22266/ijies2026.1231.65",
+   "retrieved": "2026-11-26",
+   "url": "https://doi.org/10.5281/zenodo.24534151",
+   "pdf_url": null,
    "html_url": null,
-   "embeddable": true,
+   "embeddable": false,
    "oa": true,
-   "abstract": "Distributed Artificial Intelligence (AI) systems face challenges in agent identity verification, context integrity, traceability, and scalable blockchain anchoring without a continuously trusted central authority.This paper proposes PoCA-Mithril, a blockchain framework for verifiable agent communication.Proof-of-Context Attestation (PoCA) signs agent identity, context, timestamp, and safety metadata.A Mithril-Inspired Relay (MR) batches proofs via Merkle trees and a SHA-256 signature digest before Solidity smart-contract anchoring.Prototype (Python, Web3.py, decentralized identifiers, Ganache, web interface) averaged 1.2555, 1.9402, and 3.5815 ms for Elliptic Curve Digital Signature Algorithm (ECDSA) keypair generation, PoCA generation, and verification.Relay aggregation stays below 0.04 ms; five-proof batching cuts transactions 80%.It authenticates identity and context metadata, not complete response-content integrity.Persistent request-ID storage with database-enforced uniqueness rejects duplicates; restart and shared-database tests confirmed persistence.Five-process concurrency yielded one accepted claim, four duplicate rejections; multi-server verification remains unevaluated.An AgentDID-inspired baseline and 10,000-operation workloads characterize the local prototype, not distributed-blockchain performance.Response-content binding, model artifact, and runtime-execution verification remain future work.",
+   "abstract": "Description: THE PROBLEM IN PLAIN WORDSAn AI agent can be locked inside a sandbox, watched by a proxy, and handed only short-lived credentials, and it can still cause a harmful real-world effect: send the payment, delete the records, call the external API. The sandbox decided where the agent may run. The proxy decided that a network connection may open. Neither decided whether this particular action, with these particular parameters, against this particular target, is still authorized at the moment it takes effect. CLEAR CONCEPTComputing or requesting an action is not authority to carry it out. Authority for a specific real-world effect should be checked at the point where the effect happens, bound to that exact operation, and consumed once. PROBLEM SPACE Sandbox confinement limits where code runs, but privileged host-side connectors, tool servers and hooks can sit outside that boundary. Credential brokers and token exchange hand an agent a capability that is often broader, longer-lived or more reusable than the single action intended (confused-deputy, replay and token-passthrough risk). Process lineage and sub-agent spawning let an action be issued by a child process or delegated agent whose authority is not re-checked against the original grant. Proxy-mediated network egress proves a connection was admitted, not that the downstream operation is still valid, unrevoked and within scope when it lands. In multi-agent systems, delegated operations and cross-domain gateways, authority passes between parties, so no single component sees the whole chain.This maps to excessive agency risks in AI security guidance (OWASP LLM06) and to the policy decision point / policy enforcement point model in zero-trust architecture (NIST SP 800-207). TECHNICAL SOLUTIONA gate at the destination side of an effect (the policy enforcement point nearest the effect) accepts an operation only if (a) it presents authority bound to the exact operation, parameters and target, (b) that authority is current, unrevoked and unused, and (c) its lineage back to the original grant is intact. Otherwise the operation is rejected, held or left in a non-effective state. Covered: credential mediation (the agent never holds a reusable bearer secret; a broker releases a scoped, single-use, non-bearer capability for one operation); process lineage (a child cannot exceed or replay the parent's grant); network egress (the proxy admits a connection and the downstream effect interface separately verifies the specific operation); downstream effect interfaces (atomic single-use consumption, so replays are refused); distributed authority (the same check across multi-agent systems, delegated operations and cross-domain gateways). The drafts state that their procedures are implementation examples and not evidence that any named vendor implements this architecture. INDUSTRY RELEVANCE (AI-GENERATED; NOT AN ENDORSEMENT, VALIDATION OR INFRINGEMENT STATEMENT)Produced with AI assistance from cited public vendor material. It maps products to where such a gate could sit. It does not say any company uses, infringes or has validated the approach. Cross-check against the original filings and each vendor's own documentation before drawing any conclusion. Anthropic, Claude Code sandboxing and MCP: vendor documentation describes sandbox restrictions applying to the Bash tool, while MCP servers and hooks run on the host. Operation: the agent calls a host-side MCP tool. Gate: at the MCP server or the system the tool touches. Checks: that this exact call, arguments and target match live, unused authority. Rejects: replayed, altered or stale calls and calls from a child process outside the grant. Why it matters: the sandbox boundary does not cover that call path. Amazon Web Services, Bedrock AgentCore and Lambda microVMs on Firecracker: a microVM isolates compute. Gate: at the credential broker and the downstream service API. Checks: operation-bound, single-use authority rather than a reusable role session. Rejects: reuse of a session credential for a different action. Why it matters: isolation does not limit what a valid credential can do. Google, Agent Gateway, Agent Identity and Confidential Computing: identity and gateway policy decide whether an agent may reach a tool. Gate: at the destination effect interface behind the gateway. Checks: that the specific action is still authorized when executed. Rejects: actions that passed admission earlier but whose scope, parameters or revocation state changed. Why it matters: admission happens earlier than the effect. Microsoft, Agent 365 and Entra Agent ID: agent identity and governance at the control plane. Gate: at the system of record that receives the write. Checks: binding of the write to the exact delegated operation. Rejects: delegation-chain replays and over-broad delegated tokens. Why it matters: identity proves who, not which single effect. OpenAI, Agents API and tool calling: the model proposes a tool call. Gate: between the tool call and the external system. Checks: operation-bound authority for the call. Rejects: injected or altered calls that look valid but are unauthorized. Why it matters: a model's proposal is not authority. NVIDIA, OpenShell and BlueField DPU: DPU-level enforcement can host a policy enforcement point outside the agent's host. Gate: at the egress path. Checks: operation-bound authority on the outbound effect. Rejects: egress admitted by address but not authorized by operation. Why it matters: the check sits where the agent cannot bypass it. PUBLIC DISCLOSURE DATES (FOR PRIOR-ART SEARCH)First public disclosure: IETF Internet-Drafts (Datatracker), revision 00. Date printed on the drafts' first page: 22 October 2026 (the same date as Indian patent application 202631125689, filed 22 October 2026). Date recorded in the IETF Datatracker history (upload and posting of revision 00): 23 October 2026. 23 and 24 October 2026: Zenodo link added to the Datatracker record, then relabelled \"full technical specification\". 27 October 2026: GitHub runnable reference implementation link added to the Datatracker record. No revision after 00 exists.Draft 1, Protected Execution Finality for Sandboxed AI Agents, Credential Mediation, Process Lineage, and Network Egress: https://datatracker.ietf.org/doc/html/draft-das-sandbox-credential-egress-finality-00Draft 2, Distributed Authority and Execution-Finality for Multi-Agent Systems, Delegated Operations, and Cross-Domain Gateways: https://datatracker.ietf.org/doc/html/draft-das-distributed-agent-authority-finality-00Earlier public basis: the Mothership application PCT/IB2026/055615, disclosed 16 July 2026. Both drafts are individual Internet-Drafts and are not endorsed by the IETF. BASISBased on Indian Provisional Filing: 202631125689, filed 22 October 2026 (a continuation of Indian application 202631124028), and disclosed with the Mothership (PCT/IB2026/055615) on 16 July 2026. Also related: the ALF PCT, PCT/IB2026/053385 (WO 2026/115520), filed 7 April 2026, disclosed 4 June 2026. IPR: The technical content of this draft set is based upon the author's international application PCT/IB2026/055615, which forms the foundation of this disclosure and comprises approximately 300 distinct, non-repetitive embodiments and enforcement points. A separate patent application specific to the material in this draft set has also been filed. Related Indian applications: 202531130665, 202631000572, 202631001586, 202631002990, 202631124028, and 202631125689. Related international applications: PCT/IB2025/058316, PCT/IB2026/053385, PCT/IB2026/055615, PCT/IB2026/055760, PCT/IB2026/055870, PCT/IB2026/056058, PCT/IB2026/056809, and PCT/IB2026/056941. These identify related technical disclosures; not all described mechanisms are necessarily patent-claimed or granted, and patent scope and priority depend on applicable law and examination. WHERE TO READ THE FULL PCT FILINGSearch \"Sangam Das\" on WIPO PATENTSCOPE; search PCT/IB2026/055615 (pctib202655615); or read the PCT file in Technical Disclosure Commons: https://www.tdcommons.org/dpubs_series/12542/Mothership Zenodo copy: https://zenodo.org/records/23245054European Zenodo disclosure (16 November 2026), \"EUROPE'S NEXT AI SECURITY CHALLENGE: WHO CONTROLS THE FINAL ACTION? From EU AI Act and NIS2 to 6G, the Digital Euro, Industrial AI and Critical Infrastructure\": https://zenodo.org/records/24274259 STATUS AND AI ASSISTANCEThe filings are pending applications only. Nothing here states or implies that any patent has been granted; check current status only on WIPO PATENTSCOPE and the national patent offices. The underlying invention is human-originated. AI-assisted tools were used to prepare this record (summaries and industry mapping); it may contain errors, so cross-check it against the original, publicly available sources. License: Creative Commons Attribution Non Commercial 4.0 International (CC BY-NC 4.0) Keywords (one per line in Zenodo):AI safetyAI agent securityagentic AIAI agent governanceagent sandboxsandbox escapesandboxed AI agentssecure VMmicroVMcontainer isolationsystemd-nspawncredential brokeringcredential mediationsurrogate credentialsurrogate token substitutionphantom token patternjust-in-time credential injectioncredential injection at egresssecret management for agentsshort-lived credentialstoken exchangetoken passthroughconfused deputyreplay attackleast privilegezero trustzero trust architecturepolicy enforcement pointpolicy decision pointhost-side permission authorityconnector permissionstool authorizationMCP server securityModel Context Protocoltool poisoningprompt injectionexcessive agencynetwork egress controlL4 egress inspectionL7 egress inspectionegress proxyoutbound traffic filteringdata exfiltration preventionbrowser brokerprocess lineagesub-agent delegationmulti-agent systemsdelegated authorizationcross-domain gatewaydefense in depthconfidential computingworkload identityMuse SentinelMet",
    "score": 5.0,
    "matched": [
     "agent identity",
-    "AI agent"
+    "AI agent",
+    "payments"
    ],
    "source": "openalex"
   },
   {
-   "id": "d0637fb2a5fc7e64ce477067cfe82c8deceea4d2",
-   "title": "THE LEGAL NATURE OF ASSET-BACKED STABLECOINS IN THE CONTEXT OF THE NEW REGULATION OF DIGITAL CURRENCIES AND DIGITAL RIGHTS",
+   "id": "cb67e47efef64e4237b61cce8bd6156203964bf8",
+   "title": "КРИПТОАКТИВИ ТА ФІНАНСОВА РЕЗИЛЬЄНТНІСТЬ МІЖНАРОДНОГО АГРОБІЗНЕСУ В УМОВАХ ГЛОБАЛЬНИХ ВИКЛИКІВ",
    "authors": [
-    "Sergey V. Potapenko",
-    "Murad Sh. Magomednabiev"
+    "Л.М. Побоченко",
+    "Inna I. Nabok",
+    "А.П. Румянцев"
    ],
-   "venue": "Хозяйство и право",
+   "venue": "Market Infrastructure",
    "tier": "peer_reviewed",
    "published": "2026-11-25",
-   "retrieved": "2026-11-20",
-   "url": "https://doi.org/10.18572/0134-2398-2026-12-9-18",
+   "retrieved": "2026-11-26",
+   "url": "https://doi.org/10.32782/infrastruct92-28",
    "pdf_url": null,
    "html_url": null,
    "embeddable": false,
-   "oa": false,
-   "abstract": "The article examines the legal nature of asset-backed stablecoins within the system of objects of civil rights in the context of the entry into force of Federal Law No. 282-FZ of August 4, 2026, On Digital Currencies and Digital Rights.",
-   "score": 4.0,
+   "oa": true,
+   "abstract": "The article examines the potential of cryptoassets to strengthen the financial resilience of international agribusiness amid military, climate, and financial shocks. Financial resilience involves sustaining payments, managing liquidity, and restoring operations. The study identifies opportunities, conditions, and risks associated with integrating cryptoassets into international agricultural finance. The methodology combines systems analysis, comparative assessment, and conceptual modelling. Cryptocurrencies, stablecoins, and tokenized assets are examined as instruments with distinct functions and risks. Applications include diversifying cross-border payments, improving transaction traceability, and expanding agricultural financing. Yet they cannot resolve credit shortages or trade disruptions. The analysis identifies price volatility, liquidity constraints, cybersecurity threats, regulatory fragmentation, compliance costs, and technological dependence as major barriers. Stablecoins may limit exposure to the volatility of unbacked cryptocurrencies but introduce reserve, redemption, and issuer risks. Therefore, a hybrid approach is proposed, combining selected digital instruments with banking services, conventional financing, and effective risk controls. The conceptual framework relates cryptoasset functions to five dimensions of financial resilience: payment continuity, liquidity management, financing diversification, institutional adaptability, and recovery capacity. It considers regulation and exposure to military and climate shocks. The study concludes that cryptoassets may complement traditional financial mechanisms when their use is legally compliant, technically reliable, and economically justified. Their contribution to global food security remains indirect, arising from improved financial continuity and adaptability. Future empirical research should assess transaction costs, financing accessibility, settlement reliability, and effectiveness across markets and crisis scenarios, including disrupted supply chains and restricted banking access.",
+   "score": 4.5,
    "matched": [
-    "stablecoin"
+    "stablecoin",
+    "payments"
    ],
    "source": "openalex"
   },
@@ -371,6 +647,27 @@
     "payments"
    ],
    "source": "arxiv"
+  },
+  {
+   "id": "acc946b3d09bae12b2bab5defb4ddb1ac066c213",
+   "title": "PayU CTO Narendra Babu on AI, agentic commerce and the future of payments",
+   "authors": [],
+   "venue": "Livemint",
+   "tier": "news",
+   "published": "2026-11-24",
+   "retrieved": "2026-11-26",
+   "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNbWQzNmJ0dDVjLW9DLTV2RkVLRm9xSmJmMGhMeklzSDNqNmd3R0lNY3paeDU3eGxUMm9ORGhlZWx2UzBobmhXaTd6YzdlazBwZTEtOTZROFV3YWFsN3VkZVI3LTFTMTcxV1FIQzdBeUJhcVFLYmQ5MjRsTHpiR2wzaW9FeF9tLVIxa0dFbnR1dWNJaUszZERsUEp1OGZjdVozaDAwVS1xRmZNWVA2ZjEzZG5DTzRmQ2plNEI1UWJIcDAxMGdMTkFxTjFubWxBeGFiRmRB?oc=5",
+   "pdf_url": null,
+   "html_url": null,
+   "embeddable": false,
+   "oa": false,
+   "abstract": null,
+   "score": 6.5,
+   "matched": [
+    "agentic commerce",
+    "payments"
+   ],
+   "source": "google_news"
   },
   {
    "id": "0280977f4b119bb0c55ce360257fa582d53b48e7",
@@ -564,6 +861,27 @@
    "source": "openalex"
   },
   {
+   "id": "4d71c736699e3e31b0e712d176c8c80f026c51d9",
+   "title": "November 2026 Global Regulatory Brief: Agentic AI, stablecoins and digital money",
+   "authors": [],
+   "venue": "Bloomberg",
+   "tier": "news",
+   "published": "2026-11-24",
+   "retrieved": "2026-11-26",
+   "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQQ3ljZFhmUVhBSUlORE5QaEM4bUxsWVVGN08xQ1RRb0RrZnQyb3lrSUdheFFsdUhQUVFfS0ZJNHhXcm5wVU9ra1NwSXQ2UVpNcEJMUzY4WHd4aExHWHdib3hubDFMakpSTHI4OWZGUW1OeEZPTDktZFV0UHZ6OGdadkJLeDNITmQxSlFNNjhTZWNIX0dRS1RfVGg5a0JFYzhJUHU3WUpONkNJaWE4MVpMdDFjVnR0cE9WY3RrYV9NNXN0QW15WDVKTE1nb1lGMFNmQ005aw?oc=5",
+   "pdf_url": null,
+   "html_url": null,
+   "embeddable": false,
+   "oa": false,
+   "abstract": null,
+   "score": 4.0,
+   "matched": [
+    "stablecoin",
+    "AI agent"
+   ],
+   "source": "google_news"
+  },
+  {
    "id": "e0ac23697d04e09fbd34a53e13df3ee7183efe7b",
    "title": "How African Professionals Get Paid in Dollars From Abroad",
    "authors": [
@@ -599,7 +917,7 @@
    "published": "2026-11-24",
    "retrieved": "2026-11-25",
    "url": "https://doi.org/10.1002/ijfe.70339",
-   "pdf_url": null,
+   "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/ijfe.70339",
    "html_url": null,
    "embeddable": false,
    "oa": true,
@@ -864,6 +1182,26 @@
    "source": "google_news"
   },
   {
+   "id": "913a20eca19a66ee3b0257e9f92081623d913f8d",
+   "title": "Agentic Commerce Raises New Fraud Risks for Banks and Credit Unions",
+   "authors": [],
+   "venue": "Evotek JSC",
+   "tier": "news",
+   "published": "2026-11-23",
+   "retrieved": "2026-11-26",
+   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOMkNEOGVoRXY4MkV0WDE2UHhkdGprdkVLNlU5TjVoV1hqQ1hTVXVzMWhwVFpTQkJqWnkxWFdLdmJnUVZQM3lCR0pGUkl1dlZHbFBLcFN0MDZNZjZOWEZIRWNZMEkwTEEtRzRjYTNhaHB2dGFxekpxVHNFY0VKZ1FISkV2anJ0dDlkVERiU0lNM25rUXc?oc=5",
+   "pdf_url": null,
+   "html_url": null,
+   "embeddable": false,
+   "oa": false,
+   "abstract": null,
+   "score": 6.0,
+   "matched": [
+    "agentic commerce"
+   ],
+   "source": "google_news"
+  },
+  {
    "id": "6db69e0c5a567b69b8dc3342ef898dcfaf5f51fd",
    "title": "WooshPay Unveils Agentic Payments Demo, Targets Q1 2027 Pilot with AlphaToken",
    "authors": [],
@@ -885,14 +1223,14 @@
    "source": "google_news"
   },
   {
-   "id": "44344f2b3a071223071e9582d39107119a85f90c",
+   "id": "9fef8d3a5c45b610457383f6a34955e750e34b31",
    "title": "WooshPay Unveils Agentic Payments Demo, Achieving First Product Milestone with Yunfeng Financial's AlphaToken",
    "authors": [],
-   "venue": "PR Newswire",
+   "venue": "Yahoo Finance",
    "tier": "news",
    "published": "2026-11-23",
    "retrieved": "2026-11-23",
-   "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQVENPWDFfc2RXMHg5U3RpaUVqTDc0NmxMNnlSWnV0TUpKNUFjaEloVm1UeU0wcUs5X2tPaFItczAxN0VXbklsUEpGTUVwYnhFaGgwRm1HUXdhUUFwRHp3bGdCOWpvTS0tWkxsTGE0S2UteXFtMS1kNENrOEpEYzRoR2ZNc2tfUU1KeHkzX0JpVFpMcjZNVjBxeVR6UWZraFJHR2p2NmRjMTdrdDNIdjk0QTRDZW5nNUxreTVIdThSRWkxOEV3U3FiRTRzYUZTRmpWOUpTY3BwZ1NraGF6WDdXZVpZVmVab3RheWoyTnZ5WFN3MDhwZVE?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPQnFiRUhhMm5EUWdGd1NpRTkxQUo1bUpwQnhBZkNzdFc2Wk5oUnV6aFBuMGtJazRaMHRrS1JZVHZOY0ozRFc4ZHlpYXNTR242WlVFaXd5QkMxZzdRaFR2eDRKMWM3dF9QVm9BUWRzaUlqODJFbHNrNTQ3WkVNeWJYQldzQVVBVE53NndyMjZ6Y3hjeFFtQ2lKTkp5UElSV1VnM0lrQQ?oc=5",
    "pdf_url": null,
    "html_url": null,
    "embeddable": false,
@@ -1470,7 +1808,7 @@
    "published": "2026-11-23",
    "retrieved": "2026-11-25",
    "url": "https://doi.org/10.48550/arxiv.2611.30982",
-   "pdf_url": null,
+   "pdf_url": "https://arxiv.org/pdf/2611.30982",
    "html_url": null,
    "embeddable": false,
    "oa": true,
@@ -1610,14 +1948,14 @@
    "source": "google_news"
   },
   {
-   "id": "9b50520cf34dd62a24ccedcbf4b62f455610724d",
+   "id": "c836dd335904464c8a6a6c80d1b028f2db33356e",
    "title": "mEinstein Outlines Framework for Evaluating Consumer Intent in Agentic Commerce",
    "authors": [],
-   "venue": "Greenville Online",
+   "venue": "EIN Presswire",
    "tier": "news",
    "published": "2026-11-22",
    "retrieved": "2026-11-22",
-   "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOaWdqSnd3YmM0OVE4NHFTRm9MTHZ5cHRxMEZ6aGIwdmJ0UkN6bmEybEhCRG5IdlJFQmktZWVmMnp1VzljOTlWcnJfSTBJNkpOb1JXZEVKVE1jZGk1VElnOXBSdFh1VlJGR1ZGbnJQSFBxMmI4c19YRHgxcWE3NEp1dFZXaWx6VTF2TzlWTXgwZU9lWTVaMWV1RTlmQTliM3daWTRjOWh3OUFsZ0w4T1dTZi1adVFFbElhYlBjc3dTWjJuTDdzemN2VzFnaWl0UHlBVzQ1eWJBRQ?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQZTc2dldhMDRNcjhTdHA3Y3NMNW1EYW9YYk5VOXMwNE9URmx0OExNeFhLWDRVYXlqQ283VVc2Zm5OMjhTcW1EMURUZGgxajVMdzZzVFBTdDZrTENPYlZXbW5GSjRjU2FDZ0hRWERuNGZsdXZYZzhRb0hqUUJMNURIVktWcTVsY2l6ZEhlUmRaQlNHNzFhYzdtdGlSM2NlLW5RS2FkZEp6U3Zuc3dvRWZJUTIxOWp4LVU3Sk1HckFFNkN6TzVn?oc=5",
    "pdf_url": null,
    "html_url": null,
    "embeddable": false,
@@ -1779,18 +2117,18 @@
    "source": "google_news"
   },
   {
-   "id": "bd5507d18abbe4b40fd40dc2f07ea16fead11413",
+   "id": "1a515c21b6ff7006fa70eee3723a879f4a7af323",
    "title": "Agent Money Benchmark: Can AI Agents Be Trusted to Spend Money?",
    "authors": [
     "Zhe Chen",
     "Emma Hsieh",
     "Vicky Fu"
    ],
-   "venue": "arXiv cs.AI",
+   "venue": "arXiv",
    "tier": "preprint",
    "published": "2026-11-21",
    "retrieved": "2026-11-24",
-   "url": "https://arxiv.org/abs/2611.28610",
+   "url": "https://doi.org/10.48550/arxiv.2611.28610",
    "pdf_url": "https://arxiv.org/pdf/2611.28610",
    "html_url": null,
    "embeddable": true,
@@ -1802,7 +2140,7 @@
     "AI agent",
     "payments"
    ],
-   "source": "arxiv"
+   "source": "openalex"
   },
   {
    "id": "ef516c146519c53d8089494b5568a910f1a75164",
@@ -1867,26 +2205,6 @@
    "matched": [
     "agentic commerce",
     "payments"
-   ],
-   "source": "google_news"
-  },
-  {
-   "id": "0bce1b5f82ebadb50a1650cc67238044300544a8",
-   "title": "x402 price today, X402 to USD live price, marketcap and chart",
-   "authors": [],
-   "venue": "CoinMarketCap",
-   "tier": "news",
-   "published": "2026-11-21",
-   "retrieved": "2026-11-24",
-   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBRMjhBQVpfQVRFZEkzNExPaW1BS2FYa0I3Rk4wUm9zNzUzdU9TeFVwSGpjUlVjZ3dBNG96MDljb3lMdk9wNmlpaG9Ia2NVR2pJS3JINQ?oc=5",
-   "pdf_url": null,
-   "html_url": null,
-   "embeddable": false,
-   "oa": false,
-   "abstract": null,
-   "score": 6.0,
-   "matched": [
-    "x402"
    ],
    "source": "google_news"
   },
@@ -2583,7 +2901,7 @@
    "html_url": null,
    "embeddable": false,
    "oa": true,
-   "abstract": "Auditors examining actions performed by an AI agent must establish the following: - which agent acted; - whether its identity was verified; - on whose behalf it acted; - with which credential; - whether the action was authorised, and under which policy; - which tool and tool version it used; - what it did and with what outcome; - whether the records can be linked; - whether they are tamper-evident; - whether they were written independently of the agent. Regulators and emerging standards now recommend recording most of these facts. This preprint asks a narrower question: do the incumbent control catalogue and telemetry specification that organisations actually adopt require these facts to be recorded for each action? This study examines the same evidence facts at three levels: 1. Control catalogue. A crosswalk of the ten questions to NIST SP 800-53 Rev. 5 (Release 5.2.0). It shows that the action, its outcome, and time order are required directly in all baselines; the acting agent and the principal are covered only by generic wording, and cryptographic integrity and separate storage only in the High baseline. Identity verification, the credential, the authorisation decision, the tool version, and independent generation are required only as capabilities. No control statement explicitly requires every audit record to name both the acting process and the principal on whose behalf it acted. 2. Telemetry specification. A previously published dataset finds that the OpenTelemetry GenAI semantic conventions (commit e6658f1) fully evidence 8 of 78 monitoring requirements from the OWASP Agentic and MCP Top 10 lists (10%; 10–20% across coding variants). Their first release, v0.1.0 (21 November 2026), still defines no attribute for verified agent identity, application-level credential use, or tool-definition version or hash. 3. A platform's public records. An illustrative, protocol-first case study of the public release of one multi-agent research platform (AgentAlphaXiv, 916 studies, 9,052 messages, 82,805 artifacts), whose publication redacted credentials and pseudonymised operators. Actions are recorded and partly linked. Verification, credential, and authorisation decisions are absent. Principals appear only as lab pseudonyms, and no field separates human from agent actions. Fields for most of these facts already exist or are proposed elsewhere, for example in OCSF 1.10, but only as options. The gap is therefore not that standards ignore agent identity and authority. They require the capability but not the record. In short, being able to check an AI agent's action does not mean that enough is recorded to prove that action later. Because the sources change within weeks, every finding is pinned to a revision, and the sources are followed in a public, revision-aware tracker. Version 1.1 corrects errors in version 1.0 and narrows its wording; it adds no new data. See \"Changes from version 1.0\" in the PDF.",
+   "abstract": "A system that can identify an AI agent, verify its identity, and authorise its action has not, for that reason, retained evidence with which an independent auditor can later establish what was done and under whose authority. Four things are distinct here: what a system is able to do, what its telemetry can express, what its records retain, and whether those records can be trusted. This preprint makes that distinction operational as ten questions an auditor must answer about a single agent action: which agent acted; whether its identity was verified; on whose behalf it acted; with which credential; whether the action was authorised, and under which policy; which tool and tool version it used; what it did and with what outcome; whether the records can be linked; whether they are tamper-evident; and whether they were written independently of the agent. It then asks a narrow question: do the control catalogue and telemetry specification that organisations actually adopt require these facts to be recorded for each action? Three levels are examined. In NIST SP 800-53 Rev. 5, the action, its outcome and time order are required directly in all baselines, while identity verification, the credential, the authorisation decision, the tool version and independent generation are required only as capabilities; no control statement requires an audit record to name both the acting process and the principal on whose behalf it acted. The OpenTelemetry GenAI semantic conventions fully evidence 8 of 78 monitoring requirements drawn from the OWASP Agentic and MCP Top 10 lists (10%; 10-20% across coding variants), and at their first release still define no attribute for verified agent identity, application-level credential use, or tool-definition version or hash. In the public release of one multi-agent research platform, actions are recorded and partly linked, while verification, credential, and authorisation decisions are absent and no field separates human from agent actions. A fourth section examines analogous failure modes documented in deployed conventional infrastructure, illustrating why the distinction matters in practice. Fields for most of these facts already exist or are proposed elsewhere, for example in OCSF 1.10, but only as options. The three sources examined are of different kinds: a control catalogue states what an organisation must be able to do, a semantic convention defines what telemetry can express rather than what any organisation must record, and a public release shows what survived publication. Stated across all three, the finding is narrow: the examined sources do not consistently establish that the evidence needed to verify an individual agent action is retained in its corresponding record. Because the sources change within weeks, every finding is pinned to a revision, and the sources are followed in a public, revision-aware tracker. Taken together, the study's contribution is an audit-oriented analysis of whether the evidence needed to independently verify an individual AI-agent action is established across control requirements, telemetry specifications, retained records, and the trustworthiness of those records.",
    "score": 4.5,
    "matched": [
     "agent identity",
@@ -3815,18 +4133,18 @@
    "source": "google_news"
   },
   {
-   "id": "760695155c938d622c8a4187bc7888707faef36c",
+   "id": "1e54ade98508ecc80b81e478d054255222da33db",
    "title": "Stablecoin Runs as Safe-Asset Stress Signals: Episode-Level Evidence for Central Bank Surveillance",
    "authors": [
     "Ahmad Qadi",
     "Hui Gong",
     "Francesca Medda"
    ],
-   "venue": "arXiv",
+   "venue": "arXiv q-fin.GN",
    "tier": "preprint",
    "published": "2026-11-19",
    "retrieved": "2026-11-20",
-   "url": "https://doi.org/10.48550/arxiv.2611.26180",
+   "url": "https://arxiv.org/abs/2611.26180",
    "pdf_url": "https://arxiv.org/pdf/2611.26180",
    "html_url": null,
    "embeddable": true,
@@ -3836,7 +4154,7 @@
    "matched": [
     "stablecoin"
    ],
-   "source": "openalex"
+   "source": "arxiv"
   },
   {
    "id": "c513162c5d9e30792dbfa5148860f2836061fe69",
